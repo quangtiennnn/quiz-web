@@ -1,0 +1,17 @@
+[
+  {
+    "question": "Who is the President of the US?",
+    "true": "Trump",
+    "wrong": ["Biden", "Obama", "Clinton"]
+  },
+  {
+    "question": "What is the capital of France?",
+    "true": "Paris",
+    "wrong": ["Lyon", "Marseille", "Toulouse"]
+  },
+  {
+    "question": "What is the largest planet in our solar system?",
+    "true": "Jupiter",
+    "wrong": ["Saturn", "Neptune", "Earth"]
+  }
+]
