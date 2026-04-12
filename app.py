@@ -34,9 +34,12 @@ def get_questions():
     """API endpoint to get all quiz questions with randomized answers."""
     questions = load_questions()
 
+    # Pick 30 random questions
+    sample = random.sample(questions, min(30, len(questions)))
+
     # Randomize answer order for each question
     processed = []
-    for q in questions:
+    for q in sample:
         answers = [q['true']] + q.get('wrong', [])
         random.shuffle(answers)
         processed.append({
