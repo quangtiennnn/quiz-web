@@ -15,7 +15,7 @@ def load_questions():
 
     for filename in os.listdir(data_path):
         if filename.endswith('.json'):
-            with open(os.path.join(data_path, filename), 'r') as f:
+            with open(os.path.join(data_path, filename), 'r', encoding='utf-8') as f:
                 data = json.load(f)
                 if isinstance(data, list):
                     questions.extend(data)
