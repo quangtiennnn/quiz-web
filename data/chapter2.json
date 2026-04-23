@@ -1,1 +1,1002 @@
-[]
+[
+  {
+    "id": 1,
+    "question": "What was ARPAnet and why is it historically significant?",
+    "true": "An early packet-switching WAN developed circa 1970 for the US Department of Defense that is generally agreed to have developed the technical platform for the modern internet",
+    "wrong": [
+      "The first commercial LAN created by IBM in the 1980s for use in office buildings",
+      "A satellite communication network used by NASA to transmit data between space stations",
+      "The first wireless networking protocol developed by MIT for university campuses"
+    ]
+  },
+  {
+    "id": 2,
+    "question": "What is the defining characteristic that distinguishes a LAN from a WAN in terms of geographical scope?",
+    "true": "A LAN typically covers 10 m to 1000 m (usually within one building), while a WAN covers 100 km to over 1000 km",
+    "wrong": [
+      "A LAN uses wireless connections only, while a WAN always uses wired connections",
+      "A LAN is privately owned, while a WAN must be publicly owned by a telecommunications company",
+      "A LAN can only connect up to 10 devices, while a WAN can connect unlimited devices"
+    ]
+  },
+  {
+    "id": 3,
+    "question": "What is a Metropolitan Area Network (MAN)?",
+    "true": "A network larger than a LAN but smaller than a WAN that can connect several buildings within a single city, covering 1 km to 100 km",
+    "wrong": [
+      "A network that connects multiple countries using satellite technology",
+      "A private network used exclusively by military organisations within a metropolitan region",
+      "A wireless network that covers exactly one city block using Bluetooth technology"
+    ]
+  },
+  {
+    "id": 4,
+    "question": "What fundamentally distinguishes the internet from a WAN?",
+    "true": "A WAN may be a private network requiring passwords and user IDs, while the internet is a vast decentralised network of networks with a common access point that anyone with internet access can connect to",
+    "wrong": [
+      "A WAN uses fibre optic cables, while the internet only uses wireless transmission",
+      "A WAN can only connect computers within one country, while the internet spans multiple countries",
+      "The internet is always faster than a WAN because it uses more modern protocols"
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Which of the following is a benefit of networking computers rather than using standalone machines?",
+    "true": "Software licences for networks are often far cheaper than buying equivalent licences for the same number of standalone computers",
+    "wrong": [
+      "Networked computers are always faster than standalone computers for all processing tasks",
+      "Networking eliminates all security risks because all data is centralised",
+      "Networked computers do not require operating systems to function"
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Which of the following is a drawback of networking computers?",
+    "true": "Malware and hacking can affect entire networks, particularly if a LAN is part of a larger WAN",
+    "wrong": [
+      "Users on a network can never share files with each other",
+      "A network manager cannot apply access rights to restrict files",
+      "Networking always results in slower processing speeds for all connected devices"
+    ]
+  },
+  {
+    "id": 7,
+    "question": "In the client-server model, what is the primary distinction regarding data security compared to peer-to-peer?",
+    "true": "The client-server model uses central security databases that control access to shared resources, requiring passwords and user IDs, offering greater security than peer-to-peer",
+    "wrong": [
+      "Peer-to-peer networks encrypt all data automatically, making them more secure than client-server",
+      "In client-server networks, all clients can access all files without any restrictions",
+      "The client-server model stores data on every individual client device for faster access"
+    ]
+  },
+  {
+    "id": 8,
+    "question": "What is the most important aspect of the client-server model according to the chapter?",
+    "true": "Sharing of data — the server dictates which users can access which files, and data sharing is the model's primary purpose",
+    "wrong": [
+      "Connectivity between nodes is the most important aspect, as in peer-to-peer",
+      "Processing speed is the most important aspect, since the server handles all computations",
+      "Hardware cost reduction is the most important aspect, since no client needs a hard drive"
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Why can client-server networks become bottlenecked?",
+    "true": "If several client requests arrive at the server simultaneously, the server may struggle to process them all at once",
+    "wrong": [
+      "The server uses too much bandwidth by encrypting all data transmissions",
+      "Client computers are too slow to send requests efficiently to the server",
+      "The physical cables connecting clients to the server are always the limiting factor"
+    ]
+  },
+  {
+    "id": 10,
+    "question": "What is a key characteristic of the peer-to-peer network model regarding authentication?",
+    "true": "Because there is no central storage, there is no requirement to authenticate users, resulting in little data security",
+    "wrong": [
+      "Peer-to-peer networks require stronger authentication than client-server networks because data is distributed",
+      "All nodes on a peer-to-peer network must authenticate with a dedicated authentication server before accessing any data",
+      "Peer-to-peer networks use biometric authentication to verify every user"
+    ]
+  },
+  {
+    "id": 11,
+    "question": "According to the chapter, peer-to-peer networks are most suitable for how many nodes?",
+    "true": "No more than 10 nodes, since more than 10 leads to performance and management issues",
+    "wrong": [
+      "No more than 100 nodes, since larger networks require too many authentication steps",
+      "No more than 50 nodes, since peer-to-peer protocols cannot handle more simultaneous connections",
+      "Any number of nodes, since peer-to-peer scales linearly with each additional device"
+    ]
+  },
+  {
+    "id": 12,
+    "question": "In the peer-to-peer model, what role do peers play compared to the client-server model?",
+    "true": "Peers act as both suppliers and consumers, unlike the client-server model where consumers and resources are kept entirely separate",
+    "wrong": [
+      "Peers act only as consumers of data from a central node, similar to clients in a client-server model",
+      "Peers act only as suppliers of data, never consuming resources from other nodes",
+      "Peers always defer to a nominated 'master' node that acts as a de facto server"
+    ]
+  },
+  {
+    "id": 13,
+    "question": "What is a 'thin client' in the context of the client-server model?",
+    "true": "A device or software that is heavily dependent on being connected to a powerful server at all times for processing; it cannot function offline",
+    "wrong": [
+      "A device that stores all its data locally but connects to a server only for software updates",
+      "A low-powered device that uses Bluetooth instead of Wi-Fi to connect to a network",
+      "A software application that runs entirely in a web browser without needing any server connection"
+    ]
+  },
+  {
+    "id": 14,
+    "question": "What is a 'thick client' and how does it differ from a thin client?",
+    "true": "A thick client can work offline or online and is capable of some processing even when not connected to a server, unlike a thin client that cannot function without a server connection",
+    "wrong": [
+      "A thick client is physically larger hardware that contains more storage than a thin client",
+      "A thick client always processes data faster than a thin client because it has more RAM",
+      "A thick client uses fibre optic cables, whereas a thin client uses wireless connections"
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Which is an advantage of thin client hardware over thick client hardware?",
+    "true": "Less expensive to expand, since low-powered and cheap devices can be used as thin clients, and all devices are linked to a server for centralised data updates and software installation",
+    "wrong": [
+      "Thin clients can continue to work even if the server goes down or the network connection is lost",
+      "Thin clients store their own data locally, reducing risk from server failures",
+      "Thin clients have higher processing power than thick clients, reducing latency"
+    ]
+  },
+  {
+    "id": 16,
+    "question": "What is a major disadvantage of thin client hardware?",
+    "true": "High reliance on the server means that if the server goes down or there is a break in the communication link, the thin client devices cannot work at all",
+    "wrong": [
+      "Thin clients require expensive individual software licences for each device",
+      "Thin client start-up costs are always lower than thick client start-up costs",
+      "Thin clients are more vulnerable to local viruses because they store data locally"
+    ]
+  },
+  {
+    "id": 17,
+    "question": "What is the defining characteristic of a bus network topology?",
+    "true": "All devices are connected to a single central cable; data can only travel in one direction and only one device is allowed to transmit at a time",
+    "wrong": [
+      "All devices connect to a central hub or switch that manages all data transmission",
+      "Each device connects directly to every other device in the network",
+      "Devices are arranged in a ring, with data passed from one device to the next"
+    ]
+  },
+  {
+    "id": 18,
+    "question": "Why are terminators needed at each end of a bus network?",
+    "true": "To prevent signal reflection (bounce) from the ends of the cable, which could interfere with data transmission",
+    "wrong": [
+      "To amplify the data signal so it can travel the full length of the bus cable",
+      "To encrypt data at the endpoints before it leaves the network",
+      "To prevent unauthorised devices from being connected to the ends of the cable"
+    ]
+  },
+  {
+    "id": 19,
+    "question": "What is a significant security weakness of the bus network topology?",
+    "true": "The network is not secure because each packet passes through every node, meaning any node can potentially read all data on the network",
+    "wrong": [
+      "Bus networks have no physical cables, making them easy to intercept wirelessly",
+      "Bus networks require no passwords, so anyone can join the network",
+      "The central cable in a bus network is always visible, making it easy to tap"
+    ]
+  },
+  {
+    "id": 20,
+    "question": "What happens to a bus network if the main cable fails?",
+    "true": "The whole network goes down because all devices share the single central cable",
+    "wrong": [
+      "Only the devices at the two ends of the cable lose connectivity",
+      "The network automatically reroutes data through alternate paths",
+      "Individual nodes can still communicate with each other directly via Wi-Fi"
+    ]
+  },
+  {
+    "id": 21,
+    "question": "What is the key hardware component at the centre of a star network topology?",
+    "true": "A central hub or switch to which all devices are individually connected",
+    "wrong": [
+      "A single shared cable that runs through all connected devices",
+      "A dedicated file server that routes all data between connected nodes",
+      "A wireless access point that broadcasts data to all devices simultaneously"
+    ]
+  },
+  {
+    "id": 22,
+    "question": "How does using a switch in a star network improve security compared to using a hub?",
+    "true": "A switch sends data packets only to the node with the matching destination address, whereas a hub sends packets to all devices, meaning only intended recipients receive each packet",
+    "wrong": [
+      "A switch encrypts all data before transmission, while a hub sends data in plain text",
+      "A switch requires passwords for all connected devices, while a hub does not",
+      "A switch limits the maximum speed of all devices to prevent eavesdropping"
+    ]
+  },
+  {
+    "id": 23,
+    "question": "What is the main disadvantage of a star network topology?",
+    "true": "If the central hub or switch fails, the entire network goes down; also, initial installation costs are high",
+    "wrong": [
+      "Data collisions are very frequent in star networks, causing slow performance",
+      "Star networks can only support a maximum of 10 connected devices",
+      "Star networks cannot be connected to WANs or the internet"
+    ]
+  },
+  {
+    "id": 24,
+    "question": "In a mesh network, what does 'routing' mean and how does it differ from 'flooding'?",
+    "true": "Routing gives nodes routing logic to direct data by the shortest route and reroute if a node fails; flooding sends data via all nodes without routing logic, which can overload the network",
+    "wrong": [
+      "Routing sends data to all nodes simultaneously, while flooding sends data only to the destination node",
+      "Routing encrypts data at each node, while flooding transmits data in plain text",
+      "Routing requires a central server to manage paths, while flooding uses a distributed algorithm"
+    ]
+  },
+  {
+    "id": 25,
+    "question": "What is a practical real-world application of mesh network topology?",
+    "true": "The internet and WANs/MANs, and industrial monitoring systems such as medical patient monitoring or vehicle component control in modern cars",
+    "wrong": [
+      "Mesh networks are exclusively used for home Wi-Fi routers in residential buildings",
+      "Mesh networks are only suitable for military communications networks",
+      "Mesh networks are primarily used for Bluetooth connections between personal devices"
+    ]
+  },
+  {
+    "id": 26,
+    "question": "What is a hybrid network?",
+    "true": "A network made up of a combination of two or more different topologies (such as bus and star, or bus and mesh)",
+    "wrong": [
+      "A network that uses both wired and wireless connections simultaneously",
+      "A network that combines both client-server and peer-to-peer models into one system",
+      "A network that connects both public and private cloud storage services"
+    ]
+  },
+  {
+    "id": 27,
+    "question": "What is cloud storage and how does data redundancy relate to it?",
+    "true": "Cloud storage stores data on offsite servers spread across hundreds of servers in many locations; data redundancy means the same data is stored on multiple servers so clients can access data even during server maintenance",
+    "wrong": [
+      "Cloud storage stores data on a single remote server; data redundancy means compressing data to reduce its size",
+      "Cloud storage is a method of encrypting data before transmission; redundancy refers to duplicate encryption keys",
+      "Cloud storage stores data locally on a user's device with automatic backup; redundancy means files are saved twice on the same drive"
+    ]
+  },
+  {
+    "id": 28,
+    "question": "What is the difference between public cloud and private cloud?",
+    "true": "In public cloud, the customer and cloud storage provider are different companies; in private cloud, they operate as a single entity behind a company firewall",
+    "wrong": [
+      "Public cloud is free for all users, while private cloud always charges a subscription fee",
+      "Public cloud uses wireless transmission, while private cloud uses dedicated fibre optic cables",
+      "Public cloud stores only public data, while private cloud stores only classified government data"
+    ]
+  },
+  {
+    "id": 29,
+    "question": "Which of the following is a risk specifically associated with cloud storage security?",
+    "true": "Personnel who work for the cloud service company may use their authorisation codes to access confidential data, and hackers gaining access could lead to loss or corruption of data",
+    "wrong": [
+      "Cloud storage is immune to hardware failures because data is replicated",
+      "Cloud storage always performs faster than local storage, creating a bottleneck for end users",
+      "Cloud storage cannot be accessed from mobile devices, limiting user flexibility"
+    ]
+  },
+  {
+    "id": 30,
+    "question": "How does cloud-based software differ from web-based apps?",
+    "true": "Cloud-based applications can perform tasks on a local device even if the internet connection is lost, storing data locally until reconnected; web-based apps need an internet connection at all times",
+    "wrong": [
+      "Cloud-based software requires the user to download and install the full application permanently, unlike web-based apps",
+      "Web-based apps work offline, while cloud-based applications always require an active connection",
+      "Cloud-based software is always free, while web-based apps always require a paid subscription"
+    ]
+  },
+  {
+    "id": 31,
+    "question": "What frequency band does Bluetooth use, and how does it avoid interference between different Bluetooth devices?",
+    "true": "Bluetooth uses radio waves centred on 2.45 GHz across 79 channels; devices avoid interference by using spread spectrum frequency hopping — randomly changing channels several times per second",
+    "wrong": [
+      "Bluetooth uses infrared signals at 300 GHz and avoids interference by using a single dedicated private channel per device pair",
+      "Bluetooth uses microwaves at 5 GHz and avoids interference by assigning fixed channels to each device permanently",
+      "Bluetooth uses visible light frequencies and avoids interference by limiting its range to 1 metre"
+    ]
+  },
+  {
+    "id": 32,
+    "question": "In what scenario is Bluetooth most appropriately used over Wi-Fi?",
+    "true": "When transferring data between two devices less than 30 metres apart where speed is not critical and low bandwidth applications are needed, such as sending music to a headset",
+    "wrong": [
+      "When connecting many devices simultaneously across a large building such as an office campus",
+      "When requiring the highest possible data transfer rate for video streaming",
+      "When setting up a secure enterprise network requiring WPA2 encryption"
+    ]
+  },
+  {
+    "id": 33,
+    "question": "Why does the curvature of the Earth necessitate the use of satellites for long-distance data transmission using radio waves or microwaves?",
+    "true": "Electromagnetic waves travel in straight lines; the Earth's curvature prevents them from reaching distant antennae, so satellites relay and boost signals over the horizon",
+    "wrong": [
+      "Radio waves and microwaves cannot pass through the atmosphere without a satellite to amplify them",
+      "Satellites are needed because radio waves and microwaves slow down over long distances without a relay",
+      "The magnetic field of the Earth deflects radio waves downward, so satellites are needed to redirect them upward"
+    ]
+  },
+  {
+    "id": 34,
+    "question": "Comparing radio waves, microwaves, and infrared for wireless communication, which has the highest bandwidth?",
+    "true": "Infrared has the largest bandwidth (infrared > microwaves > radio waves)",
+    "wrong": [
+      "Radio waves have the largest bandwidth because they have the longest wavelength",
+      "Microwaves have the largest bandwidth because they operate at the highest commercially available frequency",
+      "All three have identical bandwidth; they only differ in penetration and attenuation"
+    ]
+  },
+  {
+    "id": 35,
+    "question": "Why is infrared generally suitable only for indoor wireless use?",
+    "true": "Infrared has low attenuation (it can be blocked by walls and rain), which limits its range but also prevents it from interfering with signals in adjacent rooms",
+    "wrong": [
+      "Infrared signals degrade due to humidity in outdoor environments",
+      "Infrared requires a direct line of sight and can only travel 1–2 metres, making it impractical outdoors",
+      "Infrared uses frequencies that are legally restricted to indoor use only in most countries"
+    ]
+  },
+  {
+    "id": 36,
+    "question": "Which type of network cable is most commonly used in LANs, and what is its main drawback?",
+    "true": "Twisted pair cable is most common in LANs, but it has the lowest data transfer rate and suffers the most from external electromagnetic interference",
+    "wrong": [
+      "Fibre optic cable is most common in LANs because it is the cheapest option",
+      "Coaxial cable is most common in LANs due to its superior data transfer rate",
+      "Unshielded twisted pair cable is most common in LANs and its main drawback is its high cost"
+    ]
+  },
+  {
+    "id": 37,
+    "question": "What makes fibre optic cable fundamentally different from twisted pair and coaxial cables?",
+    "true": "Fibre optic cables use pulses of light rather than pulses of electricity to transmit data, giving them far superior data transfer rates, the smallest signal attenuation, and high resistance to external interference",
+    "wrong": [
+      "Fibre optic cables use radio waves rather than electrical signals, making them immune to electromagnetic interference",
+      "Fibre optic cables transmit data using sound waves through the glass fibre, giving them a higher bandwidth",
+      "Fibre optic cables carry multiple simultaneous electrical signals on separate cores, increasing total bandwidth"
+    ]
+  },
+  {
+    "id": 38,
+    "question": "Approximately how many times more transmission capacity does fibre optic cable have compared to twisted pair cable?",
+    "true": "Approximately 26,000 times the transmission capacity of twisted pair cables",
+    "wrong": [
+      "Approximately 80 times the transmission capacity of twisted pair cables",
+      "Approximately 1,000 times the transmission capacity of twisted pair cables",
+      "Approximately 100 times the transmission capacity of twisted pair cables"
+    ]
+  },
+  {
+    "id": 39,
+    "question": "What is the difference between single-mode and multi-mode fibre optic cables?",
+    "true": "Single-mode uses a single light source and smaller core with less light reflection, allowing data to travel faster and further; multi-mode allows multiple light sources but has higher reflections and works best over shorter distances",
+    "wrong": [
+      "Single-mode carries one data packet at a time, while multi-mode carries several simultaneously using multiplexing",
+      "Single-mode uses visible light, while multi-mode uses infrared pulses for transmission",
+      "Single-mode is cheaper than multi-mode because it uses simpler glass construction"
+    ]
+  },
+  {
+    "id": 40,
+    "question": "What is a disadvantage of wireless networking compared to wired networking in terms of security?",
+    "true": "Data is less secure in wireless networks because it is easier to intercept radio waves and microwaves than to tap physical cables, making encryption such as WPA2 essential",
+    "wrong": [
+      "Wireless networks cannot use firewalls, leaving them completely unprotected",
+      "Wireless networks transmit data at higher speeds, making it easier for attackers to capture more data",
+      "Wireless networks store all data on a central access point, creating a single target for attacks"
+    ]
+  },
+  {
+    "id": 41,
+    "question": "What is a hub and how does it distribute data compared to a switch?",
+    "true": "A hub sends any received data packet to every device in the network; a switch reads the packet's destination address and sends it only to the appropriate device",
+    "wrong": [
+      "A hub sends data only to the intended recipient, while a switch broadcasts data to all devices",
+      "A hub encrypts data before sending it to all devices, while a switch transmits data in plain text",
+      "A hub connects multiple networks together, while a switch connects multiple devices within the same network segment"
+    ]
+  },
+  {
+    "id": 42,
+    "question": "What is a MAC address and where is it assigned?",
+    "true": "A media access control (MAC) address uniquely identifies each device on a network and is usually assigned at the manufacturing stage, contained in the NIC",
+    "wrong": [
+      "A MAC address is a temporary network address assigned dynamically by a DHCP server each time a device connects",
+      "A MAC address is the human-readable name given to a device by the network administrator",
+      "A MAC address is the encryption key used to secure data packets on a local network"
+    ]
+  },
+  {
+    "id": 43,
+    "question": "What is a repeater and why is it described as a 'non-logical device'?",
+    "true": "A repeater boosts signals to overcome attenuation over long distances; it is non-logical because it boosts all detected signals indiscriminately without being selective about which signals to amplify",
+    "wrong": [
+      "A repeater selectively forwards only authorised data packets, hence the term 'non-logical' for security purposes",
+      "A repeater converts digital signals to analogue signals; it is non-logical because it does not follow protocol rules",
+      "A repeater stores data temporarily before retransmitting it; it is non-logical because it cannot process addresses"
+    ]
+  },
+  {
+    "id": 44,
+    "question": "What is the key difference between a bridge and a router?",
+    "true": "A bridge connects LANs that use the same protocol; a router connects networks that may use different protocols and can route data between different networks including the internet",
+    "wrong": [
+      "A bridge connects WAN segments, while a router only connects LAN segments",
+      "A bridge operates at higher speeds than a router because it does not inspect data packets",
+      "A bridge assigns IP addresses to devices, while a router assigns MAC addresses"
+    ]
+  },
+  {
+    "id": 45,
+    "question": "What is the role of a gateway in a network?",
+    "true": "A gateway connects two or more dissimilar LANs (using different protocols) by converting data packets from one protocol format to another, acting as an entry and exit point to networks",
+    "wrong": [
+      "A gateway is a device that stores all incoming and outgoing data packets for security inspection before forwarding",
+      "A gateway assigns IP addresses to all devices on a network, replacing the function of a DHCP server",
+      "A gateway is a physical cable connector that joins two networks using the same protocol"
+    ]
+  },
+  {
+    "id": 46,
+    "question": "Why does a router support 'dynamic routing' while a gateway does not?",
+    "true": "Routers can calculate and adapt the best route between networks, while gateways focus solely on protocol translation and do not support dynamic routing capabilities",
+    "wrong": [
+      "Routers use AI to predict network failures, while gateways use fixed routing tables",
+      "Gateways are simpler and cheaper devices that lack the processing power for dynamic routing",
+      "Dynamic routing requires wireless connectivity, which gateways do not support"
+    ]
+  },
+  {
+    "id": 47,
+    "question": "What is the function of a modem, and why is it needed?",
+    "true": "A modem (modulator demodulator) converts digital data from a computer to analogue data for transmission over analogue communication channels, and converts incoming analogue data back to digital",
+    "wrong": [
+      "A modem connects multiple devices on a LAN and assigns each device a unique IP address",
+      "A modem encrypts data before transmission and decrypts received data for security",
+      "A modem boosts network signals to prevent attenuation over long cable distances"
+    ]
+  },
+  {
+    "id": 48,
+    "question": "What is a softmodem and how does it differ from a conventional modem?",
+    "true": "A softmodem uses minimal hardware and relies instead on software running on the host computer's processor and RAM to perform the modem's functions",
+    "wrong": [
+      "A softmodem uses only wireless connections, while a conventional modem uses only wired connections",
+      "A softmodem is a cloud-based modem that processes all signals on a remote server",
+      "A softmodem encrypts signals in software before they are transmitted, unlike a conventional modem"
+    ]
+  },
+  {
+    "id": 49,
+    "question": "What is a Network Interface Card (NIC) and what identifier does it commonly hold?",
+    "true": "A NIC allows a device to connect to a network (such as the internet) and frequently contains the MAC address generated at the manufacturing stage",
+    "wrong": [
+      "A NIC is a wireless antenna that allows a device to connect to Bluetooth networks and stores the device's IPv6 address",
+      "A NIC is software that manages network protocols and stores the device's DNS settings",
+      "A NIC is a router component that assigns dynamic IP addresses to devices on the network"
+    ]
+  },
+  {
+    "id": 50,
+    "question": "What are the two operating modes of a Wireless Network Interface Card (WNIC)?",
+    "true": "Infrastructure mode (requires WAPs and routes all data through them) and Ad hoc mode (allows devices to communicate directly without WAPs)",
+    "wrong": [
+      "Passive mode (receives data only) and active mode (sends and receives data simultaneously)",
+      "Public mode (connects to any available network) and private mode (connects only to secured networks)",
+      "High-speed mode (uses 5 GHz band) and compatibility mode (uses 2.4 GHz band)"
+    ]
+  },
+  {
+    "id": 51,
+    "question": "What is Ethernet and by what IEEE standard is it formally known?",
+    "true": "Ethernet is a protocol used by many wired LANs, adopted as a standard by the Institute of Electrical and Electronic Engineers (IEEE) and also known as IEEE 802.3",
+    "wrong": [
+      "Ethernet is a wireless protocol adopted by IEEE and also known as IEEE 802.11",
+      "Ethernet is a satellite communication protocol developed by the ITU, also known as IEEE 802.1",
+      "Ethernet is an internet protocol developed by IETF and also known as TCP/IP version 4"
+    ]
+  },
+  {
+    "id": 52,
+    "question": "What causes an IP address conflict in an Ethernet network, and how can it be resolved?",
+    "true": "A conflict occurs when two devices on the same network are assigned the same IP address, often because a dynamic IP address collides with an existing static IP address; restarting the router reassigns dynamic IPs and can resolve the conflict",
+    "wrong": [
+      "A conflict occurs when two devices have the same MAC address; it is resolved by replacing one of the NICs",
+      "A conflict occurs when two devices send data simultaneously; it is resolved by the CSMA/CD protocol automatically",
+      "A conflict occurs when the router assigns an IPv6 address to a device expecting an IPv4 address; it requires upgrading the router firmware"
+    ]
+  },
+  {
+    "id": 53,
+    "question": "How does CSMA/CD (Carrier Sense Multiple Access with Collision Detection) handle a collision on an Ethernet network?",
+    "true": "When a collision is detected (by sensing a voltage change), the transmitting node stops, sends a jam signal, then waits a random time interval before retrying; if the maximum transmission counter is reached, transmission is aborted",
+    "wrong": [
+      "When a collision is detected, the switch immediately reroutes all data packets via an alternate path to the destination",
+      "When a collision is detected, both transmitting nodes permanently lose their transmission rights for that session",
+      "When a collision is detected, the entire network shuts down for 5 seconds to allow all devices to resynchronise"
+    ]
+  },
+  {
+    "id": 54,
+    "question": "Why is a random wait time used after a collision is detected in CSMA/CD?",
+    "true": "To reduce the probability that the same two devices will transmit again at exactly the same time, which would cause another collision",
+    "wrong": [
+      "To give the network administrator time to inspect the data packets that caused the collision",
+      "To allow the jam signal to travel through all nodes on the network before new transmission begins",
+      "To encrypt the data packets before retransmission to prevent the collision from repeating"
+    ]
+  },
+  {
+    "id": 55,
+    "question": "What is bit streaming and what type of network connection does it require?",
+    "true": "Bit streaming is a contiguous sequence of digital bits sent over the internet or a network, requiring a high-speed data communication link such as fast broadband",
+    "wrong": [
+      "Bit streaming is the process of compressing files before email transmission and only requires a standard dial-up connection",
+      "Bit streaming is a method of encrypting data into a continuous stream and requires a dedicated leased line",
+      "Bit streaming is the simultaneous transmission of data to multiple devices on a LAN, requiring Bluetooth connectivity"
+    ]
+  },
+  {
+    "id": 56,
+    "question": "In bit streaming, why must the data transmission rate from the server to the buffer be greater than the rate from the buffer to the media player?",
+    "true": "To ensure the buffer always contains enough data so that playback is smooth and uninterrupted; if the server feeds data too slowly, the buffer empties and playback pauses",
+    "wrong": [
+      "To prevent the media player from receiving too much data, which would cause the audio/video to play too fast",
+      "To allow the buffer to compress the data before passing it to the media player",
+      "To ensure the buffer can encrypt the data stream before it reaches the media player"
+    ]
+  },
+  {
+    "id": 57,
+    "question": "What is the difference between 'real-time' and 'on-demand' bit streaming?",
+    "true": "Real-time streaming transmits live events as they happen and cannot be paused/rewound; on-demand streaming plays pre-stored files from a server and allows pausing, rewinding and fast-forwarding",
+    "wrong": [
+      "Real-time streaming is faster than on-demand streaming because it compresses data more aggressively",
+      "On-demand streaming requires a live camera feed, while real-time streaming plays pre-recorded files",
+      "Real-time streaming stores files on the user's device, while on-demand streaming never saves any data locally"
+    ]
+  },
+  {
+    "id": 58,
+    "question": "Which of the following is a stated advantage of bit streaming over downloading?",
+    "true": "It affords piracy protection because it is more difficult to copy streamed files than files stored on a hard drive",
+    "wrong": [
+      "Streamed files are always higher quality than downloaded files because they are not compressed",
+      "Bit streaming uses less bandwidth than downloading because the data is not stored on any server",
+      "Streamed files are automatically encrypted when they arrive at the user's device"
+    ]
+  },
+  {
+    "id": 59,
+    "question": "What is the fundamental difference between the internet and the World Wide Web?",
+    "true": "The internet is the physical network infrastructure (a massive network of networks using TCP/IP); the World Wide Web is a collection of multimedia web pages accessed via that infrastructure using browsers and URLs",
+    "wrong": [
+      "The internet and the World Wide Web are exactly the same thing, just described using different terminology",
+      "The World Wide Web is the hardware infrastructure, while the internet is the collection of web pages",
+      "The internet only handles email communication, while the World Wide Web handles web browsing"
+    ]
+  },
+  {
+    "id": 60,
+    "question": "What does HTML stand for and what is its primary purpose in the context of the World Wide Web?",
+    "true": "HyperText Mark-up Language; it is used to design web pages and write http(s) protocols",
+    "wrong": [
+      "High Transfer Multimedia Language; it is used to compress images for web transmission",
+      "Hyper Text Memory Language; it is used to store web pages in server memory",
+      "Hyperlink and Text Manipulation Language; it is used to manage internet security certificates"
+    ]
+  },
+  {
+    "id": 61,
+    "question": "What is the role of an Internet Service Provider (ISP)?",
+    "true": "An ISP is a company that allows users to connect to the internet, usually charging a monthly fee for the service",
+    "wrong": [
+      "An ISP is a government body that assigns IP addresses to all devices connected to the internet",
+      "An ISP is a software company that develops web browsers for accessing the internet",
+      "An ISP is an organisation that creates and maintains websites for businesses"
+    ]
+  },
+  {
+    "id": 62,
+    "question": "What is Voice over Internet Protocol (VoIP) and what type of switching does it use?",
+    "true": "VoIP converts voice and webcam images into digital packages sent over the internet using packet switching, where data is routed through many possible pathways to find the fastest route",
+    "wrong": [
+      "VoIP converts voice into analogue signals transmitted over dedicated telephone lines using circuit switching",
+      "VoIP converts voice into radio waves transmitted wirelessly via satellite using circuit switching",
+      "VoIP compresses voice data into MP3 format and sends it via email using store-and-forward switching"
+    ]
+  },
+  {
+    "id": 63,
+    "question": "Why is VoIP more efficient than PSTN for a 10-minute phone call where people speak for only 3 minutes?",
+    "true": "VoIP's connection only exists while data is being transmitted, so only 3 MB of data is sent during the 3 minutes of speech; PSTN keeps the circuit open for the full 10 minutes, transmitting approximately 10 MB regardless",
+    "wrong": [
+      "VoIP uses higher compression ratios than PSTN, reducing the total data transmitted",
+      "VoIP uses satellite links which are faster than telephone lines, reducing transmission time",
+      "VoIP eliminates background noise before transmission, reducing total audio data"
+    ]
+  },
+  {
+    "id": 64,
+    "question": "What is the PSTN and how does it differ from internet-based phone calls regarding the connection?",
+    "true": "The Public Switched Telephone Network uses circuit switching where the connection is kept open for the entire duration of the call, even when no one is speaking, unlike VoIP which only transmits when data is present",
+    "wrong": [
+      "PSTN uses packet switching, just like VoIP, but over fibre optic cables rather than copper",
+      "PSTN uses a temporary connection that drops automatically when no speech is detected",
+      "PSTN requires an internet connection to establish a call, unlike VoIP which works offline"
+    ]
+  },
+  {
+    "id": 65,
+    "question": "What are the three classifications of Earth-orbiting satellites, and what is each primarily used for?",
+    "true": "GEO (35,800 km) for long-distance telephone and computer networks; MEO (5,000–12,000 km) for GPS; LEO (500–2,500 km) for mobile phone networks",
+    "wrong": [
+      "GEO for GPS, MEO for mobile phones, LEO for long-distance telephone networks",
+      "GEO for weather monitoring, MEO for internet services, LEO for television broadcasting",
+      "GEO at 500 km for mobile phones, MEO at 5,000 km for GPS, LEO at 35,800 km for telephone networks"
+    ]
+  },
+  {
+    "id": 66,
+    "question": "What is IPv4 addressing and how many total possible addresses does it provide?",
+    "true": "IPv4 uses 32-bit addresses split into four groups of 8 bits, providing 2³² = 4,294,967,296 possible addresses",
+    "wrong": [
+      "IPv4 uses 64-bit addresses split into four groups of 16 bits, providing 2⁶⁴ possible addresses",
+      "IPv4 uses 16-bit addresses split into two groups of 8 bits, providing 2¹⁶ possible addresses",
+      "IPv4 uses 128-bit addresses written in hexadecimal, providing 2¹²⁸ possible addresses"
+    ]
+  },
+  {
+    "id": 67,
+    "question": "In IPv4, what do the terms 'netID' and 'hostID' represent?",
+    "true": "The netID identifies the network to which the device belongs and is used to route data initially; the hostID identifies the specific device within that network",
+    "wrong": [
+      "The netID is the user's personal login name, while the hostID is the device's serial number",
+      "The netID is the full URL of a website, while the hostID is the port number used for communication",
+      "The netID identifies the physical location of the server, while the hostID identifies the user's country"
+    ]
+  },
+  {
+    "id": 68,
+    "question": "For a Class A IPv4 network, how are the 32 bits divided between netID and hostID?",
+    "true": "8 bits for the netID and 24 bits for the hostID, covering address range 0.0.0.0 to 127.255.255.255 and suitable for very large networks",
+    "wrong": [
+      "16 bits for the netID and 16 bits for the hostID, covering medium-sized networks",
+      "24 bits for the netID and 8 bits for the hostID, designed for small networks",
+      "4 bits for the netID and 28 bits for the hostID, designed for experimental use"
+    ]
+  },
+  {
+    "id": 69,
+    "question": "What problem with IPv4 does Classless Inter-Domain Routing (CIDR) address?",
+    "true": "CIDR increases IPv4 flexibility by allowing variable-length netID/hostID splits using a suffix (e.g. /18), avoiding the waste caused by allocating fixed class sizes that leave many host IDs unused",
+    "wrong": [
+      "CIDR adds encryption to IPv4 addresses to prevent man-in-the-middle attacks",
+      "CIDR converts IPv4 addresses to IPv6 format automatically, solving address exhaustion",
+      "CIDR assigns permanent static IP addresses to all devices, eliminating address conflicts"
+    ]
+  },
+  {
+    "id": 70,
+    "question": "How many bits does IPv6 use for addressing, and why was it developed?",
+    "true": "IPv6 uses 128-bit addressing to overcome IPv4's insufficient address range and allow the internet to grow in terms of number of hosts and potential data traffic",
+    "wrong": [
+      "IPv6 uses 64-bit addressing as a compromise between IPv4's 32 bits and the theoretical maximum of 256 bits",
+      "IPv6 uses 32-bit addressing but arranges the bits differently to create more unique combinations",
+      "IPv6 uses 256-bit addressing to support future quantum computing networks"
+    ]
+  },
+  {
+    "id": 71,
+    "question": "How is an IPv6 address written and what notation does it use?",
+    "true": "IPv6 addresses are broken into 16-bit chunks and written in hexadecimal notation, separated by colons (e.g. A8FB:7A88:FFF0:0FFF:3D21:2085:66FB:F0FA)",
+    "wrong": [
+      "IPv6 addresses are written as four groups of decimal numbers separated by dots, just like IPv4 but with larger values",
+      "IPv6 addresses are written in binary using exactly 128 digits with no separating notation",
+      "IPv6 addresses are written in octal notation separated by semicolons to distinguish them from IPv4"
+    ]
+  },
+  {
+    "id": 72,
+    "question": "What is zero compression in IPv6 and what is its critical limitation?",
+    "true": "Zero compression replaces consecutive groups of all-zero 16-bit blocks with a double colon (::); it can only be applied ONCE per address to avoid ambiguity about how many zero groups were replaced",
+    "wrong": [
+      "Zero compression removes all leading zeros from each 16-bit block; it can be applied multiple times per address",
+      "Zero compression replaces the entire IPv6 address with a shorter decimal number; it can only be done during initial setup",
+      "Zero compression eliminates the colons between groups of hexadecimal digits; it can be applied up to four times per address"
+    ]
+  },
+  {
+    "id": 73,
+    "question": "Which of the following is a benefit of IPv6 over IPv4?",
+    "true": "IPv6 has no need for Network Address Translation (NAT), removes the risk of private IP address collisions, has built-in authentication, and allows for more efficient routing",
+    "wrong": [
+      "IPv6 uses shorter addresses than IPv4, reducing the storage needed for routing tables",
+      "IPv6 is backward compatible with all IPv4 devices without any additional software",
+      "IPv6 eliminates the need for DNS because all addresses are human-readable"
+    ]
+  },
+  {
+    "id": 74,
+    "question": "What is sub-netting and what practical benefits does it provide?",
+    "true": "Sub-netting divides a network's host ID portion to create smaller sub-networks within a larger network, reducing network traffic and hiding the complexity of the overall network structure",
+    "wrong": [
+      "Sub-netting combines multiple LANs into a single large network to reduce the total number of IP addresses needed",
+      "Sub-netting encrypts the netID portion of an IP address to protect network identity from external attacks",
+      "Sub-netting assigns temporary IP addresses to guest devices to prevent them from accessing permanent network resources"
+    ]
+  },
+  {
+    "id": 75,
+    "question": "What is the Domain Name Service (DNS) and why is it necessary?",
+    "true": "DNS translates human-readable domain names (like www.example.com) into the numerical IP addresses that computers use to locate servers, because humans find domain names easier to remember than IP addresses",
+    "wrong": [
+      "DNS is a service that compresses web page data before it is sent to the user's browser",
+      "DNS is a protocol that encrypts all web communications to ensure secure browsing",
+      "DNS is software that scans web pages for viruses before loading them in a browser"
+    ]
+  },
+  {
+    "id": 76,
+    "question": "What is a URL (Uniform Resource Locator)?",
+    "true": "A URL specifies the location of a web page on the internet (for example, www.hoddereducation.co.uk)",
+    "wrong": [
+      "A URL is a unique binary code assigned to each web browser to identify it on a network",
+      "A URL is the encryption key used to secure data transmission between a browser and a web server",
+      "A URL is a type of cookie stored on a user's device to remember their browsing preferences"
+    ]
+  },
+  {
+    "id": 77,
+    "question": "What is the role of a web browser?",
+    "true": "A web browser connects to DNS to locate IP addresses and interprets web pages sent to the user's computer so that documents and multimedia can be read, watched, or listened to",
+    "wrong": [
+      "A web browser stores all visited web pages locally to reduce internet usage",
+      "A web browser encrypts all user data before it is sent over the internet",
+      "A web browser assigns IP addresses to websites when they are first created"
+    ]
+  },
+  {
+    "id": 78,
+    "question": "What is the difference between a public IP address and a private IP address?",
+    "true": "A public IP address is allocated by the ISP to identify a device's location on the internet; a private IP address is reserved for internal network use behind a router and is not visible on the internet",
+    "wrong": [
+      "A public IP address is static and never changes; a private IP address changes every time the device connects to a network",
+      "A public IP address is assigned by a DNS server; a private IP address is assigned by the device's operating system",
+      "A public IP address uses IPv6 format; a private IP address uses IPv4 format"
+    ]
+  },
+  {
+    "id": 79,
+    "question": "What is JavaScript and what is its primary purpose in web development?",
+    "true": "JavaScript is an object-oriented (scripting) programming language used mainly on the web to enhance HTML pages with dynamic and interactive features",
+    "wrong": [
+      "JavaScript is a markup language used to define the structure and layout of web pages, similar to HTML",
+      "JavaScript is a database query language used to retrieve data from web server databases",
+      "JavaScript is a server-side language used to manage file storage and network security on web servers"
+    ]
+  },
+  {
+    "id": 80,
+    "question": "What is PHP and how does it relate to HTML?",
+    "true": "PHP (Hypertext Preprocessor) is an HTML-embedded scripting language used to write web pages, running on the server side to generate dynamic HTML content",
+    "wrong": [
+      "PHP is a client-side programming language that runs in the user's browser to create visual effects",
+      "PHP is a protocol that replaces HTTP for secure web page transmission",
+      "PHP is a type of database management system used to store web page content"
+    ]
+  },
+  {
+    "id": 81,
+    "question": "Why do bus networks typically perform poorly under heavy network loading?",
+    "true": "Because only one device can transmit at a time on the single shared cable; when many devices try to transmit simultaneously, collisions and waiting times increase significantly",
+    "wrong": [
+      "Because bus networks use outdated hardware that cannot process modern high-speed data",
+      "Because the bus cable must carry power to all devices, limiting the bandwidth available for data",
+      "Because bus networks encrypt all transmissions, and encryption processing becomes a bottleneck"
+    ]
+  },
+  {
+    "id": 82,
+    "question": "A company has 5 employees who need to share their diaries and skill lists with each other informally. Which network model is most appropriate and why?",
+    "true": "Peer-to-peer, because the small number of users (well under 10), the informal nature of sharing, the lack of need for central security, and the simplicity of requirements all suit the peer-to-peer model",
+    "wrong": [
+      "Client-server, because even small companies need centralised data security and user authentication",
+      "Hybrid cloud, because only cloud-based storage can scale to accommodate future growth",
+      "Mesh network topology, because it provides the best data redundancy for critical business documents"
+    ]
+  },
+  {
+    "id": 83,
+    "question": "What is the PAN (Personal Area Network) and what is its approximate range?",
+    "true": "A PAN is a network centred around a person or their workspace, with a range of approximately 1 m to 10 m, typically connecting devices like laptops, smartphones, tablets and printers in close proximity",
+    "wrong": [
+      "A PAN is a public access network covering a city park or public space, with a range of 1 km",
+      "A PAN is a protocol-agnostic network that can span 10 km and connects different organisation branches",
+      "A PAN is a pay-as-you-go network service for temporary events, with a range of 100 m"
+    ]
+  },
+  {
+    "id": 84,
+    "question": "What is the purpose of the 'low water mark' and 'high water mark' in a bit streaming buffer?",
+    "true": "They define the minimum and maximum acceptable data levels in the buffer; the media player checks that buffered data stays between these limits to ensure smooth playback, with the difference between them being about 80% of total buffer capacity",
+    "wrong": [
+      "They define the minimum and maximum acceptable bit rate from the internet, controlling streaming quality",
+      "They mark the beginning and end of each video segment so the media player can skip between chapters",
+      "They indicate the encryption level applied to the buffered data — low mark for standard encryption, high mark for enhanced encryption"
+    ]
+  },
+  {
+    "id": 85,
+    "question": "Why is it necessary to compress files before bit streaming very large files such as video?",
+    "true": "Because very large uncompressed video files would require extremely high bandwidth and transmission time, making real-time or on-demand streaming impractical without compression",
+    "wrong": [
+      "Because uncompressed files cannot be divided into packets for transmission over the internet",
+      "Because bit streaming protocols only support files smaller than 1 MB in their uncompressed state",
+      "Because compression adds timestamps to the data that help the buffer synchronise playback"
+    ]
+  },
+  {
+    "id": 86,
+    "question": "What is CSMA/CD an acronym for, and on what physical phenomenon does its collision detection rely?",
+    "true": "Carrier Sense Multiple Access with Collision Detection; it detects collisions by sensing a voltage change on the Ethernet cable caused when two simultaneous frames collide",
+    "wrong": [
+      "Channel Sharing Multiple Access with Connection Delay; it detects collisions by measuring packet loss rate",
+      "Controlled Signal Multiple Access with Collision Detection; it detects collisions by measuring the frequency of radio waves on the cable",
+      "Carrier Sense Multiple Access with Collision Detection; it detects collisions by monitoring the temperature of the network cable"
+    ]
+  },
+  {
+    "id": 87,
+    "question": "In an Ethernet frame, what information does the frame header contain?",
+    "true": "The source address and destination address of the transmitting and receiving devices, often the MAC address of each",
+    "wrong": [
+      "The URL of the web page being accessed and the user's login credentials",
+      "The file size, compression format, and encryption key for the transmitted data",
+      "The network class (A, B or C) and the timestamp of when the frame was created"
+    ]
+  },
+  {
+    "id": 88,
+    "question": "What is the purpose of a 'jam signal' in CSMA/CD?",
+    "true": "After detecting a collision, a node transmits a jam signal to notify all other nodes on the network that a collision has occurred and that they should stop transmitting",
+    "wrong": [
+      "A jam signal is used to encrypt data after a collision to prevent the collided data from being read",
+      "A jam signal boosts the network voltage to clear the corrupted data from the cable",
+      "A jam signal is sent by the central switch to lock out the devices that caused the collision"
+    ]
+  },
+  {
+    "id": 89,
+    "question": "Why is the internet described as 'not a WAN' in the chapter?",
+    "true": "Because unlike a WAN (which may be private and require passwords/user IDs), the internet is a vast, decentralised network of networks accessible to anyone with internet access — there is no single owner or entry restriction",
+    "wrong": [
+      "Because the internet uses wireless technology, while WANs only use wired connections",
+      "Because the internet cannot connect LANs directly, while a WAN can",
+      "Because the internet uses IPv6 addressing exclusively, while WANs use IPv4"
+    ]
+  },
+  {
+    "id": 90,
+    "question": "What are the data security concerns associated with companies transferring confidential data to a cloud service provider?",
+    "true": "Companies effectively relinquish control of their data security; concerns include physical building security, the provider's resilience to natural disasters, and the risk that cloud company personnel could access data with their authorisation codes",
+    "wrong": [
+      "Cloud storage data is always unencrypted because providers cannot encrypt customer data under privacy laws",
+      "Cloud providers can legally sell customer data to third parties because customers agree to their terms of service",
+      "Cloud storage is inherently insecure because all data is transmitted wirelessly without any protection"
+    ]
+  },
+  {
+    "id": 91,
+    "question": "What is spread spectrum frequency hopping in the context of Bluetooth, and what problem does it solve?",
+    "true": "It is the method by which a Bluetooth device randomly selects one of 79 channels; if that channel is occupied, it picks another at random, and communication pairs constantly change channels several times per second to minimise interference with other devices",
+    "wrong": [
+      "It is a technique where Bluetooth splits a signal across all 79 channels simultaneously to improve transmission speed",
+      "It is a security method where Bluetooth changes its frequency to prevent other devices from decoding the transmission",
+      "It is a power management technique where Bluetooth reduces frequency to save battery when signal strength is strong"
+    ]
+  },
+  {
+    "id": 92,
+    "question": "What advantage does a star network topology have when one node's connection is broken?",
+    "true": "Only the one node with the broken connection is affected; all other nodes remain fully operational because each device has its own dedicated connection to the central hub/switch",
+    "wrong": [
+      "The entire network is rerouted through the remaining nodes within 5 seconds",
+      "The central hub automatically replaces the broken connection with a wireless backup link",
+      "All nodes are affected temporarily until the broken connection is detected and repaired"
+    ]
+  },
+  {
+    "id": 93,
+    "question": "Why are coaxial cables used in MANs and by cable television companies rather than twisted pair?",
+    "true": "Coaxial cables offer a better data transfer rate than twisted pair, are less affected by external interference, and have about 80 times the transmission capacity of twisted pair, making them suitable for larger-scale networks",
+    "wrong": [
+      "Coaxial cables are chosen because they are cheaper than twisted pair and easier to install over long distances",
+      "Coaxial cables are required by law for all public communication networks due to safety regulations",
+      "Coaxial cables are always wireless-compatible, making them ideal for the hybrid wired/wireless MANs"
+    ]
+  },
+  {
+    "id": 94,
+    "question": "A student argues that a hybrid cloud is simply the same as a public cloud because some data is publicly accessible. This claim is:",
+    "true": "False — hybrid cloud is a combination where sensitive data resides in a private cloud (behind a company firewall) while less sensitive data may use a public cloud provider; it is not purely a public cloud",
+    "wrong": [
+      "True — any cloud that allows external access is classified as a public cloud by definition",
+      "True — the presence of any public data means all data in that cloud environment is considered public",
+      "False — hybrid cloud is a private cloud only; no public cloud provider is ever involved"
+    ]
+  },
+  {
+    "id": 95,
+    "question": "What is the 'data redundancy' feature of cloud storage, and why is it important?",
+    "true": "Data redundancy means the same data is stored on multiple servers in different locations; this ensures clients can still access their data even if one server goes down for maintenance or repair",
+    "wrong": [
+      "Data redundancy means all data stored in the cloud is duplicated on the user's local device automatically",
+      "Data redundancy refers to the practice of compressing data before storage to eliminate repeated data patterns",
+      "Data redundancy means cloud providers store old versions of files indefinitely, even after the user deletes them"
+    ]
+  },
+  {
+    "id": 96,
+    "question": "A mesh network advantage is that 'broken links do not affect other nodes'. What design feature makes this possible?",
+    "true": "Nodes in a mesh network have routing logic that allows data to be rerouted via alternative paths if one node or link fails, because multiple interconnections exist between nodes",
+    "wrong": [
+      "Mesh networks have a central backup server that stores all data, ensuring continuous availability if a node fails",
+      "Each node in a mesh network has its own power generator, ensuring it operates independently during network failures",
+      "Mesh networks use error-correcting codes that reconstruct lost data from the remaining nodes automatically"
+    ]
+  },
+  {
+    "id": 97,
+    "question": "What is the key risk of a peer-to-peer network regarding a 'shared resource' compared to a client-server network?",
+    "true": "On a peer-to-peer network, if a user deletes a shared resource from their node, there is no nightly central backup to restore it, unlike in a client-server system where the server's backup would recover the deleted resource",
+    "wrong": [
+      "Peer-to-peer networks cannot share files larger than 1 GB because of protocol limitations",
+      "In peer-to-peer networks, shared resources are automatically replicated across all nodes, making deletion impossible",
+      "Peer-to-peer networks require all users to be online simultaneously for resource sharing to work"
+    ]
+  },
+  {
+    "id": 98,
+    "question": "Why is Wi-Fi described as better suited to operating full-scale networks than Bluetooth?",
+    "true": "Wi-Fi offers much faster data transfer rates, better range (up to 100 metres), and better security than Bluetooth, making it more suitable for full network operations",
+    "wrong": [
+      "Wi-Fi is better because it uses a lower frequency band that penetrates walls more effectively than Bluetooth",
+      "Wi-Fi is better because it can connect more than 79 devices simultaneously, while Bluetooth is limited to 79",
+      "Wi-Fi is better because it does not require any hardware access points, unlike Bluetooth which needs dedicated transmitters"
+    ]
+  },
+  {
+    "id": 99,
+    "question": "In sub-netting, why are hostIDs containing all 0s or all 1s forbidden for assignment to devices?",
+    "true": "All-zeros hostID conventionally represents the network address itself, and all-ones hostID represents the broadcast address for that network; neither can be assigned to an individual device",
+    "wrong": [
+      "All-zeros and all-ones hostIDs are reserved for the network administrator's special management devices",
+      "These values are forbidden because they would create IPv4 addresses that fall outside the valid range of 0 to 255",
+      "All-zeros and all-ones are forbidden because they represent error codes in the IP protocol stack"
+    ]
+  },
+  {
+    "id": 100,
+    "question": "A company is deciding between wired and wireless networking for a new 20-floor building. Which critical practical consideration specifically favours wireless networking in this scenario?",
+    "true": "Wireless networking allows devices to be mobile and network expansion does not require running cables between floors; in a 20-floor building, laying cable to every room on every floor would be extremely expensive and disruptive",
+    "wrong": [
+      "Wireless networking is always more secure than wired networking in multi-floor buildings because it uses WPA2 encryption by default",
+      "Wireless networking is mandatory for buildings over 10 floors high under international safety regulations",
+      "Wireless networking has faster data transfer rates than wired networking in tall buildings because signals do not need to travel through cables"
+    ]
+  }
+]

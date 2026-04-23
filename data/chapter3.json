@@ -1,1 +1,1002 @@
-[]
+[
+  {
+    "id": 1,
+    "question": "What is the key difference between primary memory and secondary storage in terms of CPU access?",
+    "true": "Primary memory can be accessed directly by the CPU, while secondary storage cannot be directly accessed by the CPU",
+    "wrong": [
+      "Primary memory is always larger in capacity than secondary storage",
+      "Secondary storage can be accessed faster than primary memory by the CPU",
+      "Primary memory is non-volatile, while secondary storage is volatile"
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Why is the term 'random access' used to describe RAM, given that it does not actually access data randomly?",
+    "true": "It refers to the fact that any memory location can be accessed independently of which memory location was last used, rather than accessing data randomly",
+    "wrong": [
+      "It means the computer randomly selects which memory location to store new data in for efficiency",
+      "It refers to the random electrical signals used internally to address memory locations",
+      "It means that data is stored at random positions within memory to prevent predictable access patterns"
+    ]
+  },
+  {
+    "id": 3,
+    "question": "What happens to a computer's performance as RAM becomes 'full'?",
+    "true": "The processor must continually access slower secondary storage devices to overwrite old RAM data with new data, causing performance to deteriorate progressively",
+    "wrong": [
+      "The computer shuts down immediately when RAM is completely full to prevent data loss",
+      "RAM automatically compresses data to create more space, temporarily slowing processing",
+      "The computer switches entirely to secondary storage, maintaining the same speed"
+    ]
+  },
+  {
+    "id": 4,
+    "question": "What are the two internal components that make up each memory cell in a DRAM chip?",
+    "true": "A capacitor (which holds the bit of information as 0 or 1) and a transistor (which acts as a switch to read or change the capacitor's value)",
+    "wrong": [
+      "A flip-flop and a resistor that together hold the binary state of each bit",
+      "A diode and a logic gate that together encode and decode each stored bit",
+      "A floating gate transistor and a control gate transistor that together store each bit"
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Why must DRAM be constantly refreshed, and what is the refresh interval?",
+    "true": "The capacitors in DRAM lose their charge through leakage; they must be recharged every 15 microseconds or all capacitors would default to 0",
+    "wrong": [
+      "DRAM must be refreshed every 15 seconds to synchronise its internal clock with the CPU",
+      "DRAM must be refreshed every 15 milliseconds because its transistors wear out and need resetting",
+      "DRAM must be refreshed at startup only; during operation it retains its values indefinitely"
+    ]
+  },
+  {
+    "id": 6,
+    "question": "What technology does SRAM use to store each bit, and why does this make it faster than DRAM?",
+    "true": "SRAM uses flip-flops to hold each bit; because it does not need to be refreshed, it avoids the overhead of constant recharging cycles, giving typical access times of 25 nanoseconds versus 60 nanoseconds for DRAM",
+    "wrong": [
+      "SRAM uses capacitors like DRAM but with higher voltage, giving faster charge and discharge times",
+      "SRAM uses optical fibres to transmit bit values, enabling near-light-speed access times",
+      "SRAM uses fuses that permanently store bits without needing power, eliminating read latency"
+    ]
+  },
+  {
+    "id": 7,
+    "question": "In which specific application is SRAM preferred over DRAM, and why?",
+    "true": "SRAM is used in the processor's memory cache because its faster access time (25 ns vs 60 ns) is critical when the CPU needs to rapidly reuse recently accessed instructions and data",
+    "wrong": [
+      "SRAM is used as main system memory because it has higher capacity than DRAM",
+      "SRAM is used in graphics cards because it consumes more power and therefore generates better performance",
+      "SRAM is used in hard disk drive buffers because it is less expensive to manufacture than DRAM"
+    ]
+  },
+  {
+    "id": 8,
+    "question": "What is the memory cache and why is it effective?",
+    "true": "Memory cache is high-speed SRAM external to the processor that stores recently used data; it is effective because most programs access the same data or instructions many times, so keeping them in fast SRAM avoids repeatedly accessing slower DRAM",
+    "wrong": [
+      "Memory cache is a portion of secondary storage used to temporarily hold data that does not fit in RAM",
+      "Memory cache is a dedicated area of DRAM that stores the operating system for fast boot times",
+      "Memory cache is a register inside the CPU that holds the single most recently used instruction"
+    ]
+  },
+  {
+    "id": 9,
+    "question": "What are three key characteristics of RAM that distinguish it from ROM?",
+    "true": "RAM is volatile, can be written to and read from, and is used to store data/programs currently in use; ROM is non-volatile, read-only, and stores permanent data like the BIOS",
+    "wrong": [
+      "RAM is non-volatile, faster than ROM, and used for long-term storage; ROM is volatile and temporary",
+      "RAM uses optical technology while ROM uses magnetic technology for data storage",
+      "RAM stores the operating system permanently while ROM stores temporary user data"
+    ]
+  },
+  {
+    "id": 10,
+    "question": "What is a common use of ROM in a computer system at startup?",
+    "true": "ROM often stores the Basic Input/Output System (BIOS), which the computer needs to access when powering up for the first time to initialise hardware",
+    "wrong": [
+      "ROM stores the user's most recently accessed files so they load quickly at startup",
+      "ROM stores the entire operating system so the computer can run even if the hard drive fails",
+      "ROM stores temporary variables created by the operating system during the boot process"
+    ]
+  },
+  {
+    "id": 11,
+    "question": "What is a PROM and what makes it fundamentally different from standard ROM?",
+    "true": "A Programmable ROM (PROM) is a type of ROM that can be programmed once using a PROM writer that burns fuses in a matrix with an electric current; unlike ROM which is set at manufacture, PROM gives the user one opportunity to write to it",
+    "wrong": [
+      "A PROM is a type of ROM that can be programmed an unlimited number of times using electric current",
+      "A PROM is identical to standard ROM but is made from plastic instead of silicon for lower cost",
+      "A PROM is a ROM that is programmed at the factory and can never be altered under any circumstances"
+    ]
+  },
+  {
+    "id": 12,
+    "question": "What technology does EPROM use, and what is the method for erasing and reprogramming it?",
+    "true": "EPROM uses floating gate transistors and capacitors; it is erased and reprogrammed using ultraviolet (UV) light directed through a quartz window in the chip",
+    "wrong": [
+      "EPROM uses fuses like PROM, but they can be repaired by applying an electric current in the opposite direction",
+      "EPROM uses magnetic domains and is erased by exposing it to a strong magnetic field",
+      "EPROM uses pulsed voltages to erase and rewrite data, byte by byte, like EEPROM"
+    ]
+  },
+  {
+    "id": 13,
+    "question": "In what type of application is EPROM particularly used, and why?",
+    "true": "EPROM is used in applications under development, such as programming new games consoles, because its ability to be erased and reprogrammed multiple times allows developers to test and update firmware",
+    "wrong": [
+      "EPROM is used in final consumer products as the primary storage medium because it is the cheapest ROM type",
+      "EPROM is used in servers because it can be erased and rewritten remotely without physical access",
+      "EPROM is used in RFID tags because its small physical size makes it ideal for embedding in labels"
+    ]
+  },
+  {
+    "id": 14,
+    "question": "What is EEPROM and how does it differ from EPROM in terms of erasure method?",
+    "true": "Electronically Erasable PROM (EEPROM) can be modified by the user and erased/rewritten repeatedly using pulsed voltages, unlike EPROM which requires UV light through a quartz window",
+    "wrong": [
+      "EEPROM uses UV light like EPROM but at a shorter wavelength that allows more erase cycles",
+      "EEPROM can only be erased once using heat, while EPROM uses UV light for multiple erasures",
+      "EEPROM is erased magnetically, while EPROM is erased using pulsed voltages"
+    ]
+  },
+  {
+    "id": 15,
+    "question": "What is the key operational difference between NAND-based flash memory and NOR-based EEPROM in terms of data access granularity?",
+    "true": "EEPROM (NOR chips) allows data to be read or erased one byte at a time, making it more flexible; NAND chips only allow blocks of data to be read or erased at once",
+    "wrong": [
+      "NAND allows byte-level access while NOR only allows block-level access",
+      "Both NAND and NOR allow only block-level access but NAND blocks are smaller",
+      "NAND allows individual bit access while NOR requires full chip erasure each time"
+    ]
+  },
+  {
+    "id": 16,
+    "question": "What are the three categories of secondary storage devices?",
+    "true": "Magnetic (e.g. HDD), solid state (e.g. SSD), and optical (e.g. CD, DVD, Blu-ray)",
+    "wrong": [
+      "Volatile, non-volatile, and semi-volatile storage devices",
+      "Primary, secondary, and tertiary storage devices",
+      "Internal, external, and removable storage devices"
+    ]
+  },
+  {
+    "id": 17,
+    "question": "What is 'latency' in the context of a hard disk drive?",
+    "true": "The time it takes for a specific block of data on a data track to rotate around to the read-write head",
+    "wrong": [
+      "The time taken for the read-write head to move from the centre to the edge of a platter",
+      "The time taken to transfer data from the HDD to RAM once the data has been located",
+      "The total time from when a read command is issued until the data arrives at the CPU"
+    ]
+  },
+  {
+    "id": 18,
+    "question": "What is disk fragmentation in an HDD and what effect does it have on performance?",
+    "true": "Fragmentation is when file sectors are stored non-consecutively across the disk due to deletions and edits; this forces the read-write head to move more, gradually deteriorating performance",
+    "wrong": [
+      "Fragmentation is when data is physically broken into pieces by magnetic interference, corrupting files",
+      "Fragmentation is when two files are stored in the same sector, requiring the OS to separate them",
+      "Fragmentation is when the disk platter cracks due to heat, resulting in permanent data loss"
+    ]
+  },
+  {
+    "id": 19,
+    "question": "How does defragmentation software improve HDD performance?",
+    "true": "It reorganises fragmented files so that related sectors are stored consecutively, reducing the number of head movements needed to read a complete file",
+    "wrong": [
+      "It increases the rotational speed of the platters so that data is accessed more quickly",
+      "It compresses all files on the disk to create more free space and reduce seek time",
+      "It repairs physically damaged sectors by remapping data to healthy areas of the disk"
+    ]
+  },
+  {
+    "id": 20,
+    "question": "At approximately what speed do the platters in a typical HDD spin, and how fast can the read-write heads move?",
+    "true": "Platters spin at about 7,000 times per second; read-write heads can move from the centre to the edge and back 50 times per second",
+    "wrong": [
+      "Platters spin at about 700 times per second; read-write heads move between tracks at 5 times per second",
+      "Platters spin at about 700 times per second; read-write heads move at 50 times per second",
+      "Platters spin at about 7,000 times per second; read-write heads move at 500 times per second"
+    ]
+  },
+  {
+    "id": 21,
+    "question": "Why is SSD technology not commonly used in servers despite its advantages?",
+    "true": "SSDs have limited endurance — conservatively rated at only 20 GB write operations per day over a three-year period — making them unsuitable for servers that perform huge numbers of write operations daily",
+    "wrong": [
+      "SSDs are too expensive for server use because servers require petabytes of storage",
+      "SSDs cannot operate at the high temperatures generated inside server racks",
+      "SSDs cannot be connected to server hardware because they use USB ports rather than SATA interfaces"
+    ]
+  },
+  {
+    "id": 22,
+    "question": "Why is it not possible to simply overwrite existing data on a flash memory (NAND) device?",
+    "true": "Flash memory requires the old data to be erased first before new data can be written to the same location; direct overwriting is not supported",
+    "wrong": [
+      "Flash memory uses optical technology that permanently fuses data into the storage medium",
+      "Flash memory is read-only after initial programming and cannot be written to again",
+      "Flash memory cells physically degrade when overwritten, making overwriting permanently disable the cell"
+    ]
+  },
+  {
+    "id": 23,
+    "question": "What makes SSDs particularly suitable for use in laptop computers?",
+    "true": "SSDs are considerably lighter, thinner, run much cooler, and have lower power consumption than HDDs, all of which are critical advantages for portable devices",
+    "wrong": [
+      "SSDs have larger storage capacity than HDDs, making them more suitable for storing large laptop files",
+      "SSDs are waterproof and shockproof, making them more suitable for mobile use",
+      "SSDs use Bluetooth to connect to the laptop's motherboard, eliminating physical connection issues"
+    ]
+  },
+  {
+    "id": 24,
+    "question": "What is the purpose of a dongle connected via a USB memory stick?",
+    "true": "A dongle contains additional files needed to run specific (often expensive) software; without it the software will not work, preventing illegal or unauthorised use and copying",
+    "wrong": [
+      "A dongle is a USB memory stick used exclusively for backing up system files",
+      "A dongle is a hardware device that speeds up data transfer between the computer and a printer",
+      "A dongle is a USB device that extends the wireless range of a laptop's Wi-Fi adapter"
+    ]
+  },
+  {
+    "id": 25,
+    "question": "How is data physically stored on a CD or DVD?",
+    "true": "Data is stored as pits and bumps on a single spiral track running from the centre to the outer edge of the disk, which is read by a laser",
+    "wrong": [
+      "Data is stored as magnetic domains on concentric circular tracks, read by a magnetic head",
+      "Data is stored as electrical charges in transistors arranged in a grid on the disk surface",
+      "Data is stored as variations in ink density on a photosensitive layer, read by a white LED"
+    ]
+  },
+  {
+    "id": 26,
+    "question": "What does 'dual layering' in DVDs mean, and how does it increase storage capacity?",
+    "true": "Dual layering means a DVD contains two individual recording layers; a thin reflector between the layers allows a red laser to focus at slightly different depths to read/write each layer independently, roughly doubling capacity",
+    "wrong": [
+      "Dual layering means data is written twice on the same track for redundancy, doubling reliability",
+      "Dual layering refers to two separate disks bonded together, each storing a different type of data",
+      "Dual layering means the disk uses two different laser wavelengths simultaneously to read two tracks at once"
+    ]
+  },
+  {
+    "id": 27,
+    "question": "What is birefringence in the context of DVD reading, and why do Blu-ray discs not suffer from it?",
+    "true": "Birefringence occurs when laser light is refracted into two separate beams by the two sandwiched polycarbonate layers in a DVD, causing reading errors; Blu-ray uses a single 1.1 mm polycarbonate layer, eliminating this problem",
+    "wrong": [
+      "Birefringence is overheating of the read laser in DVD players due to the high reflectivity of the disc surface; Blu-ray uses a heat-resistant coating to prevent it",
+      "Birefringence is a type of disc warping in DVDs caused by temperature changes; Blu-ray uses a more rigid material to prevent it",
+      "Birefringence is interference between tracks on a DVD caused by their proximity; Blu-ray's wider tracks prevent it"
+    ]
+  },
+  {
+    "id": 28,
+    "question": "Why can Blu-ray discs store significantly more data than DVDs?",
+    "true": "Blu-ray uses a blue laser with a wavelength of 405 nm (compared to 650 nm red laser in DVDs); the shorter wavelength allows smaller pits and bumps, storing up to five times more data",
+    "wrong": [
+      "Blu-ray discs are physically larger in diameter than DVDs, providing more surface area for data",
+      "Blu-ray uses dual layering by default while DVDs are single-layer only, doubling capacity",
+      "Blu-ray uses a higher rotation speed than DVDs, allowing more data to be read per second"
+    ]
+  },
+  {
+    "id": 29,
+    "question": "What track pitch (distance between tracks) does a Blu-ray disc use, compared to a CD and DVD?",
+    "true": "Blu-ray: 0.30 µm; DVD: 0.74 µm; CD: 1.60 µm — Blu-ray has the smallest track pitch, enabling more tracks per unit area",
+    "wrong": [
+      "Blu-ray: 1.60 µm; DVD: 0.74 µm; CD: 0.30 µm — CD has the smallest track pitch",
+      "Blu-ray: 0.74 µm; DVD: 0.30 µm; CD: 1.60 µm — DVD has the smallest track pitch",
+      "All three use the same track pitch of 0.74 µm; they differ only in laser wavelength"
+    ]
+  },
+  {
+    "id": 30,
+    "question": "What built-in feature of Blu-ray discs helps prevent piracy?",
+    "true": "Blu-ray discs automatically come with a secure encryption system that helps prevent piracy and copyright infringement",
+    "wrong": [
+      "Blu-ray discs are made of a special material that physically damages copy lasers in unauthorised devices",
+      "Blu-ray discs use a watermark in the pit structure that identifies the original buyer of each disc",
+      "Blu-ray discs require an internet connection to validate playback, preventing unauthorised copying"
+    ]
+  },
+  {
+    "id": 31,
+    "question": "What are embedded systems and what is a key advantage they have in terms of task focus?",
+    "true": "Embedded systems install microprocessors into devices to control them; because they are usually dedicated to one task, they often have simple interfaces and frequently require no operating system",
+    "wrong": [
+      "Embedded systems are full general-purpose computers installed inside household appliances for versatile use",
+      "Embedded systems are large mainframe computers embedded in industrial machinery for maximum processing power",
+      "Embedded systems are software applications embedded in web browsers to control smart home devices remotely"
+    ]
+  },
+  {
+    "id": 32,
+    "question": "What is a significant security concern specific to internet-connected embedded systems?",
+    "true": "Any device that can be accessed over the internet is also open to hackers and viruses, creating a security vulnerability",
+    "wrong": [
+      "Internet-connected embedded systems consume so much power that they pose a fire hazard",
+      "Internet connectivity in embedded systems causes electromagnetic interference with nearby devices",
+      "Embedded systems connected to the internet generate excessive heat due to constant data processing"
+    ]
+  },
+  {
+    "id": 33,
+    "question": "Why are embedded systems often disposed of rather than repaired when they develop faults?",
+    "true": "Because they are difficult to upgrade and troubleshooting faults requires specialist skills, making repair impractical and uneconomical; this leads to wasteful disposal",
+    "wrong": [
+      "Embedded systems are designed to be used for exactly one year and then replaced as part of their design specification",
+      "Embedded systems are manufactured to be non-repairable by design to encourage product replacement and boost sales",
+      "Embedded systems self-destruct when a fault is detected to prevent data breaches from the compromised hardware"
+    ]
+  },
+  {
+    "id": 34,
+    "question": "What are the two types of 3D printing methods described in Chapter 3?",
+    "true": "Direct 3D printing (print head moves in x, y, z directions building up layers of melted material via nozzles) and Binder 3D printing (two-stage: first dry powder, then a binding agent)",
+    "wrong": [
+      "Laser 3D printing (uses a laser to fuse powder) and Inkjet 3D printing (uses liquid ink to build layers)",
+      "Additive 3D printing (adds material layer by layer) and Subtractive 3D printing (carves material from a block)",
+      "Thermal 3D printing (uses heat to mould material) and UV 3D printing (uses UV light to cure resin)"
+    ]
+  },
+  {
+    "id": 35,
+    "question": "What is an OLED display and why does it not require a backlight?",
+    "true": "OLED (Organic LED) uses the movement of electrons between cathode and anode to produce an on-screen image; it generates its own light, eliminating the need for a separate backlight",
+    "wrong": [
+      "OLED uses a thin layer of glass that glows when heated by an internal heating element, removing the need for external lighting",
+      "OLED uses electrostatic charges to attract and repel phosphor particles that glow, removing the need for LEDs",
+      "OLED uses reflected ambient light to produce images, requiring no internal power source for illumination"
+    ]
+  },
+  {
+    "id": 36,
+    "question": "What is the difference between capacitive and resistive touch screen technology?",
+    "true": "Capacitive screens use glass layers forming a capacitor where a finger causes a change in the electric field; resistive screens work by a finger pressing the glass layer onto the plastic layer, completing a circuit at that point",
+    "wrong": [
+      "Capacitive screens use infrared grids to detect finger position; resistive screens use pressure-sensitive ink",
+      "Capacitive screens respond only to conductive styluses; resistive screens respond to any touch including gloves",
+      "Capacitive screens measure finger temperature to determine touch location; resistive screens measure pressure depth"
+    ]
+  },
+  {
+    "id": 37,
+    "question": "What is a sensor in the context of computer hardware?",
+    "true": "A sensor is an input device that reads physical data from its surroundings (such as temperature, light, pressure, moisture) and sends this data to a microprocessor",
+    "wrong": [
+      "A sensor is an output device that converts digital signals into physical actions such as opening valves",
+      "A sensor is a component inside the CPU that monitors its own temperature and processing speed",
+      "A sensor is a type of secondary storage device that records physical measurements for later retrieval"
+    ]
+  },
+  {
+    "id": 38,
+    "question": "What is an Analogue-to-Digital Converter (ADC) and why is it needed in sensor-based systems?",
+    "true": "An ADC converts analogue data (such as sensor readings of temperature or pressure) into digital form that a computer can understand and process",
+    "wrong": [
+      "An ADC converts digital computer output into analogue signals for driving motors and actuators",
+      "An ADC converts audio files from one digital format to another for compatibility between devices",
+      "An ADC converts ASCII text codes into digital pixel data for display on a monitor"
+    ]
+  },
+  {
+    "id": 39,
+    "question": "What is a Digital-to-Analogue Converter (DAC) and what types of devices does it drive?",
+    "true": "A DAC converts digital data from a computer into analogue electric currents that can drive motors, actuators, and relays in control systems",
+    "wrong": [
+      "A DAC converts digital audio files into printed waveforms for oscilloscope analysis",
+      "A DAC converts digital network packets into analogue telephone signals for PSTN transmission",
+      "A DAC converts digital sensor readings into readable numerical displays on screen"
+    ]
+  },
+  {
+    "id": 40,
+    "question": "What is the fundamental difference between a monitoring system and a control system when using sensors?",
+    "true": "In a monitoring system, the microprocessor only watches the process and may send warnings but does not affect the process; in a control system, the output from the system feeds back to change the next set of inputs (a feedback loop)",
+    "wrong": [
+      "A monitoring system uses analogue sensors while a control system uses only digital sensors",
+      "A monitoring system operates in real time while a control system operates on pre-programmed schedules only",
+      "A monitoring system requires human intervention to act on its data while a control system is fully automated with no sensor input"
+    ]
+  },
+  {
+    "id": 41,
+    "question": "In the ABS (Anti-lock Braking System) example, what type of sensor is used and what does it detect?",
+    "true": "A magnetic field sensor detects the rotational speed of each wheel; if one wheel rotates too slowly (locking up), the microprocessor reduces braking pressure to that wheel",
+    "wrong": [
+      "A pressure sensor detects the force applied to the brake pedal and adjusts hydraulic pressure accordingly",
+      "A temperature sensor detects brake disc overheating and reduces braking force to cool the discs",
+      "An infrared sensor detects wheel alignment and adjusts braking pressure to keep the car straight"
+    ]
+  },
+  {
+    "id": 42,
+    "question": "What is the 'judder' felt on the brake pedal during ABS operation?",
+    "true": "The braking system is constantly switched on and off to equalise the rotational speed of all four wheels, and this rapid pulsing is felt as a judder on the brake pedal",
+    "wrong": [
+      "The judder is caused by the magnetic field sensors vibrating at high frequency as they measure wheel speed",
+      "The judder is caused by the tyre temporarily losing and regaining grip on the road surface",
+      "The judder is the result of the braking fluid rapidly changing pressure as the ABS valve opens and closes hydraulic lines"
+    ]
+  },
+  {
+    "id": 43,
+    "question": "Which sensor type would be most appropriate for monitoring pollution levels in a river?",
+    "true": "Gas sensors (such as O₂ or CO₂) and/or pH sensors would be appropriate for monitoring pollution levels and acidity/alkalinity in a river",
+    "wrong": [
+      "An acoustic/sound sensor would be most appropriate for detecting the sound of pollutants entering the river",
+      "An infrared/motion sensor would be most appropriate for detecting the movement of pollutants through the water",
+      "A pressure sensor would be most appropriate because pollution changes water density and therefore pressure"
+    ]
+  },
+  {
+    "id": 44,
+    "question": "What is a virtual reality headset and how does it create the immersive experience?",
+    "true": "It is an apparatus worn on the head covering the eyes like goggles that gives the user the 'feeling of being there' by totally immersing them in the virtual reality experience",
+    "wrong": [
+      "A virtual reality headset is a helmet with speakers that creates surround sound to simulate different environments",
+      "A virtual reality headset is a display screen that magnifies computer graphics to fill the user's visual field",
+      "A virtual reality headset is a network-connected device that streams live video from remote locations"
+    ]
+  },
+  {
+    "id": 45,
+    "question": "What is a logic gate?",
+    "true": "An electronic circuit that takes binary inputs and produces a binary output, relying on 'on/off' logic; several logic gates combined form a logic circuit designed to carry out a specific function",
+    "wrong": [
+      "A physical lock mechanism in server rooms that controls access using binary keypad codes",
+      "A software algorithm that checks whether data input to a program meets specific criteria",
+      "A network device that filters data packets based on binary address matching rules"
+    ]
+  },
+  {
+    "id": 46,
+    "question": "What is a truth table and how many rows does a truth table with three inputs require?",
+    "true": "A truth table lists all possible binary input combinations and their corresponding outputs; with three inputs it requires 2³ = 8 rows",
+    "wrong": [
+      "A truth table lists only the input combinations that produce a '1' output; with three inputs it requires 4 rows",
+      "A truth table lists all possible input combinations; with three inputs it requires 2×3 = 6 rows",
+      "A truth table lists all possible input combinations; with three inputs it requires 3² = 9 rows"
+    ]
+  },
+  {
+    "id": 47,
+    "question": "Which of the six logic gates has only ONE input?",
+    "true": "The NOT gate is the only logic gate with one input",
+    "wrong": [
+      "The NAND gate has only one input",
+      "The NOR gate has only one input",
+      "The XOR gate has only one input"
+    ]
+  },
+  {
+    "id": 48,
+    "question": "What is the Boolean algebra expression for the NOT gate output X in terms of input A?",
+    "true": "X = Ā (a bar/dash above A represents NOT A)",
+    "wrong": [
+      "X = A.A",
+      "X = A + A",
+      "X = A ⊕ A"
+    ]
+  },
+  {
+    "id": 49,
+    "question": "For an AND gate with inputs A and B, under what condition is the output X equal to 1?",
+    "true": "Only when both A = 1 AND B = 1; for all other input combinations (0,0), (0,1), and (1,0), the output is 0",
+    "wrong": [
+      "When either A = 1 or B = 1, or both are 1",
+      "When A = 1 and B = 0, or when A = 0 and B = 1",
+      "When A = 0 and B = 0 only"
+    ]
+  },
+  {
+    "id": 50,
+    "question": "What is the Boolean algebra expression for the OR gate?",
+    "true": "X = A + B (where + represents the OR operation)",
+    "wrong": [
+      "X = A.B (where . represents the AND operation)",
+      "X = Ā.B̄ (the complement of both inputs ANDed together)",
+      "X = (A.B̄) + (Ā.B) (exclusive combination)"
+    ]
+  },
+  {
+    "id": 51,
+    "question": "What is the output of a NAND gate when both inputs A = 1 and B = 1?",
+    "true": "0 — the NAND gate output is 1 for all input combinations EXCEPT when both inputs are 1, in which case the output is 0",
+    "wrong": [
+      "1 — the NAND gate outputs 1 whenever both inputs are 1",
+      "1 — the NAND gate always outputs 1 regardless of inputs",
+      "0 — the NAND gate outputs 0 whenever any input is 0"
+    ]
+  },
+  {
+    "id": 52,
+    "question": "Under what specific condition does a NOR gate output 1?",
+    "true": "Only when both input A is NOT 1 AND input B is NOT 1 (i.e. A = 0 AND B = 0); for all other combinations the output is 0",
+    "wrong": [
+      "When either input is 0, regardless of the other input",
+      "When both inputs are 1",
+      "When exactly one input is 1 and the other is 0"
+    ]
+  },
+  {
+    "id": 53,
+    "question": "What makes the XOR gate fundamentally different from the OR gate?",
+    "true": "XOR outputs 1 when inputs are different (one is 1, the other is 0), but outputs 0 when both inputs are the same (both 0 or both 1); OR outputs 1 whenever at least one input is 1, including when both are 1",
+    "wrong": [
+      "XOR has three inputs while OR has only two inputs",
+      "XOR outputs 1 only when both inputs are 1, unlike OR which outputs 1 for any combination containing a 1",
+      "XOR is a hardware component while OR is only a software Boolean operator"
+    ]
+  },
+  {
+    "id": 54,
+    "question": "What is the Boolean algebra expression for the XOR gate output?",
+    "true": "X = (A.B̄) + (Ā.B), which can also be written as X = (A + B).(A.B) bar",
+    "wrong": [
+      "X = A + B (same as OR)",
+      "X = Ā + B̄ (same as NOR input inverted)",
+      "X = A.B (same as AND)"
+    ]
+  },
+  {
+    "id": 55,
+    "question": "In Boolean algebra, what do the symbols dot (.), plus (+), and a bar above a letter respectively represent?",
+    "true": "Dot (.) represents AND; plus (+) represents OR; a bar above a letter represents NOT",
+    "wrong": [
+      "Dot (.) represents OR; plus (+) represents AND; a bar represents XOR",
+      "Dot (.) represents NOT; plus (+) represents AND; a bar above a letter represents OR",
+      "Dot (.) represents NAND; plus (+) represents NOR; a bar above a letter represents XOR"
+    ]
+  },
+  {
+    "id": 56,
+    "question": "A logic circuit has 4 inputs. How many rows are needed in its truth table?",
+    "true": "16 rows (2⁴ = 16 possible binary combinations for 4 inputs)",
+    "wrong": [
+      "8 rows (4 × 2 = 8)",
+      "12 rows (4 × 3 = 12)",
+      "4 rows (one row per input)"
+    ]
+  },
+  {
+    "id": 57,
+    "question": "What is the NAND gate's Boolean algebra expression, and why is it called a 'universal gate'?",
+    "true": "X = A.B bar (NOT of A AND B); NAND is called universal because any other logic gate (NOT, AND, OR, NOR, XOR) can be constructed from NAND gates alone",
+    "wrong": [
+      "X = A + B bar; it is universal because it is the most commonly used gate in integrated circuits",
+      "X = Ā.B̄; it is universal because it operates on all possible input values including undefined states",
+      "X = A.B; it is universal because it is the only gate that can directly implement Boolean algebra"
+    ]
+  },
+  {
+    "id": 58,
+    "question": "When designing a logic circuit from a Boolean expression, what is the first step?",
+    "true": "Identify the individual logic operations in the expression and determine which gates are needed, working from the innermost brackets outward to map operations to gates",
+    "wrong": [
+      "Draw a truth table first, then reverse-engineer the gates from the truth table output column",
+      "Convert the Boolean expression to binary and then assign one gate per binary digit",
+      "Select the minimum number of NAND gates needed and construct all other gates from them"
+    ]
+  },
+  {
+    "id": 59,
+    "question": "What is the output of a NOT gate when the input A = 0?",
+    "true": "1 — the NOT gate always inverts the input, so A = 0 gives X = 1",
+    "wrong": [
+      "0 — the NOT gate passes through the input unchanged when it is 0",
+      "Undefined — a NOT gate requires an input of 1 to produce a valid output",
+      "0 — a NOT gate outputs 0 for any input value less than 1"
+    ]
+  },
+  {
+    "id": 60,
+    "question": "Which logic gate produces the output shown: (0,0)→1, (0,1)→0, (1,0)→0, (1,1)→0?",
+    "true": "NOR gate — it only outputs 1 when both inputs are 0",
+    "wrong": [
+      "NAND gate — it outputs 1 for all combinations except (1,1)",
+      "AND gate — it outputs 1 only when both inputs are 1",
+      "XOR gate — it outputs 1 when inputs are different"
+    ]
+  },
+  {
+    "id": 61,
+    "question": "Which logic gate produces the output shown: (0,0)→0, (0,1)→1, (1,0)→1, (1,1)→0?",
+    "true": "XOR gate — it outputs 1 only when inputs are different (one 0, one 1)",
+    "wrong": [
+      "OR gate — it outputs 1 when at least one input is 1",
+      "NAND gate — it outputs 1 for all combinations except (1,1)",
+      "NOR gate — it outputs 1 only when both inputs are 0"
+    ]
+  },
+  {
+    "id": 62,
+    "question": "In a logic circuit diagram, what does a small circle (bubble) at the output of a gate typically indicate?",
+    "true": "A NOT operation (inversion) on that output — for example, AND with a bubble becomes NAND, and OR with a bubble becomes NOR",
+    "wrong": [
+      "A connection point where two wires join from different logic gates",
+      "A buffer that amplifies the output signal without changing its logic value",
+      "An optional output that can be enabled or disabled by the circuit designer"
+    ]
+  },
+  {
+    "id": 63,
+    "question": "Why does increasing RAM size speed up a computer?",
+    "true": "Larger RAM reduces the number of times the processor must access slower secondary storage to swap out old data, since more data can be held in fast RAM simultaneously",
+    "wrong": [
+      "Larger RAM increases the clock speed of the processor because the CPU has more addresses to reach",
+      "Larger RAM allows more colours to be displayed on screen, reducing rendering time for graphics",
+      "Larger RAM increases the hard disk's rotational speed, allowing faster file access"
+    ]
+  },
+  {
+    "id": 64,
+    "question": "What distinguishes primary memory from secondary storage in terms of volatility and access speed?",
+    "true": "Primary memory (RAM) is volatile and much faster to access than secondary storage, which is non-volatile but has considerably slower data access times",
+    "wrong": [
+      "Primary memory is non-volatile and slower than secondary storage, which is volatile and faster",
+      "Both primary and secondary storage are non-volatile, but primary memory has slightly faster access",
+      "Primary memory and secondary storage have identical access speeds but differ only in capacity"
+    ]
+  },
+  {
+    "id": 65,
+    "question": "What is 'SSD endurance' and why is it a concern?",
+    "true": "SSD endurance refers to the limited number of write operations an SSD can perform; most SSDs are rated at only 20 GB write operations per day over three years, after which the technology may degrade",
+    "wrong": [
+      "SSD endurance refers to the physical strength of the SSD casing against drops and impacts",
+      "SSD endurance refers to the ability of an SSD to operate at high temperatures without data loss",
+      "SSD endurance refers to how long an SSD retains data without power over extended periods"
+    ]
+  },
+  {
+    "id": 66,
+    "question": "In what way is an HDD a 'direct access device' while still reading data sequentially?",
+    "true": "The read-write head can move directly to any sector on any track (direct access), but once positioned at a sector, the data within that sector is read sequentially from start to finish",
+    "wrong": [
+      "Direct access means the CPU accesses the HDD without going through RAM, and sequential means all tracks are read in order from the innermost to the outermost",
+      "Direct access means only one file can be read at a time, and sequential means each byte in the file must be read in order from first to last",
+      "Direct access means the HDD connects directly to the CPU via a special high-speed bus, and sequential means the platter must complete a full rotation before any data is read"
+    ]
+  },
+  {
+    "id": 67,
+    "question": "What is the key structural difference between a CD and a DVD regarding the polycarbonate layer?",
+    "true": "A CD uses a single 1.2 mm polycarbonate layer; a standard DVD uses two 0.6 mm polycarbonate layers bonded together",
+    "wrong": [
+      "A CD uses two 0.6 mm polycarbonate layers; a DVD uses a single 1.2 mm polycarbonate layer",
+      "Both CDs and DVDs use a single 1.2 mm polycarbonate layer; they differ only in laser colour",
+      "A CD uses a single 1.1 mm polycarbonate layer; a DVD uses a single 1.2 mm polycarbonate layer"
+    ]
+  },
+  {
+    "id": 68,
+    "question": "What is the relationship between laser wavelength and optical disc storage capacity?",
+    "true": "The shorter the wavelength of the laser, the smaller the pits and bumps that can be created and read, allowing greater data density and therefore larger storage capacity",
+    "wrong": [
+      "The longer the wavelength of the laser, the more energy it carries, allowing deeper pits and thus more data per pit",
+      "Laser wavelength has no effect on storage capacity; capacity is determined solely by disc diameter and rotational speed",
+      "The shorter the wavelength, the fewer read errors occur, but this reduces the number of data bits that can be stored"
+    ]
+  },
+  {
+    "id": 69,
+    "question": "What are the pros of using embedded systems in household devices?",
+    "true": "They are small, low cost, dedicated to one task (simple interface), consume very little power, react very fast to input (real time), and with mass production come high reliability",
+    "wrong": [
+      "They are large, expensive, versatile across many tasks, consume high power, and are easy to upgrade",
+      "They require no maintenance, can be upgraded wirelessly, and have unlimited storage capacity",
+      "They are open-source, fully customisable by users, and have no security vulnerabilities"
+    ]
+  },
+  {
+    "id": 70,
+    "question": "A control system uses sensors and a feedback loop. What is the key feature that defines this feedback loop?",
+    "true": "The output from the system (e.g., opening a valve or running a motor) affects the next set of inputs from the sensors, creating a continuous cycle of measurement and adjustment",
+    "wrong": [
+      "The feedback loop means the same data is sent to two different microprocessors for redundancy",
+      "The feedback loop means the system sends a report to a human operator before taking any action",
+      "The feedback loop means previous output values are stored in ROM for comparison with current sensor readings"
+    ]
+  },
+  {
+    "id": 71,
+    "question": "If DRAM consumes more power than SRAM due to constant refreshing, why is DRAM still preferred for main memory?",
+    "true": "DRAM is much less expensive to manufacture, has higher memory capacity, and for typical usage levels its power consumption is lower than SRAM; SRAM's power can exceed DRAM's only when accessed at very high frequency",
+    "wrong": [
+      "DRAM is preferred because it is faster than SRAM for sequential memory reads typical in main memory use",
+      "DRAM is preferred because it does not require a power supply to retain data, unlike SRAM",
+      "DRAM is preferred because it is physically smaller than SRAM, fitting more capacity in the same chip area"
+    ]
+  },
+  {
+    "id": 72,
+    "question": "Which sensor would be most appropriate for a burglar alarm system that needs to detect an intruder in complete darkness?",
+    "true": "An infrared/motion sensor, which can detect body heat or movement even in complete darkness without needing visible light",
+    "wrong": [
+      "A light sensor, which detects changes in ambient light levels caused by a person walking through a beam",
+      "A magnetic field sensor, which detects the metallic components in a burglar's tools",
+      "A pH sensor, which detects the chemical composition of an intruder's perspiration"
+    ]
+  },
+  {
+    "id": 73,
+    "question": "What practical advantage does a moisture/humidity sensor provide in a paint spray booth in a car factory?",
+    "true": "It monitors moisture levels in the spray booth environment, allowing control systems to maintain optimal humidity for paint adhesion and drying quality",
+    "wrong": [
+      "It detects water leaks in the factory's plumbing to prevent flooding of the spray booth",
+      "It measures the water content of the paint to ensure it matches the correct viscosity specification",
+      "It monitors atmospheric pressure in the booth to ensure paint particles travel at the correct velocity"
+    ]
+  },
+  {
+    "id": 74,
+    "question": "What is the output from a logic circuit always expressed as?",
+    "true": "A binary value of either 0 or 1",
+    "wrong": [
+      "A decimal value between 0 and the number of input combinations",
+      "An analogue voltage between 0 and 5 volts corresponding to the input signal strength",
+      "A hexadecimal value representing all active input combinations"
+    ]
+  },
+  {
+    "id": 75,
+    "question": "Why is it important to use intermediate values (like P, Q, R) when constructing a truth table for a complex logic circuit?",
+    "true": "Breaking the circuit into parts and tracking intermediate output values step by step helps eliminate errors and makes it easier to trace how inputs flow through multiple gates to produce the final output",
+    "wrong": [
+      "Intermediate values are required by exam marking schemes and serve no technical purpose in circuit analysis",
+      "Without intermediate values, the final output column cannot be computed because truth tables require sequential filling",
+      "Intermediate values are needed to represent the analogue signals that exist between logic gates in real circuits"
+    ]
+  },
+  {
+    "id": 76,
+    "question": "How does flash memory (NAND-based SSD) store data at the transistor level?",
+    "true": "Data is stored as 0s and 1s in millions of tiny transistors within NAND chips; at each junction, a floating gate transistor and a control gate transistor work together to store each bit",
+    "wrong": [
+      "Data is stored as magnetic polarities in tiny iron oxide particles coating the NAND chip surface",
+      "Data is stored as optical intensity patterns burned into the photosensitive NAND chip using a laser",
+      "Data is stored as capacitor charge states in pairs of capacitors connected to each memory cell in the chip"
+    ]
+  },
+  {
+    "id": 77,
+    "question": "What is the output of an OR gate when inputs are A=0 and B=0?",
+    "true": "0 — an OR gate only outputs 0 when both inputs are 0; for all other combinations at least one input is 1, giving output 1",
+    "wrong": [
+      "1 — an OR gate outputs 1 for all input combinations",
+      "1 — an OR gate outputs 1 when at least one input is 0",
+      "Undefined — an OR gate requires at least one input of 1 to produce a valid output"
+    ]
+  },
+  {
+    "id": 78,
+    "question": "A PROM is described as being made of a matrix of fuses. What happens to these fuses when the PROM is programmed?",
+    "true": "An electric current from a PROM writer selectively 'burns' specific fuses in the matrix, permanently altering those cells; because fuses cannot be repaired, the PROM can only be written to once",
+    "wrong": [
+      "UV light melts the fuses at specific positions, allowing them to be reformed using a heat gun for reprogramming",
+      "An electric current magnetises the fuses at specific positions, which can later be demagnetised for reprogramming",
+      "A laser vaporises specific fuses, and the resulting gaps in the matrix are filled with conductive ink for later rewriting"
+    ]
+  },
+  {
+    "id": 79,
+    "question": "Why is SRAM used in the memory cache rather than the larger main RAM?",
+    "true": "Because SRAM is significantly faster (25 ns vs 60 ns access time) and most programs repeatedly access the same data; placing this data in fast SRAM avoids repeated accesses to slower DRAM, improving overall CPU performance",
+    "wrong": [
+      "Because SRAM is cheaper to manufacture than DRAM, making it economical to use for large cache sizes",
+      "Because SRAM can store larger files than DRAM, making it more suitable for caching large program files",
+      "Because SRAM is non-volatile and retains cached data even when the computer is powered off"
+    ]
+  },
+  {
+    "id": 80,
+    "question": "What does Boolean algebra have in common with logic circuits?",
+    "true": "Boolean algebra is a form of algebra based on TRUE and FALSE (1 and 0) that is directly linked to logic circuits; Boolean expressions can represent the behaviour of logic gates and circuits mathematically",
+    "wrong": [
+      "Boolean algebra is used to design the physical transistor layout inside logic gate chips",
+      "Boolean algebra is a programming language specifically designed to write software that runs on logic circuits",
+      "Boolean algebra is the electrical engineering discipline that studies the voltage levels in logic gate circuits"
+    ]
+  },
+  {
+    "id": 81,
+    "question": "A student claims that SRAM always consumes less power than DRAM. According to the chapter, is this claim correct?",
+    "true": "Not always — although SRAM generally uses less power at normal access rates, if SRAM is accessed at a very high frequency, its power usage can actually exceed that of DRAM",
+    "wrong": [
+      "Yes, always — the chapter states SRAM definitively uses less power than DRAM in all circumstances",
+      "Yes, always — SRAM has no refresh cycle, so it never draws power for recharging capacitors",
+      "No, never — DRAM always consumes less power because its transistors are simpler than SRAM flip-flops"
+    ]
+  },
+  {
+    "id": 82,
+    "question": "What is the Boolean expression X = A.B̄ + Ā.B describing in logic gate terms?",
+    "true": "This describes an XOR gate: output is 1 when A is 1 and B is 0, OR when A is 0 and B is 1 — i.e., when inputs are different",
+    "wrong": [
+      "This describes a NAND gate: output is 0 only when both inputs are 1",
+      "This describes an AND gate followed by a NOT gate on one input",
+      "This describes a NOR gate: output is 1 only when both inputs are 0"
+    ]
+  },
+  {
+    "id": 83,
+    "question": "Why are removable hard disk drives useful for disaster recovery?",
+    "true": "They allow important data to be stored in a different physical building, protecting against data loss from events like fire, flood, or theft that could destroy on-site storage",
+    "wrong": [
+      "Removable HDDs can be connected to any computer via USB and therefore automatically sync data to the cloud",
+      "Removable HDDs use a different file format from internal HDDs, making their data immune to the viruses that affect internal drives",
+      "Removable HDDs are waterproof and fireproof by design, protecting data from environmental disasters"
+    ]
+  },
+  {
+    "id": 84,
+    "question": "What is 'screen resolution' as defined in Chapter 3?",
+    "true": "The number of pixels in the horizontal and vertical directions on a television or computer screen",
+    "wrong": [
+      "The maximum number of colours that can be displayed simultaneously on a screen",
+      "The refresh rate measured in Hertz at which the screen redraws its image each second",
+      "The physical size of the screen measured diagonally in inches"
+    ]
+  },
+  {
+    "id": 85,
+    "question": "In what specific situation is EEPROM (NOR chips) more useful than flash memory (NAND chips) despite being more expensive?",
+    "true": "When data needs to be accessed or erased in byte-size chunks, because EEPROM allows byte-level read/erase while NAND only allows block-level operations",
+    "wrong": [
+      "When data needs to be stored at very high speed, because NOR chips have faster write speeds than NAND chips",
+      "When data needs to be stored for very long periods, because NOR chips retain data for longer than NAND chips",
+      "When the device operates at very high temperatures, because NOR chips are more heat-resistant than NAND chips"
+    ]
+  },
+  {
+    "id": 86,
+    "question": "A NAND gate is often described as a 'universal gate'. What does this mean in practice?",
+    "true": "Any other logic gate (NOT, AND, OR, NOR, XOR) can be constructed using only NAND gates, meaning any logic circuit can be built entirely from NAND gates",
+    "wrong": [
+      "A NAND gate can replace a NOR gate in any circuit by simply swapping the two components",
+      "A NAND gate is 'universal' because it is the most commonly used gate in all commercial processors",
+      "A NAND gate is 'universal' because its output is always 1 for the most common input combinations"
+    ]
+  },
+  {
+    "id": 87,
+    "question": "What is the output of an AND gate when inputs are A=1 and B=0?",
+    "true": "0 — the AND gate only outputs 1 when BOTH inputs are 1; since B=0, the output is 0",
+    "wrong": [
+      "1 — the AND gate outputs 1 when at least one input is 1",
+      "1 — the AND gate outputs 1 when the first input A is 1 regardless of B",
+      "0 — the AND gate outputs 0 when both inputs are different"
+    ]
+  },
+  {
+    "id": 88,
+    "question": "What is the complete truth table output column for a NOR gate (from top to bottom for inputs 00, 01, 10, 11)?",
+    "true": "1, 0, 0, 0 — NOR outputs 1 only when both inputs are 0",
+    "wrong": [
+      "0, 1, 1, 1 — this is the OR gate output",
+      "1, 1, 1, 0 — this is the NAND gate output",
+      "0, 1, 1, 0 — this is the XOR gate output"
+    ]
+  },
+  {
+    "id": 89,
+    "question": "In a monitoring system for a hospital patient's vital signs, what role does the microprocessor play according to the chapter?",
+    "true": "The microprocessor analyses data from sensors by checking it against stored acceptable values and sends a warning to a screen or activates an alarm if readings are outside the acceptable range, but does not directly control the patient's body",
+    "wrong": [
+      "The microprocessor automatically administers medication through IV lines when vital signs fall outside acceptable ranges",
+      "The microprocessor controls the patient's heart rate directly by sending electrical signals through electrodes",
+      "The microprocessor replaces the need for human medical staff by making all diagnostic and treatment decisions"
+    ]
+  },
+  {
+    "id": 90,
+    "question": "What is the complete truth table output for an AND gate (from top to bottom for inputs 00, 01, 10, 11)?",
+    "true": "0, 0, 0, 1 — AND gate only outputs 1 when both inputs are 1",
+    "wrong": [
+      "0, 1, 1, 1 — this is the OR gate output",
+      "1, 1, 1, 0 — this is the NAND gate output",
+      "1, 0, 0, 0 — this is the NOR gate output"
+    ]
+  },
+  {
+    "id": 91,
+    "question": "What is one example of a control application (not monitoring) for sensors in motor vehicles?",
+    "true": "Operating anti-lock brakes on a car when necessary — the system actively controls braking pressure based on sensor feedback",
+    "wrong": [
+      "Checking the temperature levels in a car engine — this is monitoring only, not active control",
+      "Displaying the car's speed on the dashboard — this is monitoring and display, not control",
+      "Recording the car's GPS location every 30 seconds — this is data logging, not active control"
+    ]
+  },
+  {
+    "id": 92,
+    "question": "Why do CDs and DVDs use a single spiral track rather than concentric circular tracks like an HDD?",
+    "true": "The single spiral track allows the optical head to continuously follow the data from the centre to the outer edge in a simple continuous motion, which suits the sequential reading pattern of optical media playback",
+    "wrong": [
+      "A single spiral track prevents birefringence by ensuring the laser only crosses data boundaries once",
+      "A single spiral track allows both the inner and outer parts of the disc to rotate at the same speed simultaneously",
+      "A single spiral track doubles the storage capacity compared to concentric tracks by eliminating gaps between tracks"
+    ]
+  },
+  {
+    "id": 93,
+    "question": "In a logic circuit with inputs A, B, and C, if gate 1 is an AND gate taking A and B as inputs, and gate 2 is a NOR gate taking B and C as inputs, what is the output of gate 2 when B=0 and C=1?",
+    "true": "0 — a NOR gate outputs 1 only when both inputs are 0; since C=1, the NOR output is 0",
+    "wrong": [
+      "1 — a NOR gate outputs 1 whenever at least one input is 0",
+      "1 — a NOR gate outputs 1 when the inputs are different",
+      "0 — a NOR gate always outputs 0 when B=0 regardless of C"
+    ]
+  },
+  {
+    "id": 94,
+    "question": "What practical problem does defragmentation software solve in HDD management?",
+    "true": "It reorganises file sectors that have become scattered non-consecutively across the disk due to deletions and edits, reducing the read-write head movements needed and restoring performance",
+    "wrong": [
+      "It repairs physically damaged sectors on the disk by remapping data to healthy areas",
+      "It compresses large files to reduce the total number of sectors they occupy",
+      "It increases the rotation speed of the disk platters to compensate for increased seek times"
+    ]
+  },
+  {
+    "id": 95,
+    "question": "What does a logic gate with both a bubble (NOT circle) on one input and on the output represent?",
+    "true": "Such combinations represent specific gates; for example, an AND gate with bubbles on both inputs is equivalent to a NOR gate by De Morgan's theorem (inverting both inputs of AND gives NOR)",
+    "wrong": [
+      "It represents a broken circuit that will always output an error signal",
+      "It represents an amplifier that doubles the signal strength before passing it to the next gate",
+      "Such a combination is forbidden in digital circuit design and cannot be constructed"
+    ]
+  },
+  {
+    "id": 96,
+    "question": "Why is the outer part of a CD/DVD described as running faster than the inner part?",
+    "true": "The outer circumference of a disc is larger than the inner, so at a constant rotation speed, the outer track moves past the laser head at a higher linear velocity than the inner track",
+    "wrong": [
+      "The outer part is made of a harder material that reflects the laser more efficiently, increasing reading speed",
+      "The outer part contains less data, so the laser can skip through it more quickly",
+      "The outer part rotates on a separate mechanism that spins independently at a higher speed"
+    ]
+  },
+  {
+    "id": 97,
+    "question": "An EPROM needs to be reprogrammed in a device under development. What must happen before new code can be written to it?",
+    "true": "The existing data must first be erased using UV light directed through the quartz window; only after the chip is fully erased can new data be programmed using a PROM writer",
+    "wrong": [
+      "The existing data is automatically overwritten when new code is applied; no prior erasure is needed",
+      "The EPROM must be physically removed from the device, melted down, and recast before new data can be written",
+      "New code can be patched directly into specific bytes of the EPROM without erasing the entire chip using pulsed voltages"
+    ]
+  },
+  {
+    "id": 98,
+    "question": "What is the connection between the XOR gate and binary addition at the bit level?",
+    "true": "XOR produces the same result as adding two single bits (ignoring carry): 0+0=0, 0+1=1, 1+0=1, 1+1=0 (with carry) — the sum bit matches XOR output exactly",
+    "wrong": [
+      "XOR is used exclusively in subtraction circuits, not addition, because its output matches the borrow bit",
+      "XOR has no relationship to binary addition; it is used only in parity checking circuits",
+      "XOR produces the carry bit in binary addition, while AND produces the sum bit"
+    ]
+  },
+  {
+    "id": 99,
+    "question": "A student argues that a NOR gate is simply an OR gate with its output inverted. Is this correct?",
+    "true": "Yes — a NOR gate is exactly a NOT-OR combination; applying a NOT gate to the output of an OR gate produces the same truth table as a NOR gate",
+    "wrong": [
+      "No — a NOR gate inverts its inputs before applying OR, while a NOT-OR inverts only the output",
+      "No — a NOR gate and a NOT-OR produce different truth tables for the input combination (1,1)",
+      "No — NOR is a completely independent gate whose behaviour cannot be replicated by combining simpler gates"
+    ]
+  },
+  {
+    "id": 100,
+    "question": "Why is it particularly important that an embedded system used in an anti-lock braking system operates 'in real time'?",
+    "true": "Because the ABS must check wheel rotational speeds and adjust braking pressure several times per second during heavy braking; any significant processing delay could allow a wheel to lock before correction is applied, potentially causing loss of vehicle control",
+    "wrong": [
+      "Real-time operation is needed so the ABS can log all braking events to a black box for accident investigation",
+      "Real-time operation is required so the ABS can communicate braking data to traffic management systems in the surrounding road network",
+      "Real-time operation ensures the ABS display shows the driver the current braking force without a perceptible delay"
+    ]
+  }
+]
