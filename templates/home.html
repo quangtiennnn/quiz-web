@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Time!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container home-container">
+
+        <div class="header">
+            <div class="star">⭐</div>
+            <h1>Quiz Time!</h1>
+            <div class="star">⭐</div>
+        </div>
+
+        <!-- Chapter selector -->
+        <section class="chapter-section">
+            <h2 class="section-title">Choose a Chapter</h2>
+            <div class="chapter-grid" id="chapter-grid">
+                <div class="chapter-card skeleton"></div>
+                <div class="chapter-card skeleton"></div>
+                <div class="chapter-card skeleton"></div>
+                <div class="chapter-card skeleton"></div>
+            </div>
+            <button id="start-btn" class="start-btn" disabled onclick="startQuiz()">
+                Choose a chapter first
+            </button>
+        </section>
+
+        <!-- Stats -->
+        <section class="stats-section">
+            <h2 class="section-title">📊 Your Progress</h2>
+            <div class="chart-wrap">
+                <canvas id="statsChart"></canvas>
+            </div>
+            <p id="no-stats" style="display:none; text-align:center; color:#406AAF; font-weight:700; padding:24px 0;">
+                No attempts recorded yet. Start a quiz to see your progress!
+            </p>
+        </section>
+
+    </div>
+    <script src="{{ url_for('static', filename='home.js') }}"></script>
+</body>
+</html>
