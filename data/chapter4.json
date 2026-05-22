@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "question": "What does CIK-FIA stand for?",
+    "true": "Commission Internationale de Karting - Fédération Internationale de l'Automobile",
+    "wrong": ["Circuit International de Karting - Federation of International Automobiles", "Commission Internationale de Karting - Federation Internationale des Automobiles", "Comité International de Karting - Fédération Internationale de l'Automobile"]
+  },
+  {
+    "id": 2,
+    "question": "Who is responsible for the control and good running of international karting competitions in each country?",
+    "true": "The National Sporting Authority (ASN) affiliated to the FIA",
+    "wrong": ["The CIK-FIA directly", "The local circuit organiser", "The FIA World Motor Sport Council"]
+  },
+  {
+    "id": 3,
+    "question": "What is the minimum licence grade required for Senior gearbox and non-gearbox classes including Superkart?",
+    "true": "Grade E",
+    "wrong": ["Grade F", "Grade G", "Grade D"]
+  },
+  {
+    "id": 4,
+    "question": "For Junior non-gearbox class only, which licence grade is required?",
+    "true": "Grade G",
+    "wrong": ["Grade E", "Grade F", "Grade H"]
+  },
+  {
+    "id": 5,
+    "question": "For Senior non-gearbox class only, which licence grade is required?",
+    "true": "Grade F",
+    "wrong": ["Grade E", "Grade G", "Grade D"]
+  },
+  {
+    "id": 6,
+    "question": "What is the minimum age for a Grade G licence (Junior category)?",
+    "true": "12 years old (reaching their 12th birthday during the calendar year)",
+    "wrong": ["10 years old", "13 years old", "14 years old"]
+  },
+  {
+    "id": 7,
+    "question": "What is the maximum age range for a Grade G licence?",
+    "true": "Up to 14 years old (reaching their 14th birthday during the calendar year)",
+    "wrong": ["Up to 15 years old", "Up to 13 years old", "Up to 16 years old"]
+  },
+  {
+    "id": 8,
+    "question": "How many ASN-sanctioned karting races must a Grade G licence applicant have competed in satisfactorily within the two years prior to application?",
+    "true": "At least 5 races",
+    "wrong": ["At least 3 races", "At least 10 races", "At least 7 races"]
+  },
+  {
+    "id": 9,
+    "question": "What is the minimum driver weight (including equipment) for a Grade G licence holder during competition?",
+    "true": "35 kg",
+    "wrong": ["40 kg", "30 kg", "45 kg"]
+  },
+  {
+    "id": 10,
+    "question": "What is the minimum driver weight (including equipment) for a Grade F licence holder during competition?",
+    "true": "40 kg",
+    "wrong": ["35 kg", "45 kg", "50 kg"]
+  },
+  {
+    "id": 11,
+    "question": "What is the minimum age for a Grade E licence (excluding Superkart)?",
+    "true": "15 years old (reaching their 15th birthday during the calendar year)",
+    "wrong": ["16 years old", "14 years old", "18 years old"]
+  },
+  {
+    "id": 12,
+    "question": "What is the minimum age for a Superkart driver holding a Grade E licence?",
+    "true": "Over 18 years old",
+    "wrong": ["Over 16 years old", "Over 15 years old", "Over 21 years old"]
+  },
+  {
+    "id": 13,
+    "question": "To preserve a Grade E licence qualification, how often must a driver participate in an International Competition?",
+    "true": "At least once per 2-year period",
+    "wrong": ["At least once per year", "At least twice per year", "At least once per 3-year period"]
+  },
+  {
+    "id": 14,
+    "question": "According to Article 3.1, what happens in case of a dispute about International Drivers Licences?",
+    "true": "Appendix L of the International Sporting Code would be the reference",
+    "wrong": ["The CIK-FIA makes the final decision", "The driver's ASN makes the final decision", "The FIA World Motor Sport Council decides"]
+  },
+  {
+    "id": 15,
+    "question": "What information must be mentioned on an International Driver's Licence?",
+    "true": "The date of birth",
+    "wrong": ["The driver's home address", "The driver's nationality only", "The driver's blood type"]
+  },
+  {
+    "id": 16,
+    "question": "A Grade G licence may remain valid beyond the 14th birthday until when?",
+    "true": "Until the end of the current year",
+    "wrong": ["Until the end of the following year", "Until the driver's next birthday", "Until the next competition season"]
+  },
+  {
+    "id": 17,
+    "question": "Once a driver upgrades from Grade G to Grade F during the year, what happens to that decision?",
+    "true": "It is final and cannot be reversed",
+    "wrong": ["It can be reversed within 30 days", "It can be reversed at the end of the season", "It remains provisional for 6 months"]
+  },
+  {
+    "id": 18,
+    "question": "What medical examination is required for Grade G licence applicants?",
+    "true": "A medical aptitude exam by an ASN-authorised doctor, recording height and weight",
+    "wrong": ["A full hospital physical examination", "Only a vision test", "A self-declared health form"]
+  },
+  {
+    "id": 19,
+    "question": "What equipment must have a valid CIK-FIA homologation in all competitions on the FIA Karting International Sporting Calendar (except Superkart)?",
+    "true": "Chassis, bodywork elements, and tyres",
+    "wrong": ["Only the engine and chassis", "Only tyres and helmet", "Only the chassis and engine"]
+  },
+  {
+    "id": 20,
+    "question": "For Junior classes, which type of tyres are mandatory in CIK-FIA International Sporting Calendar competitions?",
+    "true": "Option tyres only",
+    "wrong": ["Prime tyres only", "Either Option or Prime tyres", "Wet tyres"]
+  },
+  {
+    "id": 21,
+    "question": "For Senior classes, which types of tyres are permitted in CIK-FIA International Sporting Calendar competitions?",
+    "true": "Option or Prime tyres",
+    "wrong": ["Only Option tyres", "Only Prime tyres", "Any homologated tyre"]
+  },
+  {
+    "id": 22,
+    "question": "Where can the list of CIK-FIA homologated equipment be found?",
+    "true": "On the CIK website at www.fiakarting.com",
+    "wrong": ["In the FIA Yearbook", "At the ASN offices", "In the Official Bulletin published each January"]
+  },
+  {
+    "id": 23,
+    "question": "In all CIK-FIA International Sporting Calendar competitions (except Superkart), where must the driver enter the 'Start Servicing Park' with the front fairing?",
+    "true": "With the front fairing detached from the kart",
+    "wrong": ["With the front fairing already attached", "With the front fairing in a bag", "Without the front fairing at all"]
+  },
+  {
+    "id": 24,
+    "question": "During Qualifying Heats and the final phase, where is it permitted to install the front fairing in the correct position?",
+    "true": "Only in the Repair Area",
+    "wrong": ["Only on the pre-grid", "Anywhere on the circuit", "Only in the paddock"]
+  },
+  {
+    "id": 25,
+    "question": "What penalty is automatically imposed if a front fairing is not in the correct position when the chequered flag is waved?",
+    "true": "A time penalty of 5 seconds",
+    "wrong": ["Disqualification from the race", "A 10-second time penalty", "A drive-through penalty"]
+  },
+  {
+    "id": 26,
+    "question": "Is the 5-second front fairing time penalty subject to appeal?",
+    "true": "No, this decision is not subject to appeal",
+    "wrong": ["Yes, it can be appealed within 30 minutes", "Yes, but only by the team manager", "Yes, it can be appealed to the ICA"]
+  },
+  {
+    "id": 27,
+    "question": "What happens if a driver or third party intentionally repositions a front fairing that was not correctly placed during the last lap?",
+    "true": "The driver concerned will be disqualified from the Competition",
+    "wrong": ["A 10-second time penalty", "A 30-second time penalty", "A grid penalty for the next race"]
+  },
+  {
+    "id": 28,
+    "question": "On what type of circuits may competitions be held according to the CIK-FIA regulations?",
+    "true": "Only on circuits homologated by the CIK-FIA and holding an appropriate circuit licence",
+    "wrong": ["On any closed road circuit", "On any circuit approved by the local ASN", "On any circuit approved by the race organiser"]
+  },
+  {
+    "id": 29,
+    "question": "If an ASN delegates competition organisation to a third party, who remains responsible to CIK-FIA?",
+    "true": "The ASN remains responsible",
+    "wrong": ["The third-party organiser becomes fully responsible", "Both the ASN and third party share equal responsibility", "The CIK-FIA assumes responsibility"]
+  },
+  {
+    "id": 30,
+    "question": "How far in advance must an ASN notify the CIK-FIA of a competition's cancellation to pay only a 10% cancellation fee?",
+    "true": "At least three months before the scheduled date",
+    "wrong": ["At least one month before", "At least six months before", "At least two weeks before"]
+  },
+  {
+    "id": 31,
+    "question": "What is the change-of-date fee if an ASN notifies the CIK-FIA less than three months before the competition date?",
+    "true": "15% of the entry fee",
+    "wrong": ["10% of the entry fee", "20% of the entry fee", "25% of the entry fee"]
+  },
+  {
+    "id": 32,
+    "question": "What licence must a driver hold to participate in a competition on the CIK-FIA International Sporting Calendar?",
+    "true": "An International Entrant's/Driver's Licence valid for Karting and the current year",
+    "wrong": ["Any national licence", "A CIK-FIA racing permit", "A provisional international licence"]
+  },
+  {
+    "id": 33,
+    "question": "Who is responsible for ensuring all persons connected with an entry observe the regulations?",
+    "true": "The Entrant",
+    "wrong": ["The Race Director", "The ASN", "The Clerk of the Course"]
+  },
+  {
+    "id": 34,
+    "question": "What must all persons in the Paddock, Servicing Parks, or on the track wear at all times?",
+    "true": "An appropriate pass",
+    "wrong": ["A safety vest", "A helmet", "A sponsor's badge"]
+  },
+  {
+    "id": 35,
+    "question": "What document does each driver receive during Sporting Checks?",
+    "true": "A Technical Passport",
+    "wrong": ["A race entry form", "A medical clearance card", "A scrutineering sticker"]
+  },
+  {
+    "id": 36,
+    "question": "What happens to an incomplete Technical Passport?",
+    "true": "It will be rejected",
+    "wrong": ["It will be completed by officials", "The driver gets extra time to complete it", "It is accepted provisionally"]
+  },
+  {
+    "id": 37,
+    "question": "When must racing numbers and advertising signs be on the kart?",
+    "true": "When the equipment is submitted to Scrutineering",
+    "wrong": ["Only during the race", "Only during qualifying", "Before the briefing"]
+  },
+  {
+    "id": 38,
+    "question": "Can a driver change their equipment after it has been identified at Scrutineering?",
+    "true": "No, a driver shall not be allowed to change equipment after identification",
+    "wrong": ["Yes, if they notify the Clerk of the Course", "Yes, once per session", "Yes, with stewards' permission"]
+  },
+  {
+    "id": 39,
+    "question": "What is considered an implicit statement of conformity in scrutineering?",
+    "true": "Submitting a kart to Scrutineering",
+    "wrong": ["Signing the entry form", "Attending the briefing", "Paying the entry fee"]
+  },
+  {
+    "id": 40,
+    "question": "Who has the right to access the track during a competition?",
+    "true": "Only Officials provided for on the Officials' list in the Supplementary Regulations",
+    "wrong": ["All team mechanics", "Any licensed competitor", "Media representatives without restriction"]
+  },
+  {
+    "id": 41,
+    "question": "Is driving in the opposite direction of the race strictly forbidden?",
+    "true": "Yes, unless strictly necessary to remove the kart from a dangerous situation",
+    "wrong": ["Yes, under all circumstances with no exceptions", "No, it is allowed during a red flag", "No, it is allowed if no other karts are nearby"]
+  },
+  {
+    "id": 42,
+    "question": "How is the circuit defined for the purposes of track limits?",
+    "true": "By the white lines on both sides of the track",
+    "wrong": ["By the kerbs on both sides", "By the tyre barriers", "By the painted grass areas"]
+  },
+  {
+    "id": 43,
+    "question": "When is a kart considered to have left the track?",
+    "true": "When all four wheels are outside the white lines",
+    "wrong": ["When any one wheel crosses the white line", "When two wheels are outside the white lines", "When the driver steers off the racing line"]
+  },
+  {
+    "id": 44,
+    "question": "If a kart stops during a session and restarts with the help of marshals, what happens?",
+    "true": "The kart will be disqualified from the classification of that session or race",
+    "wrong": ["The driver receives a time penalty", "Nothing, assistance is always permitted", "The driver must start from the back of the grid"]
+  },
+  {
+    "id": 45,
+    "question": "Where is tool-assisted repair strictly forbidden?",
+    "true": "Outside the Repair Area",
+    "wrong": ["On the pre-grid", "In the paddock only", "In the Parc Fermé"]
+  },
+  {
+    "id": 46,
+    "question": "Where is a driver only permitted to receive outside assistance?",
+    "true": "In the Repair Area",
+    "wrong": ["Anywhere on the circuit", "In the paddock", "On the starting grid"]
+  },
+  {
+    "id": 47,
+    "question": "During a competition, who may restart a kart (except from the Repair Area)?",
+    "true": "Only the driver himself",
+    "wrong": ["The driver or a mechanic", "Any team personnel", "Any official"]
+  },
+  {
+    "id": 48,
+    "question": "What is forbidden after the line drawn at the exit of the 'Pre-Grid'?",
+    "true": "Pushers are not allowed to help the driver",
+    "wrong": ["Drivers are not allowed to exit the pre-grid", "Mechanics are not allowed in the area", "Officials cannot approach the kart"]
+  },
+  {
+    "id": 49,
+    "question": "What is the minimum fine for starting, running, warming up, or testing kart engines in the Paddock?",
+    "true": "250 €",
+    "wrong": ["100 €", "500 €", "1000 €"]
+  },
+  {
+    "id": 50,
+    "question": "What is the consequence of repeated engine running in the Paddock?",
+    "true": "The stewards may disqualify the driver from the competition",
+    "wrong": ["A written warning", "A grid penalty", "A fine doubling with each offence"]
+  },
+  {
+    "id": 51,
+    "question": "In a wet race condition, who has the right to choose their tyres?",
+    "true": "The drivers, with the Race Director reserving the right to use the black flag for inappropriate choices",
+    "wrong": ["The Race Director mandates tyre choice for all drivers", "The team manager decides", "The ASN prescribes the mandatory tyre type"]
+  },
+  {
+    "id": 52,
+    "question": "When are slick tyres mandatory?",
+    "true": "In all cases other than a declared wet race condition",
+    "wrong": ["Always, regardless of conditions", "Only in dry qualifying sessions", "Only in championship races"]
+  },
+  {
+    "id": 53,
+    "question": "What does a waved chequered flag (black and white) signify?",
+    "true": "The end of a practice session or a race",
+    "wrong": ["The start of the formation lap", "A race suspension", "A safety car deployment"]
+  },
+  {
+    "id": 54,
+    "question": "What does the red flag signify when waved at the start line?",
+    "true": "A practice session or race has been stopped",
+    "wrong": ["The start of the race", "A driver must pit immediately", "A full course yellow condition"]
+  },
+  {
+    "id": 55,
+    "question": "What does the black flag inform a driver?",
+    "true": "That the driver must stop at the designated area on the next approach to the Parc Fermé entrance",
+    "wrong": ["That the driver has been disqualified from the championship", "That there is a mechanical problem with the kart", "That the driver must yield to a faster kart"]
+  },
+  {
+    "id": 56,
+    "question": "For how many consecutive laps maximum should the black flag be shown if the driver doesn't comply?",
+    "true": "No more than four consecutive laps",
+    "wrong": ["No more than two consecutive laps", "No more than six consecutive laps", "Until the driver complies"]
+  },
+  {
+    "id": 57,
+    "question": "Who has the exclusive right to decide to show the black flag?",
+    "true": "The Stewards of the meeting",
+    "wrong": ["The Clerk of the Course", "The Race Director", "The Chief Scrutineer"]
+  },
+  {
+    "id": 58,
+    "question": "What does the black flag with an orange disc (40 cm diameter) signify?",
+    "true": "The kart has mechanical problems likely to endanger the driver or others and must stop in the Repair Area",
+    "wrong": ["The driver is disqualified from the race", "The driver must complete a drive-through penalty", "There is a time penalty being applied to the driver"]
+  },
+  {
+    "id": 59,
+    "question": "What does the black and white flag divided diagonally signify?",
+    "true": "A warning that the driver has been reported for unsportsmanlike behaviour",
+    "wrong": ["The driver must change tyres", "The driver has been disqualified", "The race has been neutralised"]
+  },
+  {
+    "id": 60,
+    "question": "How many times should the diagonal black and white flag be shown?",
+    "true": "Only once",
+    "wrong": ["Twice as a warning before a penalty", "Until the driver acknowledges it", "Three times"]
+  },
+  {
+    "id": 61,
+    "question": "What does a single waved yellow flag mean?",
+    "true": "Reduce speed, do not overtake, be prepared to change direction — hazard on the edge or part of the track",
+    "wrong": ["Stop racing immediately", "The race has been red-flagged", "A kart has broken down ahead"]
+  },
+  {
+    "id": 62,
+    "question": "What does a double waved yellow flag mean?",
+    "true": "Reduce speed, do not overtake, be prepared to change direction or stop — hazard wholly or partly blocking the track",
+    "wrong": ["The race will restart shortly", "Two incidents on track simultaneously", "The safety car is deployed"]
+  },
+  {
+    "id": 63,
+    "question": "When is overtaking permitted after a yellow flag?",
+    "true": "Not until after the green flag has been displayed following the incident",
+    "wrong": ["Immediately after passing the yellow flag zone", "After completing the lap in which the yellow was shown", "Only in the next session"]
+  },
+  {
+    "id": 64,
+    "question": "What does the yellow flag with red stripes indicate?",
+    "true": "Deterioration of adhesion due to oil or water on the track in the area beyond the flag",
+    "wrong": ["A driver has gone off the track", "Rain is about to begin", "Wet tyres are now mandatory"]
+  },
+  {
+    "id": 65,
+    "question": "For how many laps minimum should the yellow flag with red stripes be displayed?",
+    "true": "At least 4 laps unless the surface returns to normal beforehand",
+    "wrong": ["At least 2 laps", "At least 6 laps", "Until the end of the session"]
+  },
+  {
+    "id": 66,
+    "question": "What does the blue flag normally indicate to a driver?",
+    "true": "That the driver is about to be overtaken by a faster kart",
+    "wrong": ["That rain is expected", "That there is a slow vehicle ahead", "That the track is clear"]
+  },
+  {
+    "id": 67,
+    "question": "What does the green flag signify?",
+    "true": "The track is clear, shown at the post immediately after the incident that required yellow flags",
+    "wrong": ["The start of the race", "The end of the warm-up lap", "Safe to pit now"]
+  },
+  {
+    "id": 68,
+    "question": "What does the white flag indicate?",
+    "true": "There is a much slower vehicle on the sector of the track controlled by that flag point",
+    "wrong": ["The race is ending in two laps", "A medical vehicle is on track", "Wet conditions are expected"]
+  },
+  {
+    "id": 69,
+    "question": "What is the purpose of the Briefing?",
+    "true": "To remind entrants and drivers of specific Supplementary Regulation points, safety notions, and regulation interpretations",
+    "wrong": ["To assign grid positions", "To conduct technical inspections", "To distribute timing transponders"]
+  },
+  {
+    "id": 70,
+    "question": "When must the Briefing take place?",
+    "true": "Always before Qualifying Practice or the first Qualifying Heat",
+    "wrong": ["After qualifying but before the race", "At any time during the event", "The morning of the race day only"]
+  },
+  {
+    "id": 71,
+    "question": "Is attendance at the Briefing mandatory?",
+    "true": "Yes, attendance of all concerned entrants and drivers is mandatory throughout the Briefing",
+    "wrong": ["Only for the team manager", "Optional but recommended", "Only for drivers, not entrants"]
+  },
+  {
+    "id": 72,
+    "question": "What is the penalty for non-attendance at the Briefing?",
+    "true": "A sanction or even possible disqualification from the Competition",
+    "wrong": ["A fine of 250€", "A grid penalty of 5 places", "Loss of best qualifying time"]
+  },
+  {
+    "id": 73,
+    "question": "How many attendance sheets must be signed at the Briefing?",
+    "true": "Two: one by drivers and one by entrants",
+    "wrong": ["One sheet for everyone", "Three: drivers, entrants, and mechanics", "None, attendance is recorded electronically"]
+  },
+  {
+    "id": 74,
+    "question": "How are starting grids determined after Qualifying Practice?",
+    "true": "Based on the fastest time achieved by each driver in the Qualifying Practice session(s)",
+    "wrong": ["By championship points standing", "By draw", "By the order drivers completed scrutineering"]
+  },
+  {
+    "id": 75,
+    "question": "How are ties in qualifying times resolved?",
+    "true": "By their second best time, and so on",
+    "wrong": ["By a coin toss", "By the earlier time achieved", "By championship standing"]
+  },
+  {
+    "id": 76,
+    "question": "How many minutes before the start does access to the Pre-Grid close?",
+    "true": "Five minutes before the scheduled start",
+    "wrong": ["Three minutes before", "Ten minutes before", "Two minutes before"]
+  },
+  {
+    "id": 77,
+    "question": "What is the only set-up adjustment permitted on the Pre-Grid?",
+    "true": "Tyre pressures, adjusted by letting air out only",
+    "wrong": ["Any mechanical adjustment", "Engine tuning only", "Wing angle adjustments"]
+  },
+  {
+    "id": 78,
+    "question": "In categories with on-board starters, when must mechanics clear the Pre-Grid?",
+    "true": "Three minutes before the scheduled race start",
+    "wrong": ["Five minutes before start", "One minute before start", "Ten minutes before start"]
+  },
+  {
+    "id": 79,
+    "question": "What type of start is forbidden unless CIK-FIA grants a waiver?",
+    "true": "Le Mans type start",
+    "wrong": ["Standing start", "Rolling start", "Flying start"]
+  },
+  {
+    "id": 80,
+    "question": "How is the start signal given according to the regulations?",
+    "true": "By means of lights",
+    "wrong": ["By a national flag only", "By a green flag only", "By a whistle and green flag"]
+  },
+  {
+    "id": 81,
+    "question": "How far from the trackside must the Race Director's platform be positioned to give the start?",
+    "true": "At least 5 metres from the trackside",
+    "wrong": ["At least 2 metres from the trackside", "At least 10 metres from the trackside", "At least 3 metres from the trackside"]
+  },
+  {
+    "id": 82,
+    "question": "What is the time penalty for overtaking during the Formation Lap?",
+    "true": "10 seconds or disqualification from the Heat",
+    "wrong": ["5 seconds", "A grid drop for the next race", "Drive-through penalty"]
+  },
+  {
+    "id": 83,
+    "question": "If a driver stops during the Formation Lap, when may they restart?",
+    "true": "Only after the whole field has passed, and must restart from the back",
+    "wrong": ["Immediately, from their original position", "After the first 3 karts pass", "Only if marshals allow it"]
+  },
+  {
+    "id": 84,
+    "question": "For a rolling start, what is the time penalty for a driver who partly crosses the lane markings?",
+    "true": "3 seconds",
+    "wrong": ["5 seconds", "10 seconds", "No penalty for partial crossing"]
+  },
+  {
+    "id": 85,
+    "question": "For a rolling start, what is the time penalty for completely leaving the designated lane?",
+    "true": "10 seconds",
+    "wrong": ["5 seconds", "3 seconds", "Disqualification"]
+  },
+  {
+    "id": 86,
+    "question": "What is the minimum penalty for a false start (movement while red lights are on) in a standing start?",
+    "true": "5 seconds",
+    "wrong": ["10 seconds", "3 seconds", "Drive-through penalty"]
+  },
+  {
+    "id": 87,
+    "question": "When can racing conditions be considered to apply after the start?",
+    "true": "As soon as the start has been given, regardless of kart position on track",
+    "wrong": ["Only after the first lap is completed", "Only after the leader crosses the start line", "After all karts have passed the start line"]
+  },
+  {
+    "id": 88,
+    "question": "Under the neutralisation procedure, when is overtaking permitted?",
+    "true": "Only if a kart slows down because of a serious problem",
+    "wrong": ["After the leading kart signals", "Once the Race Director shows the green flag", "Never during neutralisation"]
+  },
+  {
+    "id": 89,
+    "question": "What signal indicates the end of neutralisation and that the race will resume on the next crossing of the Line?",
+    "true": "The flashing orange lights are switched off",
+    "wrong": ["The Race Director waves a green flag", "A 'SLOW' board is removed", "The safety car exits the track"]
+  },
+  {
+    "id": 90,
+    "question": "Who can order a race or practice session to be suspended using the red flag?",
+    "true": "The Race Director (if nominated) or Clerk of the Course (or deputy if absent)",
+    "wrong": ["The Chief Scrutineer", "The Stewards only", "Any official on track"]
+  },
+  {
+    "id": 91,
+    "question": "If a race is stopped after less than two laps, what happens?",
+    "true": "The original start is null and void; all eligible competitors restart from original grid positions over the full race distance",
+    "wrong": ["Results are declared from the last completed lap", "Half points are awarded", "The race is abandoned completely"]
+  },
+  {
+    "id": 92,
+    "question": "If a race is stopped after completing 75% or more of the race distance, what happens?",
+    "true": "The race is called complete; results are from the lap prior to when the stop signal was given",
+    "wrong": ["The race must be fully restarted", "Only half points are awarded", "Results are taken from when the red flag appeared"]
+  },
+  {
+    "id": 93,
+    "question": "If a race in the final phase cannot be restarted after being suspended with more than 2 laps but less than 75% completed, how many championship points are awarded?",
+    "true": "Half championship points",
+    "wrong": ["Full championship points", "No points", "One-third of championship points"]
+  },
+  {
+    "id": 94,
+    "question": "For a finish to be considered valid, what must a driver do?",
+    "true": "Cross the Finish Line seated at the wheel of their kart",
+    "wrong": ["Simply complete the required number of laps", "Cross the finish line within 2 laps of the leader", "Cross the finish line with engine running"]
+  },
+  {
+    "id": 95,
+    "question": "How is a dead heat (tie) on the Finish Line resolved?",
+    "true": "By the fastest lap time recorded by each driver during the race concerned",
+    "wrong": ["By a coin toss", "By championship points", "By qualifying time"]
+  },
+  {
+    "id": 96,
+    "question": "What is the standard time penalty imposed by Stewards on a driver who causes an Incident?",
+    "true": "10 seconds",
+    "wrong": ["5 seconds", "15 seconds", "20 seconds"]
+  },
+  {
+    "id": 97,
+    "question": "If an Incident is caused during a Qualifying Practice session, what penalty is applied instead of a time penalty?",
+    "true": "Cancellation of the driver's three fastest times from that session",
+    "wrong": ["Exclusion from qualifying entirely", "A 10-place grid penalty", "A 5-second penalty added to the best time"]
+  },
+  {
+    "id": 98,
+    "question": "Within how many minutes after the end of the race must a driver be informed they are involved in an Incident to prevent them from leaving the circuit?",
+    "true": "30 minutes",
+    "wrong": ["15 minutes", "60 minutes", "45 minutes"]
+  },
+  {
+    "id": 99,
+    "question": "According to the Code of Driving Conduct, when may overtaking take place?",
+    "true": "Either on the right or the left, according to circumstances",
+    "wrong": ["Only on the right side", "Only on the left side", "Only on the main straight"]
+  },
+  {
+    "id": 100,
+    "question": "What is strictly prohibited in terms of defensive driving manoeuvres?",
+    "true": "More than one change of direction to defend a position, deliberate crowding beyond the track edge, or any other dangerous direction change",
+    "wrong": ["Slowing before a corner to block", "Using the full width of the track", "Defending position at the braking point once"]
+  }
+]

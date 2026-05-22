@@ -7,7 +7,7 @@ app = Flask(__name__, static_folder='static', template_folder='templates')
 
 BLOB_TOKEN = os.getenv('BLOB_READ_WRITE_TOKEN', '')
 SCORES_PATH = 'quiz-scores.json'
-EMPTY_SCORES = {'chapter1': [], 'chapter2': [], 'chapter3': []}
+EMPTY_SCORES = {'chapter1': [], 'chapter2': [], 'chapter3': [], 'chapter4': []}
 
 
 def _read_scores():
@@ -47,7 +47,7 @@ def load_chapter(chapter):
     data_path = os.path.join(os.path.dirname(__file__), 'data')
     if chapter == 'mixed':
         questions = []
-        for i in range(1, 4):
+        for i in range(1, 5):
             path = os.path.join(data_path, f'chapter{i}.json')
             if os.path.exists(path):
                 with open(path, 'r', encoding='utf-8') as f:
@@ -121,7 +121,7 @@ def chapter_status():
     data_path = os.path.join(os.path.dirname(__file__), 'data')
     status = {}
     total = 0
-    for i in range(1, 4):
+    for i in range(1, 5):
         path = os.path.join(data_path, f'chapter{i}.json')
         if os.path.exists(path):
             with open(path, 'r', encoding='utf-8') as f:

@@ -4,6 +4,7 @@ const CHAPTERS = [
     { key: 'chapter1', label: 'Chapter 1', icon: '📘' },
     { key: 'chapter2', label: 'Chapter 2', icon: '📗' },
     { key: 'chapter3', label: 'Chapter 3', icon: '📙' },
+    { key: 'chapter4', label: 'Chapter 4', icon: '📕' },
     { key: 'mixed',    label: 'Mixed',     icon: '🎲' },
 ];
 
@@ -11,6 +12,7 @@ const CHART_COLORS = {
     chapter1: { line: '#427AB5', bg: 'rgba(66,122,181,0.12)' },
     chapter2: { line: '#e8a020', bg: 'rgba(232,160,32,0.12)' },
     chapter3: { line: '#34c468', bg: 'rgba(52,196,104,0.12)' },
+    chapter4: { line: '#e05c5c', bg: 'rgba(224,92,92,0.12)' },
 };
 
 async function init() {
@@ -60,6 +62,7 @@ async function renderStats() {
         chapter1: (data.chapter1 || []).map(Number),
         chapter2: (data.chapter2 || []).map(Number),
         chapter3: (data.chapter3 || []).map(Number),
+        chapter4: (data.chapter4 || []).map(Number),
     };
 
     const hasData = Object.values(byChapter).some(arr => arr.length > 0);
