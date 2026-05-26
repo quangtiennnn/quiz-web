@@ -1,0 +1,452 @@
+[
+  {
+    "question": "What is a parity block?",
+    "true": "A horizontal and vertical parity check on a block of data, which can identify the location of a transmission error",
+    "wrong": [
+      "A block of data encrypted using parity bits",
+      "A checksum calculated from all bytes in a transmission",
+      "An ARQ method that requests retransmission on error"
+    ]
+  },
+  {
+    "question": "How does anti-spyware software identify spyware?",
+    "true": "Either based on rules looking for typical spyware features, or based on known file structures that identify common spyware programs",
+    "wrong": [
+      "By comparing file sizes against a database",
+      "By scanning only executable files for known signatures",
+      "By monitoring CPU usage for abnormal patterns"
+    ]
+  },
+  {
+    "question": "What is the approximate accuracy of retina scan biometrics?",
+    "true": "About 1 in 10 million",
+    "wrong": [
+      "About 1 in 500",
+      "About 1 in 1,000",
+      "About 1 in 100,000"
+    ]
+  },
+  {
+    "question": "Which of these is a task carried out by a firewall?",
+    "true": "Logging all incoming and outgoing traffic to allow later interrogation",
+    "wrong": [
+      "Encrypting files stored on the hard disk",
+      "Scanning emails for phishing content",
+      "Backing up data to cloud storage"
+    ]
+  },
+  {
+    "question": "What is malware?",
+    "true": "Malicious software that seeks to damage or gain unauthorised access to a computer system",
+    "wrong": [
+      "Software used to test a system's security with permission",
+      "Any software that consumes excessive memory",
+      "Software that monitors keyboard input for research"
+    ]
+  },
+  {
+    "question": "What does a timeout mean in ARQ?",
+    "true": "The time interval allowed to elapse before an acknowledgement is received",
+    "wrong": [
+      "The maximum number of times data can be retransmitted",
+      "The time taken to calculate a checksum",
+      "The delay caused by parity checking at the receiver"
+    ]
+  },
+  {
+    "question": "Which of these is a characteristic of a strong password?",
+    "true": "Contains at least one capital letter, one numerical value and one special character",
+    "wrong": [
+      "Contains only letters and is easy to remember",
+      "Is at least 20 characters of the same type",
+      "Uses a date of birth for easy recall"
+    ]
+  },
+  {
+    "question": "What is biometrics?",
+    "true": "Use of unique human characteristics such as fingerprints or face recognition to identify a user",
+    "wrong": [
+      "Use of strong passwords with special characters",
+      "Use of digital signatures to authenticate emails",
+      "Use of encryption keys to protect data files"
+    ]
+  },
+  {
+    "question": "What is pharming?",
+    "true": "Malicious code installed on a user's computer or web server that redirects users to a fake website without their knowledge",
+    "wrong": [
+      "Sending fake emails that appear to come from a trusted source",
+      "Installing spyware that monitors keyboard input",
+      "Creating fake social media profiles to steal personal data"
+    ]
+  },
+  {
+    "question": "What should be used to protect against data loss caused by a hardware fault such as a power loss?",
+    "true": "An uninterruptable power supply (USP) and regular backups",
+    "wrong": [
+      "Running antivirus software continuously",
+      "Using a firewall to monitor hardware components",
+      "Encrypting all data on the hard drive"
+    ]
+  },
+  {
+    "question": "What does a type check validation test do?",
+    "true": "Checks whether non-numeric data has been entered into a numeric-only field",
+    "wrong": [
+      "Checks whether data is between a lower and upper limit",
+      "Checks whether a required field has been left empty",
+      "Checks whether data matches a specific format"
+    ]
+  },
+  {
+    "question": "In even parity, what is required of the number of 1-bits in a byte?",
+    "true": "An even number of 1-bits",
+    "wrong": [
+      "An odd number of 1-bits",
+      "At least four 1-bits",
+      "Exactly eight 1-bits"
+    ]
+  },
+  {
+    "question": "What does anti-spyware software do in relation to password security?",
+    "true": "Ensures passwords are not being relayed to whoever put spyware on the computer",
+    "wrong": [
+      "Encrypts passwords before storing them",
+      "Generates strong passwords automatically",
+      "Backs up passwords to a secure server"
+    ]
+  },
+  {
+    "question": "What is a check digit?",
+    "true": "An additional digit appended to a number to verify that entered data is error free",
+    "wrong": [
+      "A digit used in encryption to scramble data",
+      "A parity bit added to each byte of transmitted data",
+      "A checksum calculated from a block of transmitted data"
+    ]
+  },
+  {
+    "question": "What does a presence check validation test do?",
+    "true": "Checks to make sure a field is not left empty when it should contain data",
+    "wrong": [
+      "Checks whether data has the required number of characters",
+      "Checks whether data is between two limits",
+      "Checks whether data matches an agreed format"
+    ]
+  },
+  {
+    "question": "Which symbol in a browser's address bar suggests a website connection is encrypted?",
+    "true": "A green padlock symbol and/or https",
+    "wrong": [
+      "A blue shield icon",
+      "A red warning triangle",
+      "A yellow key symbol"
+    ]
+  },
+  {
+    "question": "What is data privacy?",
+    "true": "The privacy of personal information stored on a computer that should not be accessed by unauthorised parties",
+    "wrong": [
+      "Methods taken to prevent unauthorised access to data",
+      "Laws which govern how data should be kept private",
+      "The accuracy, completeness and consistency of data"
+    ]
+  },
+  {
+    "question": "What is encryption used for in data security?",
+    "true": "Making data virtually impossible to understand without the correct decryption key if accessed illegally",
+    "wrong": [
+      "Preventing unauthorised users from logging into a computer",
+      "Scanning files for virus infections",
+      "Backing up data to a remote location"
+    ]
+  },
+  {
+    "question": "How many guiding principles do data protection laws follow?",
+    "true": "Eight",
+    "wrong": [
+      "Five",
+      "Ten",
+      "Three"
+    ]
+  },
+  {
+    "question": "What is DNS cache poisoning?",
+    "true": "Altering IP addresses on a DNS server to redirect users to a fake website",
+    "wrong": [
+      "Sending fake emails that contain malicious links",
+      "Installing keylogging software on a user's computer",
+      "Encrypting DNS traffic to prevent interception"
+    ]
+  },
+  {
+    "question": "What is a primary defence purpose of a firewall?",
+    "true": "To protect from hacking, malware, phishing and pharming",
+    "wrong": [
+      "To compress files before transmission",
+      "To defragment the hard disk",
+      "To manage memory allocation for applications"
+    ]
+  },
+  {
+    "question": "What is a parity bit?",
+    "true": "An extra bit found at the end of a byte that is set to ensure the byte conforms to the agreed parity protocol",
+    "wrong": [
+      "An additional digit used to verify manually entered data",
+      "A checksum calculated from a block of transmitted data",
+      "A bit used to encrypt data before transmission"
+    ]
+  },
+  {
+    "question": "What is double entry verification?",
+    "true": "Data is entered twice, using two different people, and then compared",
+    "wrong": [
+      "Data is entered once and then automatically checked by software",
+      "Data is checked against a database of known valid values",
+      "Data is printed and compared to the original document"
+    ]
+  },
+  {
+    "question": "What is a worm?",
+    "true": "A stand-alone virus that can replicate itself with the intention of spreading to other computers, often using networks",
+    "wrong": [
+      "Malicious code activated on a specific date to delete files",
+      "A program disguised as legitimate software that causes harm",
+      "Software that monitors key presses and sends data to a hacker"
+    ]
+  },
+  {
+    "question": "What is authentication?",
+    "true": "A way of proving somebody or something is who or what they claim to be",
+    "wrong": [
+      "The use of encryption keys to make data meaningless",
+      "Software that monitors incoming and outgoing network traffic",
+      "The use of access levels to restrict data access"
+    ]
+  },
+  {
+    "question": "What is a firewall?",
+    "true": "Software or hardware that sits between a computer and external network, monitoring and filtering all incoming and outgoing activities",
+    "wrong": [
+      "Software that scans files for known viruses",
+      "Hardware that stores encrypted copies of data",
+      "Software that backs up files automatically"
+    ]
+  },
+  {
+    "question": "What is the key difference between phishing and pharming?",
+    "true": "Phishing requires the user to take an action (e.g. click a link); pharming redirects the user without any action required",
+    "wrong": [
+      "Phishing uses fake websites; pharming uses fake emails",
+      "Pharming only affects mobile devices; phishing affects computers",
+      "Phishing involves DNS poisoning; pharming involves emails"
+    ]
+  },
+  {
+    "question": "Which data protection principle covers transferring data to another country?",
+    "true": "Data must not be transferred to another country unless that country also has adequate protection",
+    "wrong": [
+      "Data must be fairly and lawfully processed",
+      "Data must not be kept longer than necessary",
+      "Data must be processed in accordance with the data subject's rights"
+    ]
+  },
+  {
+    "question": "Which data protection principle states data must not be kept longer than necessary?",
+    "true": "Principle 5",
+    "wrong": [
+      "Principle 2",
+      "Principle 7",
+      "Principle 3"
+    ]
+  },
+  {
+    "question": "What is validation?",
+    "true": "A method used to ensure entered data is reasonable and meets certain input criteria",
+    "wrong": [
+      "A method of entering data twice to check for errors",
+      "Comparing entered data to the original paper document",
+      "Encrypting data before it is stored on a computer"
+    ]
+  },
+  {
+    "question": "What does a consistency check do?",
+    "true": "Checks whether data in two or more fields match up correctly, e.g. title and sex fields",
+    "wrong": [
+      "Checks that each entered value is unique",
+      "Checks whether data is within a specified range",
+      "Checks whether a file or data actually exists"
+    ]
+  },
+  {
+    "question": "Why should passwords be changed frequently?",
+    "true": "In case they have been seen by someone else, illegally or accidentally",
+    "wrong": [
+      "To prevent the computer from crashing",
+      "Because passwords expire after a set number of uses",
+      "To improve processing speed on the computer"
+    ]
+  },
+  {
+    "question": "What is a logic bomb?",
+    "true": "Code embedded in a program that is activated when certain conditions are met, such as a specific date, to carry out harmful tasks",
+    "wrong": [
+      "A virus that replicates and spreads through a network",
+      "A program disguised as legitimate software",
+      "Software that gathers personal data by monitoring keystrokes"
+    ]
+  },
+  {
+    "question": "What is verification?",
+    "true": "A method used to ensure data is correct by using double entry or visual checks",
+    "wrong": [
+      "Checking if entered data is reasonable and within given criteria",
+      "Encrypting data to prevent unauthorised access",
+      "Using checksums to verify data transmission"
+    ]
+  },
+  {
+    "question": "What is the purpose of user accounts?",
+    "true": "To authenticate a user and control access rights to data and systems",
+    "wrong": [
+      "To encrypt data on the hard drive",
+      "To scan for viruses on the computer",
+      "To defragment the hard disk automatically"
+    ]
+  },
+  {
+    "question": "What is a checksum?",
+    "true": "A verification method used to check if data transferred has been altered or corrupted, calculated from the block of data sent",
+    "wrong": [
+      "An additional digit appended to a number for verification",
+      "A parity bit added to each byte of data",
+      "A method of doubling data entry to check for errors"
+    ]
+  },
+  {
+    "question": "What is a limitation of a simple parity check?",
+    "true": "If two bits change during transmission, the error may not be detected as parity may still appear correct",
+    "wrong": [
+      "It can only be applied to blocks of 8 bytes",
+      "It requires the sender and receiver to share a secret key",
+      "It cannot detect single bit errors in transmitted data"
+    ]
+  },
+  {
+    "question": "What is a Trojan horse?",
+    "true": "Malicious programs often disguised as legitimate software that replace all or part of the software to cause harm",
+    "wrong": [
+      "A stand-alone virus that spreads across networks",
+      "Code activated on a specific date to delete files",
+      "Software that monitors keyboard input for key logging"
+    ]
+  },
+  {
+    "question": "What is malicious hacking?",
+    "true": "Illegal access to a computer system without the user's permission, intending to delete, alter or corrupt files or steal personal data",
+    "wrong": [
+      "Hacking authorised by a company to test security",
+      "Accessing a computer system using a default password",
+      "Downloading files from an unencrypted website"
+    ]
+  },
+  {
+    "question": "In modulo-11, what is used if the calculated check digit value is 10?",
+    "true": "X",
+    "wrong": [
+      "0",
+      "11",
+      "The letter O"
+    ]
+  },
+  {
+    "question": "Why might backing up data not be suitable for recovery after a virus infection?",
+    "true": "The backed up data may contain strands of the virus which could re-infect the cleaned computer",
+    "wrong": [
+      "Backups are always stored in compressed format that viruses can destroy",
+      "Antivirus software cannot scan backup files",
+      "Backup software itself may be infected by the virus"
+    ]
+  },
+  {
+    "question": "What is ethical hacking?",
+    "true": "Authorised hacking done with a company's permission to check security measures, with a fee paid to the hacker",
+    "wrong": [
+      "Hacking done by law enforcement agencies",
+      "Hacking that only reads data without modifying it",
+      "Hacking performed by the computer owner on their own system"
+    ]
+  },
+  {
+    "question": "What is the approximate accuracy of fingerprint scan biometrics?",
+    "true": "About 1 in 500",
+    "wrong": [
+      "About 1 in 10 million",
+      "About 1 in 100",
+      "About 1 in 50,000"
+    ]
+  },
+  {
+    "question": "What is the difference between a range check and a limit check?",
+    "true": "A range check tests both upper and lower limits; a limit check tests only one limit",
+    "wrong": [
+      "A range check is for numbers only; a limit check is for text",
+      "A limit check is more precise than a range check",
+      "A range check only tests the upper limit; a limit check tests both"
+    ]
+  },
+  {
+    "question": "What is a limitation of a firewall?",
+    "true": "It cannot prevent individuals on internal networks using their own modems to bypass it",
+    "wrong": [
+      "It cannot detect viruses in downloaded files",
+      "It cannot block websites by IP address",
+      "It cannot monitor outgoing traffic"
+    ]
+  },
+  {
+    "question": "What is data integrity?",
+    "true": "The accuracy, completeness and consistency of data",
+    "wrong": [
+      "Methods used to prevent unauthorised access to data",
+      "The privacy of personal information on a computer",
+      "A way of proving a user is who they claim to be"
+    ]
+  },
+  {
+    "question": "When a firewall is a hardware interface between the computer and the internet, what is it often called?",
+    "true": "A gateway",
+    "wrong": [
+      "A proxy",
+      "A router",
+      "A bridge"
+    ]
+  },
+  {
+    "question": "What is spyware?",
+    "true": "Software that gathers information by monitoring key presses and sends it back to the person who installed it",
+    "wrong": [
+      "Programs that replicate themselves and spread across networks",
+      "Code activated by conditions such as a specific date",
+      "Malicious programs disguised as legitimate software"
+    ]
+  },
+  {
+    "question": "Which of these errors can a check digit detect?",
+    "true": "A transposition error where two numbers have been swapped",
+    "wrong": [
+      "A parity error in transmitted binary data",
+      "A virus infection modifying stored data",
+      "A software fault causing data corruption"
+    ]
+  },
+  {
+    "question": "What is ARQ (Automatic Repeat Request)?",
+    "true": "A verification method where the receiving device requests retransmission of data if an error is detected, using acknowledgements and timeouts",
+    "wrong": [
+      "A method of encrypting data using repeated keys",
+      "A checksum algorithm that calculates data integrity",
+      "A parity checking method that works on blocks of data"
+    ]
+  }
+]

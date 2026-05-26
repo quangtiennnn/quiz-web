@@ -1,11 +1,13 @@
 let selectedChapter = null;
 
 const CHAPTERS = [
-    { key: 'chapter1', label: 'Chapter 1', icon: '📘' },
-    { key: 'chapter2', label: 'Chapter 2', icon: '📗' },
-    { key: 'chapter3', label: 'Chapter 3', icon: '📙' },
-    { key: 'chapter4', label: 'Chapter 4', icon: '📕' },
-    { key: 'mixed',    label: 'Mixed',     icon: '🎲' },
+    { key: 'chapter1', file: 'chapter1', label: 'Information representation and multimedia', icon: '📘' },
+    { key: 'chapter2', file: 'chapter2', label: 'Communication', icon: '📗' },
+    { key: 'chapter3', file: 'chapter3', label: 'Hardware', icon: '📙' },
+    { key: 'chapter4', file: 'chapter4', label: 'Processor fundamentals', icon: '📕' },
+    { key: 'chapter5', file: 'chapter5', label: 'System software', icon: '📓' },
+    { key: 'chapter6', file: 'chapter6', label: 'Security, privacy and data integrity', icon: '📔' },
+    { key: 'mixed',    file: 'mixed',    label: 'Mixed', icon: '🎲' },
 ];
 
 const CHART_COLORS = {
@@ -13,6 +15,8 @@ const CHART_COLORS = {
     chapter2: { line: '#e8a020', bg: 'rgba(232,160,32,0.12)' },
     chapter3: { line: '#34c468', bg: 'rgba(52,196,104,0.12)' },
     chapter4: { line: '#e05c5c', bg: 'rgba(224,92,92,0.12)' },
+    chapter5: { line: '#a855f7', bg: 'rgba(168,85,247,0.12)' },
+    chapter6: { line: '#14b8a6', bg: 'rgba(20,184,166,0.12)' },
 };
 
 async function init() {
@@ -37,7 +41,7 @@ function renderChapterCards(status) {
             <div class="chapter-name">${ch.label}</div>
             <div class="chapter-count">${available ? count + ' questions' : 'Coming soon'}</div>
         `;
-        if (available) card.onclick = () => selectChapter(ch.key, card);
+        if (available) card.onclick = () => selectChapter(ch.file, card);
         grid.appendChild(card);
     });
 }
@@ -63,6 +67,8 @@ async function renderStats() {
         chapter2: (data.chapter2 || []).map(Number),
         chapter3: (data.chapter3 || []).map(Number),
         chapter4: (data.chapter4 || []).map(Number),
+        chapter5: (data.chapter5 || []).map(Number),
+        chapter6: (data.chapter6 || []).map(Number),
     };
 
     const hasData = Object.values(byChapter).some(arr => arr.length > 0);

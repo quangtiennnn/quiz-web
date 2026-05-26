@@ -1,0 +1,452 @@
+[
+  {
+    "question": "What is a false positive in antivirus software?",
+    "true": "A file identified by a virus checker as infected when the user knows it is not actually infected",
+    "wrong": [
+      "A virus that escapes detection by the antivirus software",
+      "A virus database that is out of date",
+      "A quarantined file that contains a real virus"
+    ]
+  },
+  {
+    "question": "What is heuristic checking in antivirus software?",
+    "true": "Checking software for behaviour that could indicate a possible virus, useful for viruses not yet in the database",
+    "wrong": [
+      "Comparing files against a list of known virus signatures only",
+      "Scanning all incoming emails for attachments",
+      "Deleting any file that has been modified recently"
+    ]
+  },
+  {
+    "question": "What is the purpose of memory protection?",
+    "true": "Ensures that two competing applications cannot use the same memory locations at the same time",
+    "wrong": [
+      "Prevents the OS from being deleted",
+      "Encrypts data stored in RAM",
+      "Stops viruses from accessing the CPU"
+    ]
+  },
+  {
+    "question": "What is a risk of using DLL files?",
+    "true": "Malicious changes to DLL files could lead to the main program giving unexpected results or crashing",
+    "wrong": [
+      "The program file becomes too large to execute",
+      "DLL files cannot be shared between applications",
+      "The program must be recompiled every time a DLL file is used"
+    ]
+  },
+  {
+    "question": "What is segmented memory?",
+    "true": "Memory where blocks are not contiguous — each segment is a logical grouping of data",
+    "wrong": [
+      "Memory divided into equally-sized fixed partitions",
+      "Memory allocated entirely to one application",
+      "Memory that is swapped to and from the HDD"
+    ]
+  },
+  {
+    "question": "What is the function of security management in an OS?",
+    "true": "To ensure the integrity, confidentiality and availability of data",
+    "wrong": [
+      "To manage the speed of the CPU",
+      "To organise files on the hard disk",
+      "To allocate memory to running processes"
+    ]
+  },
+  {
+    "question": "Which of these is a security management task of the OS?",
+    "true": "Maintaining access rights for all users",
+    "wrong": [
+      "Defragmenting the hard disk",
+      "Compressing files for storage",
+      "Allocating memory partitions to applications"
+    ]
+  },
+  {
+    "question": "What does memory optimisation determine?",
+    "true": "How computer memory is allocated and deallocated when multiple applications run simultaneously",
+    "wrong": [
+      "The maximum size a file can be",
+      "The number of CPU cores used",
+      "How fast RAM can be accessed"
+    ]
+  },
+  {
+    "question": "What is the advantage of CLI over GUI?",
+    "true": "The user is in direct communication with the computer and is not restricted to pre-determined options",
+    "wrong": [
+      "It is easier to learn for beginners",
+      "It uses less memory than a GUI",
+      "It provides faster graphical rendering"
+    ]
+  },
+  {
+    "question": "What is process management?",
+    "true": "Involves allocation of resources and permits the sharing and exchange of data, keeping all processes synchronised",
+    "wrong": [
+      "Controls all input and output devices",
+      "Manages files on the hard disk",
+      "Allocates memory to applications only"
+    ]
+  },
+  {
+    "question": "What does a report window in an IDE show?",
+    "true": "The contents of variables and expressions at a particular point during program execution",
+    "wrong": [
+      "A list of all syntax errors in the program",
+      "The compiled machine code output",
+      "A log of all keystrokes entered during execution"
+    ]
+  },
+  {
+    "question": "What does Mac OS Time Machine do when the backup drive is almost full?",
+    "true": "Deletes the oldest backups and replaces them with the newest backup data",
+    "wrong": [
+      "Stops backing up until the drive is manually cleared",
+      "Compresses old backups to make space",
+      "Moves old backups to cloud storage automatically"
+    ]
+  },
+  {
+    "question": "What is a library routine?",
+    "true": "A tested and ready-to-use routine that can be incorporated into a program under development",
+    "wrong": [
+      "A program that manages the program library files",
+      "A type of dynamic link library stored in ROM",
+      "A compiler routine used to translate source code"
+    ]
+  },
+  {
+    "question": "What is bytecode?",
+    "true": "A low-level machine-independent intermediate code produced by a compiler that is then interpreted",
+    "wrong": [
+      "The final machine code produced by a compiler",
+      "A type of assembly language used by microcontrollers",
+      "Source code that has been partially optimised by a compiler"
+    ]
+  },
+  {
+    "question": "How many versions of a file should exist for total security?",
+    "true": "Three: the working version, a local backup, and a remote backup",
+    "wrong": [
+      "Two: the working version and one local backup",
+      "Four: working, local, remote and cloud",
+      "One: stored on a cloud service only"
+    ]
+  },
+  {
+    "question": "What is a breakpoint?",
+    "true": "A deliberate pause in program execution during testing so that variable contents can be inspected",
+    "wrong": [
+      "An error that causes the program to crash",
+      "A line of code that the compiler skips",
+      "A point where the program waits for user input"
+    ]
+  },
+  {
+    "question": "What is quarantine in antivirus software?",
+    "true": "Isolating a file or program identified as possibly infected before it is deleted",
+    "wrong": [
+      "Permanently deleting all suspicious files immediately",
+      "Blocking internet access when a virus is found",
+      "Running the suspected file in a sandboxed environment"
+    ]
+  },
+  {
+    "question": "What is a FENCE in memory protection?",
+    "true": "A boundary that defines the upper limit of addresses available to each application and separates the OS from applications",
+    "wrong": [
+      "A type of firewall for memory access",
+      "A fixed-size memory partition",
+      "A register that stores the last memory address used"
+    ]
+  },
+  {
+    "question": "What is a hard bad sector?",
+    "true": "A sector that is physically damaged, for example by manufacturing errors or the read-write head touching the disk",
+    "wrong": [
+      "A sector corrupted by sudden loss of power",
+      "A sector damaged by static electricity",
+      "A sector corrupted by a software crash"
+    ]
+  },
+  {
+    "question": "What is an advantage of a compiler over an interpreter?",
+    "true": "Compiled programs take less time to execute as translation is already done and code may be optimised",
+    "wrong": [
+      "A compiler can correct logic errors automatically",
+      "Compiled programs are easier to debug during development",
+      "A compiler allows partial results to be viewed during development"
+    ]
+  },
+  {
+    "question": "What is the key difference between static and dynamic libraries?",
+    "true": "Static libraries embed routines into the program at compilation; dynamic libraries link routines only at run time",
+    "wrong": [
+      "Static libraries are faster than dynamic libraries",
+      "Dynamic libraries are stored in ROM; static libraries in RAM",
+      "Static libraries require the internet; dynamic libraries do not"
+    ]
+  },
+  {
+    "question": "Which memory organisation method uses all memory for a single application?",
+    "true": "Single (contiguous) allocation",
+    "wrong": [
+      "Paged memory",
+      "Segmented memory",
+      "Partitioned allocation"
+    ]
+  },
+  {
+    "question": "What is prettyprinting in an IDE?",
+    "true": "The practice of displaying well-formatted and colour-coded source code to make it easier to read",
+    "wrong": [
+      "Printing source code with line numbers to paper",
+      "Converting source code to a PDF document",
+      "Automatically fixing indentation errors in code"
+    ]
+  },
+  {
+    "question": "What does a disk formatter do?",
+    "true": "Prepares a disk to allow data and files to be stored and retrieved",
+    "wrong": [
+      "Compresses files to save space",
+      "Removes viruses from the disk",
+      "Reorganises sectors into contiguous blocks"
+    ]
+  },
+  {
+    "question": "What is a compiler?",
+    "true": "A program that translates a source program written in a high-level language into machine code or object code",
+    "wrong": [
+      "A program that executes high-level language code line by line",
+      "A program that translates assembly language into machine code",
+      "A program that checks source code for logic errors only"
+    ]
+  },
+  {
+    "question": "Why does defragmentation improve hard disk performance?",
+    "true": "Files are stored in contiguous sectors, reducing the number of read-write head movements needed",
+    "wrong": [
+      "It deletes duplicate files to free up space",
+      "It compresses files to make them smaller",
+      "It repairs bad sectors on the disk surface"
+    ]
+  },
+  {
+    "question": "What does the printer management system send to the printer queue?",
+    "true": "Data if the printer is busy or the print job has a low priority",
+    "wrong": [
+      "Error messages and interrupts",
+      "Device driver instructions",
+      "Formatted disk sectors"
+    ]
+  },
+  {
+    "question": "What type of memory organisation uses fixed-size partitions and is used by virtual memory systems?",
+    "true": "Paged memory",
+    "wrong": [
+      "Segmented memory",
+      "Contiguous allocation",
+      "Partitioned allocation with variable sizes"
+    ]
+  },
+  {
+    "question": "Where is BIOS configuration stored in modern computers?",
+    "true": "CMOS memory",
+    "wrong": [
+      "ROM chip",
+      "Flash memory chip",
+      "RAM"
+    ]
+  },
+  {
+    "question": "What happens during full NTFS formatting?",
+    "true": "All disk sectors are filled with zeros and read back to test them, but any existing data is lost",
+    "wrong": [
+      "Only the directory is deleted",
+      "Bad sectors are repaired automatically",
+      "Files are compressed and reorganised"
+    ]
+  },
+  {
+    "question": "What is an advantage of an interpreter over a compiler?",
+    "true": "Errors can be corrected on each line and the program restarted from that point, making debugging easier",
+    "wrong": [
+      "Interpreted programs run faster than compiled programs",
+      "The end user does not need to install any additional software",
+      "Interpreted programs cannot cause the computer to crash"
+    ]
+  },
+  {
+    "question": "What does disk content analysis software do?",
+    "true": "Checks disk drives for empty space and disk usage by reviewing files and folders",
+    "wrong": [
+      "Repairs bad sectors on the hard disk",
+      "Reorganises fragmented files into contiguous blocks",
+      "Scans files for virus infections"
+    ]
+  },
+  {
+    "question": "Are high-level language programs machine dependent?",
+    "true": "No — they are machine independent and portable across different computers",
+    "wrong": [
+      "Yes — each computer needs its own version",
+      "Only if compiled, not if interpreted",
+      "Yes — they require a specific operating system"
+    ]
+  },
+  {
+    "question": "What is an Integrated Development Environment (IDE)?",
+    "true": "A suite of programs used to write and test a computer program in a high-level language",
+    "wrong": [
+      "A type of compiler for assembly language",
+      "A program that converts bytecode to machine code",
+      "An operating system feature for managing files"
+    ]
+  },
+  {
+    "question": "What type of error can only be found when the program is run, not during syntax checking?",
+    "true": "Logic errors",
+    "wrong": [
+      "Syntax errors",
+      "Semantic errors",
+      "Compilation errors"
+    ]
+  },
+  {
+    "question": "What is an advantage of using DLL files?",
+    "true": "The executable code of the main program is smaller since DLL files are only loaded into memory at run time",
+    "wrong": [
+      "The program runs without needing any operating system",
+      "DLL files are embedded directly into the program code",
+      "The program can run without any library files being present"
+    ]
+  },
+  {
+    "question": "What does CMOS stand for?",
+    "true": "Complementary metal-oxide semiconductor",
+    "wrong": [
+      "Central memory operating system",
+      "Core memory output storage",
+      "Complementary microprocessor output system"
+    ]
+  },
+  {
+    "question": "Which languages use a combination of partial compilation and interpretation via bytecode?",
+    "true": "Java and Python",
+    "wrong": [
+      "C and C++",
+      "Assembly language and BASIC",
+      "HTML and CSS"
+    ]
+  },
+  {
+    "question": "Which of these is a task of file management?",
+    "true": "Maintaining directory structures",
+    "wrong": [
+      "Allocating CPU time to processes",
+      "Managing virtual memory",
+      "Controlling printer queues"
+    ]
+  },
+  {
+    "question": "What does an operating system provide?",
+    "true": "An environment in which applications can run and an interface between hardware and human operators",
+    "wrong": [
+      "Only a graphical user interface for users",
+      "A set of application programs for the user",
+      "Direct access to CPU registers for programmers"
+    ]
+  },
+  {
+    "question": "Why is only part of the operating system copied into RAM at startup?",
+    "true": "Operating systems are now so large that loading it all would seriously affect computer performance",
+    "wrong": [
+      "The rest is stored permanently in the CPU",
+      "The remaining parts are not needed",
+      "RAM cannot store program code"
+    ]
+  },
+  {
+    "question": "What does WIMP stand for?",
+    "true": "Windows, icons, menu and pointing device",
+    "wrong": [
+      "Windows, input, memory and processing",
+      "Web, icons, mouse and pointer",
+      "Windowed interface with menu and pointer"
+    ]
+  },
+  {
+    "question": "Why is defragmentation less of a problem for SSDs than HDDs?",
+    "true": "SSDs access data differently and do not rely on physical head movements",
+    "wrong": [
+      "SSDs automatically defragment in the background",
+      "SSDs use NTFS formatting which prevents fragmentation",
+      "SSDs store all files contiguously by design"
+    ]
+  },
+  {
+    "question": "Why is it dangerous to uninstall disk compression software?",
+    "true": "Any previously compressed data on the disk would become unreadable",
+    "wrong": [
+      "The OS would crash without it",
+      "All files would be deleted",
+      "The hard disk would need reformatting"
+    ]
+  },
+  {
+    "question": "What is an interpreter?",
+    "true": "A program that analyses and executes a high-level language program line by line",
+    "wrong": [
+      "A program that translates the whole program before execution",
+      "A program that converts assembly language to machine code",
+      "A program that stores object code for later use"
+    ]
+  },
+  {
+    "question": "What are the three parts of memory management?",
+    "true": "Memory optimisation, memory organisation and memory protection",
+    "wrong": [
+      "Memory allocation, memory cache and memory backup",
+      "Memory paging, memory swapping and memory compression",
+      "Memory input, memory output and memory security"
+    ]
+  },
+  {
+    "question": "What is a post-WIMP interface?",
+    "true": "An interface that goes beyond WIMP and uses touch screen technology rather than a pointing device",
+    "wrong": [
+      "An updated version of WIMP with more menus",
+      "A CLI that uses icons instead of commands",
+      "A WIMP interface with voice recognition added"
+    ]
+  },
+  {
+    "question": "What is single stepping in a debugger?",
+    "true": "Running a program one line or instruction at a time to allow inspection of the program state",
+    "wrong": [
+      "Jumping to the next breakpoint in the program",
+      "Running the program at reduced clock speed",
+      "Compiling one function at a time"
+    ]
+  },
+  {
+    "question": "What is a device driver?",
+    "true": "Software that communicates with the OS and translates data into a format understood by the device",
+    "wrong": [
+      "Hardware that connects devices to the computer",
+      "A program that formats the hard disk",
+      "An interrupt handler for peripheral devices"
+    ]
+  },
+  {
+    "question": "What is dynamic syntax checking?",
+    "true": "Finding possible syntax errors as the program code is being typed, alerting the programmer before the program is run",
+    "wrong": [
+      "Checking the logic of the program at run time",
+      "Running the full program and reporting all errors at once",
+      "Checking that variable names match their declared types"
+    ]
+  }
+]

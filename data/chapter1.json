@@ -1,142 +1,12 @@
 [
   {
-    "id": 1,
-    "question": "What is the fundamental reason why computer systems use the binary number system?",
-    "true": "Computers contain millions of switches that can only be in an ON or OFF state, mapping naturally to 1 and 0",
+    "id": 82,
+    "question": "A student argues that increasing the colour depth of a bit-map image always improves its visual quality. Under what condition would this NOT visibly improve quality?",
+    "true": "When the image already contains fewer unique colours than the current colour depth can represent, additional bits provide no visible benefit",
     "wrong": [
-      "Binary is easier for humans to read and understand than denary",
-      "Binary requires more storage space, making memory management more efficient",
-      "Binary was chosen arbitrarily by early computer designers"
-    ]
-  },
-  {
-    "id": 2,
-    "question": "In two's complement representation using 8 bits, what is the column weighting of the leftmost (most significant) bit?",
-    "true": "-128",
-    "wrong": [
-      "+128",
-      "-127",
-      "+256"
-    ]
-  },
-  {
-    "id": 3,
-    "question": "What is the correct procedure for converting a positive binary number into its negative equivalent using two's complement?",
-    "true": "Invert all bits and then add 1 to the rightmost bit",
-    "wrong": [
-      "Add 1 to the leftmost bit only",
-      "Invert all bits only, without adding 1",
-      "Replace the leftmost bit with 1 to indicate a negative sign"
-    ]
-  },
-  {
-    "id": 4,
-    "question": "Binary overflow occurs in 8-bit two's complement arithmetic when:",
-    "true": "The result of an addition falls outside the range –128 to +127",
-    "wrong": [
-      "The result of any subtraction produces a negative number",
-      "The ninth bit position is ever used in a calculation",
-      "Two negative numbers are added together"
-    ]
-  },
-  {
-    "id": 5,
-    "question": "Why is two's complement preferred over one's complement for representing negative numbers in modern computers?",
-    "true": "Two's complement makes binary addition and subtraction more straightforward and avoids the problem of two representations for zero",
-    "wrong": [
-      "Two's complement uses fewer bits than one's complement",
-      "One's complement cannot represent negative numbers at all",
-      "Two's complement allows a larger range of positive numbers"
-    ]
-  },
-  {
-    "id": 6,
-    "question": "When performing binary subtraction of A − B, the two's complement method requires:",
-    "true": "Converting B to its two's complement (negative) form and then adding it to A",
-    "wrong": [
-      "Converting A to its two's complement form and subtracting B",
-      "Inverting all bits of A and then adding B",
-      "Converting both A and B to two's complement before subtracting"
-    ]
-  },
-  {
-    "id": 7,
-    "question": "In one's complement, the binary number 01011010 (denary value 90) becomes:",
-    "true": "10100101 representing −90",
-    "wrong": [
-      "10100110 representing −90",
-      "01011011 representing −90",
-      "11011010 representing −90"
-    ]
-  },
-  {
-    "id": 8,
-    "question": "What is the maximum positive value that can be stored in an 8-bit two's complement representation?",
-    "true": "+127",
-    "wrong": [
-      "+128",
-      "+255",
-      "+256"
-    ]
-  },
-  {
-    "id": 9,
-    "question": "The hexadecimal system is considered closely related to binary because:",
-    "true": "16 equals 2⁴, meaning exactly four binary digits correspond to one hexadecimal digit",
-    "wrong": [
-      "Both systems use only the digits 0 and 1",
-      "Hexadecimal uses base 8 which is a multiple of binary base 2",
-      "Both systems were developed at the same time for the same purpose"
-    ]
-  },
-  {
-    "id": 10,
-    "question": "What is the hexadecimal representation of the binary number 10110101101001000001101011111100?",
-    "true": "B5A41AFC",
-    "wrong": [
-      "A4B51AFC",
-      "B5A41ADF",
-      "C5A41BFC"
-    ]
-  },
-  {
-    "id": 11,
-    "question": "A memory dump displayed in hexadecimal notation is used primarily to:",
-    "true": "Help developers trace errors by showing memory contents in a more manageable form than binary",
-    "wrong": [
-      "Increase the speed of program execution by pre-loading instructions",
-      "Encrypt the contents of memory to prevent unauthorised access",
-      "Convert denary values into binary for faster processing"
-    ]
-  },
-  {
-    "id": 12,
-    "question": "When converting a hexadecimal number to binary, the correct method is:",
-    "true": "Replace each hexadecimal digit with its corresponding 4-bit binary code",
-    "wrong": [
-      "Divide the hexadecimal number by 2 repeatedly and record the remainders",
-      "Convert the hexadecimal number to denary first, then convert to binary",
-      "Split the hexadecimal into pairs of digits and convert each pair to 8 bits"
-    ]
-  },
-  {
-    "id": 13,
-    "question": "The hexadecimal digit 'F' represents what denary value?",
-    "true": "15",
-    "wrong": [
-      "14",
-      "16",
-      "12"
-    ]
-  },
-  {
-    "id": 14,
-    "question": "When converting a long binary number into hexadecimal, you should group the bits starting from:",
-    "true": "The rightmost (least significant) end, moving left in groups of 4",
-    "wrong": [
-      "The leftmost (most significant) end, moving right in groups of 4",
-      "The middle of the binary number, working outward",
-      "Any convenient position, as long as all groups contain 4 bits"
+      "When the image is smaller than 1 megabyte in file size",
+      "When the image is being displayed on a monochrome monitor",
+      "When the colour depth exceeds 8 bits per pixel, further increases are never visible"
     ]
   },
   {
@@ -150,793 +20,13 @@
     ]
   },
   {
-    "id": 16,
-    "question": "The Binary-Coded Decimal (BCD) system represents each denary digit using:",
-    "true": "4 bits per denary digit",
-    "wrong": [
-      "8 bits per denary digit",
-      "1 bit per denary digit",
-      "7 bits per denary digit"
-    ]
-  },
-  {
-    "id": 17,
-    "question": "What is the BCD representation of the denary number 3165?",
-    "true": "0011 0001 0110 0101",
-    "wrong": [
-      "0011 0001 0101 0110",
-      "1100 1110 1001 1010",
-      "0011 0001 0111 0101"
-    ]
-  },
-  {
-    "id": 18,
-    "question": "Why is BCD used for storing monetary values in computers rather than standard binary?",
-    "true": "It is nearly impossible to represent decimal values exactly in binary, so BCD prevents significant rounding errors from accumulating in financial calculations",
-    "wrong": [
-      "BCD uses less memory than standard binary for large numbers",
-      "BCD processes arithmetic operations faster than standard binary",
-      "BCD can represent negative numbers more accurately than standard binary"
-    ]
-  },
-  {
-    "id": 19,
-    "question": "In BCD arithmetic, when the sum of two 4-bit BCD digits produces a result greater than 9, the correction involves:",
-    "true": "Adding 0110 (denary 6) to the result to obtain the correct BCD digit",
-    "wrong": [
-      "Subtracting 0110 (denary 6) from the result",
-      "Adding 1010 (denary 10) to the result",
-      "Inverting the result and carrying 1 to the next BCD digit"
-    ]
-  },
-  {
-    "id": 20,
-    "question": "Which of the following is the most common practical use of the BCD system mentioned in the chapter?",
-    "true": "Representation of digits on calculator and clock displays",
-    "wrong": [
-      "Encoding text characters in operating systems",
-      "Storing floating-point numbers in scientific calculations",
-      "Compressing bitmap images for web use"
-    ]
-  },
-  {
-    "id": 21,
-    "question": "The standard ASCII code character set consists of how many bits per character?",
-    "true": "7 bits (codes 0 to 127)",
-    "wrong": [
-      "8 bits (codes 0 to 255)",
-      "6 bits (codes 0 to 63)",
-      "16 bits (codes 0 to 65535)"
-    ]
-  },
-  {
-    "id": 22,
-    "question": "In the original ASCII standard, how many codes are reserved for control characters?",
-    "true": "32 control codes (codes 0 to 31 in denary)",
-    "wrong": [
-      "16 control codes (codes 0 to 15 in denary)",
-      "64 control codes (codes 0 to 63 in denary)",
-      "8 control codes (codes 0 to 7 in denary)"
-    ]
-  },
-  {
-    "id": 23,
-    "question": "In ASCII, when comparing the binary codes for an uppercase letter and its corresponding lowercase letter, what specific change occurs?",
-    "true": "The sixth bit changes from 0 (uppercase) to 1 (lowercase)",
-    "wrong": [
-      "The eighth bit changes from 0 (uppercase) to 1 (lowercase)",
-      "The first bit changes from 0 (uppercase) to 1 (lowercase)",
-      "All bits are inverted between uppercase and lowercase"
-    ]
-  },
-  {
-    "id": 24,
-    "question": "Extended ASCII uses 8-bit codes ranging from denary 128 to 255. This extension was created primarily to:",
-    "true": "Include non-English characters and drawing characters not covered by standard 7-bit ASCII",
-    "wrong": [
-      "Double the number of control codes available to programmers",
-      "Provide codes for mathematical operations and scientific notation",
-      "Allow ASCII to encode audio and video data"
-    ]
-  },
-  {
-    "id": 25,
-    "question": "What is a fundamental limitation of ASCII that Unicode was designed to overcome?",
-    "true": "ASCII cannot represent characters from non-English writing systems and languages worldwide",
-    "wrong": [
-      "ASCII codes are too long, consuming excessive memory",
-      "ASCII cannot distinguish between uppercase and lowercase letters",
-      "ASCII is incompatible with modern computer hardware"
-    ]
-  },
-  {
-    "id": 26,
-    "question": "How many bytes per character can Unicode support, compared to ASCII?",
-    "true": "Up to 4 bytes per character, compared to ASCII's 1 byte",
-    "wrong": [
-      "Up to 2 bytes per character, compared to ASCII's 1 byte",
-      "Exactly 2 bytes per character, compared to ASCII's 1 byte",
-      "Up to 8 bytes per character, compared to ASCII's 1 byte"
-    ]
-  },
-  {
-    "id": 27,
-    "question": "What is the relationship between the first 128 characters of Unicode and ASCII?",
-    "true": "The first 128 Unicode characters are identical to the standard ASCII character set",
-    "wrong": [
-      "The first 128 Unicode characters are completely different from ASCII to avoid confusion",
-      "Unicode and ASCII share only the 26 uppercase and 26 lowercase Latin letters",
-      "The first 256 Unicode characters match the full extended ASCII table"
-    ]
-  },
-  {
-    "id": 28,
-    "question": "When was the Unicode Consortium established, and what was one of its goals regarding code uniqueness?",
-    "true": "Established in 1991; each 16-bit or 32-bit code value always represents the same character (unambiguous encoding)",
-    "wrong": [
-      "Established in 1963; each character is assigned a randomly generated code",
-      "Established in 1986; each code value can represent multiple characters depending on context",
-      "Established in 2000; characters are encoded differently depending on the operating system"
-    ]
-  },
-  {
-    "id": 29,
-    "question": "Why did the Unicode standard reserve part of its code space for private use?",
-    "true": "To allow users to assign codes for their own characters and symbols, which is particularly useful for languages like Chinese and Japanese",
-    "wrong": [
-      "To provide space for future computer programming languages",
-      "To allow software companies to store proprietary encryption keys",
-      "To reserve space for control codes equivalent to those in ASCII"
-    ]
-  },
-  {
-    "id": 30,
-    "question": "A bit-map image is best described as:",
-    "true": "An image stored as a two-dimensional matrix of pixels, each representing a colour value",
-    "wrong": [
-      "An image stored as a list of geometric shapes and their mathematical properties",
-      "An image stored as a sequence of audio-visual frames encoded in binary",
-      "An image stored as a compressed sequence of colour codes without positional data"
-    ]
-  },
-  {
-    "id": 31,
-    "question": "What does 'colour depth' refer to in the context of bit-map images?",
-    "true": "The number of bits used to represent the colour of a single pixel",
-    "wrong": [
-      "The total number of pixels in an image",
-      "The physical size of the screen displaying the image",
-      "The number of distinct images stored in a single file"
-    ]
-  },
-  {
-    "id": 32,
-    "question": "How many colours can be represented with a bit depth of 8 bits per pixel?",
-    "true": "256 colours (2⁸)",
-    "wrong": [
-      "128 colours (2⁷)",
-      "512 colours (2⁹)",
-      "64 colours (2⁶)"
-    ]
-  },
-  {
-    "id": 33,
-    "question": "True colour in bit-map images requires 24 bits per pixel. This results in how many possible colours?",
-    "true": "More than 16 million colours (2²⁴ = 16,777,216)",
-    "wrong": [
-      "Exactly 1 million colours",
-      "Exactly 65,536 colours",
-      "Approximately 4 billion colours"
-    ]
-  },
-  {
-    "id": 34,
-    "question": "What is the distinction between 'image resolution' and 'screen resolution'?",
-    "true": "Image resolution is the number of pixels in the image itself, while screen resolution is the number of pixels the display device can show",
-    "wrong": [
-      "Image resolution refers to colour depth, while screen resolution refers to the number of pixels",
-      "Image resolution and screen resolution are synonymous terms for the same measurement",
-      "Screen resolution is always higher than image resolution in modern systems"
-    ]
-  },
-  {
-    "id": 35,
-    "question": "When a high-resolution image is scaled up (magnified) on screen, what happens to pixel density?",
-    "true": "Pixel density decreases because the same number of pixels covers a larger area, potentially causing pixelation",
-    "wrong": [
-      "Pixel density increases because the software adds more pixels automatically",
-      "Pixel density remains constant regardless of scaling",
-      "Pixel density increases because each pixel is rendered at a higher colour depth"
-    ]
-  },
-  {
-    "id": 36,
-    "question": "To calculate the file size of a bit-map image, which formula is correct?",
-    "true": "File size (bits) = image width (pixels) × image height (pixels) × colour depth (bits per pixel)",
-    "wrong": [
-      "File size (bits) = image width + image height × colour depth",
-      "File size (bytes) = image width × image height ÷ colour depth",
-      "File size (bits) = image width × image height × sampling rate"
-    ]
-  },
-  {
-    "id": 37,
-    "question": "A key advantage of vector graphics over bit-map images when scaling is that:",
-    "true": "Vector graphics maintain perfect quality at any size because they are defined by mathematical descriptions rather than fixed pixels",
-    "wrong": [
-      "Vector graphics always produce smaller file sizes than equivalent bit-map images",
-      "Vector graphics can be displayed faster than bit-map images on any device",
-      "Vector graphics support a larger colour depth than bit-map images"
-    ]
-  },
-  {
-    "id": 38,
-    "question": "What does a vector graphic 'drawing list' (contained in its file header) typically include?",
-    "true": "Commands for each object, attributes defining object properties (position, colour, size), and relative positions of objects",
-    "wrong": [
-      "A pixel-by-pixel colour map of the entire image",
-      "The sound data associated with animated graphics",
-      "A compressed binary representation of the pixel grid"
-    ]
-  },
-  {
-    "id": 39,
-    "question": "When printing vector graphics, it is typically necessary to first:",
-    "true": "Convert the vector graphic into a bit-map image to match the format most printers use",
-    "wrong": [
-      "Compress the vector graphic using a lossless algorithm",
-      "Convert the vector graphic into a sound file format",
-      "Increase the colour depth of the vector graphic to 32 bits"
-    ]
-  },
-  {
-    "id": 40,
-    "question": "Which statement best describes a limitation of vector graphics compared to bit-map images?",
-    "true": "Vector graphics are not usually very realistic because the number of geometric shapes is limited",
-    "wrong": [
-      "Vector graphics cannot represent curved lines or shapes",
-      "Vector graphics always have larger file sizes than equivalent bit-map images",
-      "Vector graphics can only be displayed on high-resolution monitors"
-    ]
-  },
-  {
-    "id": 41,
-    "question": "Common file formats for vector graphics include:",
-    "true": ".svg, .cgm, .odg",
-    "wrong": [
-      ".jpeg, .bmp, .png",
-      ".mp3, .wav, .aac",
-      ".avi, .mp4, .mov"
-    ]
-  },
-  {
-    "id": 42,
-    "question": "What is 'sampling rate' in the context of digital sound recording?",
-    "true": "The number of sound amplitude measurements taken per second",
-    "wrong": [
-      "The number of bits used to represent each amplitude measurement",
-      "The frequency range that the recording system can capture",
-      "The total number of bytes stored in a sound file"
-    ]
-  },
-  {
-    "id": 43,
-    "question": "What is 'sampling resolution' (also known as bit depth) in sound recording?",
-    "true": "The number of bits used to represent the amplitude of each sound sample",
-    "wrong": [
-      "The number of samples taken per second during recording",
-      "The physical quality of the microphone used to capture sound",
-      "The frequency at which the analogue-to-digital converter operates"
-    ]
-  },
-  {
-    "id": 44,
-    "question": "Why must analogue sound be converted to digital form before being stored in a computer?",
-    "true": "Computers can only store and process binary (digital) data; analogue sound must be discretised into binary values",
-    "wrong": [
-      "Analogue sound signals carry too much noise and must be cleaned before storage",
-      "Digital sound occupies less storage space than the equivalent analogue signal",
-      "Analogue signals cannot travel through computer circuits because they use AC voltage"
-    ]
-  },
-  {
-    "id": 45,
-    "question": "Which device is used to convert analogue sound into digital data?",
-    "true": "An analogue-to-digital converter (ADC)",
-    "wrong": [
-      "A digital-to-analogue converter (DAC)",
-      "A sound amplifier",
-      "A signal modulator"
-    ]
-  },
-  {
-    "id": 46,
-    "question": "Increasing the sampling rate and/or sampling resolution of a sound recording will:",
-    "true": "Produce a more accurate representation of the original sound but result in a larger file size",
-    "wrong": [
-      "Produce a less accurate representation but reduce the file size",
-      "Have no effect on file size but improve sound quality dramatically",
-      "Always result in distortion due to data overflow"
-    ]
-  },
-  {
-    "id": 47,
-    "question": "A 16-bit sampling resolution is used when recording CDs because:",
-    "true": "It provides better sound quality by allowing a much larger range of amplitude values to be represented",
-    "wrong": [
-      "16-bit is the maximum that analogue-to-digital converters can handle",
-      "16-bit sampling reduces file size compared to 8-bit sampling",
-      "CD hardware can only process 16-bit data streams"
-    ]
-  },
-  {
-    "id": 48,
-    "question": "Which of the following is a disadvantage of using a higher sampling resolution?",
-    "true": "It produces larger file sizes, takes longer to transmit, and requires greater processing power",
-    "wrong": [
-      "It reduces the dynamic range of the recorded sound",
-      "It introduces more distortion into the digital recording",
-      "It limits the maximum frequency that can be recorded"
-    ]
-  },
-  {
-    "id": 49,
-    "question": "Before recording a music file, the sound is often filtered to remove frequencies outside the range of human hearing. The primary reason for this is:",
-    "true": "To reduce unnecessary data and file size by discarding frequencies humans cannot perceive anyway",
-    "wrong": [
-      "To improve the accuracy of the analogue-to-digital conversion process",
-      "To prevent the ADC from overloading due to high-frequency signals",
-      "To increase the sampling rate without increasing file size"
-    ]
-  },
-  {
-    "id": 50,
-    "question": "The IEC binary prefix system was proposed to replace the SI (base-10) prefix system for memory measurement because:",
-    "true": "Memory size is actually measured in powers of 2, so the IEC system based on binary is more technically accurate",
-    "wrong": [
-      "The SI system resulted in memory sizes that were too large to manage practically",
-      "The IEC system uses smaller units, making memory easier to compare between devices",
-      "Hard drive manufacturers requested a new standard that would make their drives seem larger"
-    ]
-  },
-  {
-    "id": 51,
-    "question": "How many bytes is 1 kibibyte (1 KiB) according to the IEC binary prefix system?",
-    "true": "1024 bytes (2¹⁰)",
-    "wrong": [
-      "1000 bytes",
-      "1048 bytes",
-      "512 bytes"
-    ]
-  },
-  {
-    "id": 52,
-    "question": "According to the SI (base-10) system, how many bytes is 1 terabyte (1 TB)?",
-    "true": "1,000,000,000,000 bytes (10¹²)",
-    "wrong": [
-      "1,073,741,824 bytes (2³⁰)",
-      "1,099,511,627,776 bytes (2⁴⁰)",
-      "1,000,000,000 bytes (10⁹)"
-    ]
-  },
-  {
-    "id": 53,
-    "question": "Which type of computer memory (such as RAM) should technically be measured using the IEC binary prefix system?",
-    "true": "Internal memories such as RAM, because their capacity is based on powers of 2",
-    "wrong": [
-      "Only external storage devices like USB drives",
-      "Only optical media like DVDs and Blu-ray discs",
-      "Only network storage systems"
-    ]
-  },
-  {
-    "id": 54,
-    "question": "What is the smallest unit of memory in a computer?",
-    "true": "A byte (8 bits)",
-    "wrong": [
-      "A bit (binary digit)",
-      "A nibble (4 bits)",
-      "A kilobyte (1024 bytes)"
-    ]
-  },
-  {
-    "id": 55,
-    "question": "The file header of a saved bit-map image typically contains which of the following items?",
-    "true": "File type, file size, image resolution, bit depth, and any compression type employed",
-    "wrong": [
-      "The user's name, creation date, and access permissions only",
-      "Only the image dimensions and colour palette",
-      "The hardware specifications of the device that created the image"
-    ]
-  },
-  {
-    "id": 56,
-    "question": "Why does increasing the image resolution of a bit-map image impact storage requirements and transmission times?",
-    "true": "More pixels require more bits to store, directly increasing file size, which in turn increases download and transfer times",
-    "wrong": [
-      "Higher resolution images use more complex compression algorithms that take longer to execute",
-      "Higher resolution forces the use of a 32-bit colour depth, increasing storage needs",
-      "File headers for high-resolution images are significantly larger"
-    ]
-  },
-  {
-    "id": 57,
-    "question": "What is pixel density and how does it affect image quality?",
-    "true": "Pixel density is the number of pixels per unit area; lower pixel density (when an image is scaled up) causes pixelation and loss of sharpness",
-    "wrong": [
-      "Pixel density is the total number of pixels in an image; more pixels always means better quality regardless of display size",
-      "Pixel density refers to the colour depth of each pixel; higher density always means more colours",
-      "Pixel density is the refresh rate of the display; higher density causes flickering at low refresh rates"
-    ]
-  },
-  {
-    "id": 58,
-    "question": "In the sign and magnitude binary representation method, what does the leftmost bit represent?",
-    "true": "The sign of the number: 0 for positive and 1 for negative",
-    "wrong": [
-      "The largest power of 2 in the number",
-      "Whether the number is odd or even",
-      "The overflow indicator for the number"
-    ]
-  },
-  {
-    "id": 59,
-    "question": "When carrying out binary subtraction using two's complement, what happens if the result generates a ninth bit (carry out)?",
-    "true": "The ninth bit is discarded (ignored), and the remaining 8 bits represent the correct result",
-    "wrong": [
-      "The ninth bit indicates an overflow error and the result is invalid",
-      "The ninth bit is added back to the result to correct it",
-      "The ninth bit becomes the new sign bit of the result"
-    ]
-  },
-  {
-    "id": 60,
-    "question": "What is 'overflow' in the context of binary arithmetic?",
-    "true": "A condition where the result of an arithmetic operation exceeds the range of values representable by the available number of bits",
-    "wrong": [
-      "When a binary number has too many leading zeros",
-      "When the carry bit from binary addition is zero",
-      "When two negative numbers are added and produce a positive result incorrectly due to sign bits"
-    ]
-  },
-  {
-    "id": 61,
-    "question": "Which of the following correctly describes the relationship between bit depth and colour depth in bit-map images?",
-    "true": "Bit depth determines how many bits represent a single pixel, which in turn determines the colour depth (number of colours possible)",
-    "wrong": [
-      "Colour depth determines bit depth; a larger colour palette requires fewer bits per pixel",
-      "Bit depth and colour depth are independent of each other in modern image formats",
-      "Colour depth is always exactly double the bit depth for standard images"
-    ]
-  },
-  {
-    "id": 62,
-    "question": "A sound recording software feature that allows 'removal of noise to enhance one sound in multiple waves' would be used to:",
-    "true": "Identify and extract one person's voice out of a group of people or background sounds",
-    "wrong": [
-      "Convert the sound file between different audio formats",
-      "Fade in and fade out specific sections of a track",
-      "Alter the sampling rate of the recording after it has been made"
-    ]
-  },
-  {
-    "id": 63,
-    "question": "In BCD Method 2 (storing two 4-bit digits per byte), what is the storage requirement for the denary number 3165?",
-    "true": "2 bytes (storing '31' in one byte and '65' in another byte)",
-    "wrong": [
-      "4 bytes (one byte per denary digit)",
-      "1 byte (all four digits packed into a single byte)",
-      "3 bytes (two digits in one byte and one digit each in two other bytes)"
-    ]
-  },
-  {
-    "id": 64,
-    "question": "Why are character sets (like a–z, 0–9) arranged in sequential order within the ASCII code table?",
-    "true": "Sequential grouping speeds up operations like sorting and searching through character data",
-    "wrong": [
-      "Sequential order reduces the number of bits needed to encode each character",
-      "Characters were assigned codes based on their order of discovery by the developers",
-      "Sequential order makes it easier to display characters on early computer monitors"
-    ]
-  },
-  {
-    "id": 65,
-    "question": "Which of the following scenarios would most benefit from using vector graphics rather than bit-map images?",
-    "true": "Designing a company logo that needs to be scaled to many different sizes without quality loss",
-    "wrong": [
-      "Editing a digital photograph taken with a high-resolution camera",
-      "Storing video game textures that require photorealistic detail",
-      "Recording and replaying digital audio with minimal distortion"
-    ]
-  },
-  {
-    "id": 66,
-    "question": "If a screen has a resolution of 1920 × 1080 and you want to display an image with resolution 4096 × 3192, what must happen?",
-    "true": "The image must be resized (by removing pixels or cropping) to fit the screen, or only part of the image can be shown",
-    "wrong": [
-      "The screen will automatically increase its resolution to match the image",
-      "The image will display in full quality because modern screens can handle any resolution",
-      "The image's colour depth will be reduced to compensate for the resolution mismatch"
-    ]
-  },
-  {
-    "id": 67,
-    "question": "What is the denary value of the 8-bit two's complement binary number 10011010?",
-    "true": "-102 (calculated as -128 + 16 + 8 + 2 = -102)",
-    "wrong": [
-      "+154",
-      "-26",
-      "-154"
-    ]
-  },
-  {
-    "id": 68,
-    "question": "Why is it nearly impossible to represent all decimal fractions exactly in standard binary?",
-    "true": "Many decimal fractions result in infinitely repeating sequences when converted to binary, similar to how 1/3 cannot be expressed exactly in base 10",
-    "wrong": [
-      "Binary has too few digits to represent decimal fractions",
-      "Decimal fractions require a sign bit that conflicts with the binary weighting system",
-      "BCD and binary use incompatible rounding rules"
-    ]
-  },
-  {
-    "id": 69,
-    "question": "What does the acronym ASCII stand for?",
-    "true": "American Standard Code for Information Interchange",
-    "wrong": [
-      "Automated System for Computer Information Interface",
-      "American Standard Computer Instruction Index",
-      "Allocated System Code for Integrated Information"
-    ]
-  },
-  {
-    "id": 70,
-    "question": "In which year was the original ASCII code system set up for use in communication and computer systems?",
-    "true": "1963",
-    "wrong": [
-      "1986",
-      "1972",
-      "1991"
-    ]
-  },
-  {
-    "id": 71,
-    "question": "A student claims that the SI and IEC memory measurement systems give the same result for 1 terabyte of storage. This claim is:",
-    "true": "False — the SI terabyte is 10¹² bytes while the IEC tebibyte (TiB) is 2⁴⁰ ≈ 1.0995 × 10¹² bytes, making them different values",
-    "wrong": [
-      "True — both systems define a terabyte as exactly 1,000,000,000,000 bytes",
-      "True — the IEC simply renamed SI units without changing the values",
-      "False — the SI terabyte is always larger than the IEC tebibyte by a factor of 2"
-    ]
-  },
-  {
-    "id": 72,
-    "question": "Which of the following best explains why computer hard drive manufacturers sometimes use the SI (base-10) system rather than the IEC binary system?",
-    "true": "The SI system produces larger-appearing capacity numbers (e.g. 1 TB = 10¹² bytes rather than the smaller 2⁴⁰ bytes), making drives seem more capacious",
-    "wrong": [
-      "The IEC system is incompatible with the file systems used on hard drives",
-      "Hard drive manufacturers are required by international law to use the SI system",
-      "The IEC system only applies to RAM, not to storage devices"
-    ]
-  },
-  {
-    "id": 73,
-    "question": "A bit-map image has a resolution of 800 × 600 pixels and a colour depth of 16 bits. What is its uncompressed file size in bytes?",
-    "true": "960,000 bytes (800 × 600 × 16 bits = 7,680,000 bits ÷ 8 = 960,000 bytes)",
-    "wrong": [
-      "480,000 bytes",
-      "1,920,000 bytes",
-      "7,680,000 bytes"
-    ]
-  },
-  {
-    "id": 74,
-    "question": "Pixel density is measured in pixels per square inch (ppi). If a screen's pixel density decreases when an image is scaled up, the visual result is:",
-    "true": "The image appears pixelated or 'fuzzy' due to fewer pixels per unit area",
-    "wrong": [
-      "The image appears sharper because pixels are larger and easier to see",
-      "The image's colour depth automatically increases to compensate",
-      "The image appears darker due to reduced light output per pixel"
-    ]
-  },
-  {
-    "id": 75,
-    "question": "In binary addition, what are the four possible combinations of two bits (ignoring carry in) and their results?",
-    "true": "0+0=0, 0+1=1, 1+0=1, 1+1=0 with carry 1",
-    "wrong": [
-      "0+0=0, 0+1=1, 1+0=1, 1+1=2",
-      "0+0=0, 0+1=0, 1+0=1, 1+1=1 with carry 1",
-      "0+0=1, 0+1=1, 1+0=0, 1+1=0 with carry 1"
-    ]
-  },
-  {
-    "id": 76,
-    "question": "What is the key difference between lossy and lossless file compression?",
-    "true": "Lossy compression permanently removes some data to achieve greater reduction, while lossless compression allows the original data to be perfectly reconstructed",
-    "wrong": [
-      "Lossless compression always produces smaller files than lossy compression",
-      "Lossy compression can only be applied to text files, while lossless applies to images",
-      "Lossless compression permanently removes data, while lossy compression only hides it"
-    ]
-  },
-  {
-    "id": 77,
-    "question": "Why is file compression needed for multimedia files?",
-    "true": "Multimedia files (images, audio, video) can be extremely large, making compression essential for efficient storage and faster transmission over networks",
-    "wrong": [
-      "Compression is required because computers cannot read uncompressed binary data",
-      "Compression improves the visual or audio quality of the original file",
-      "Compression is only needed for text files that contain repeated characters"
-    ]
-  },
-  {
-    "id": 78,
-    "question": "Which statement about the sign and magnitude representation is most accurate?",
-    "true": "In sign and magnitude, the leftmost bit represents the sign (0=positive, 1=negative) and the remaining bits hold the magnitude (absolute value)",
-    "wrong": [
-      "In sign and magnitude, a negative number is obtained by inverting all bits of the positive number",
-      "Sign and magnitude and two's complement produce identical binary patterns for negative numbers",
-      "Sign and magnitude is the standard method used in modern computer arithmetic units"
-    ]
-  },
-  {
-    "id": 79,
-    "question": "When the chapter states that 'true colour requires 3 bytes per pixel', it means each pixel's colour is represented by:",
-    "true": "24 bits total, typically 8 bits each for the red, green, and blue colour channels",
-    "wrong": [
-      "3 bits total — one bit each for red, green, and blue",
-      "24 bytes total — 8 bytes each for red, green, and blue channels",
-      "3 bits for colour and 21 bits for brightness information"
-    ]
-  },
-  {
-    "id": 80,
-    "question": "Vector graphics define object dimensions using relative positions rather than absolute measurements. What is the practical consequence of this design?",
-    "true": "Scaling up a vector graphic results in no loss of quality, because the mathematical ratios between objects are preserved",
-    "wrong": [
-      "Vector graphics can only be displayed at one fixed size",
-      "The file size of vector graphics increases proportionally when the image is enlarged",
-      "Vector graphics become pixelated at very large sizes because the relative positions exceed screen limits"
-    ]
-  },
-  {
-    "id": 81,
-    "question": "What is the purpose of the analogue-to-digital conversion process for sound?",
-    "true": "To sample the analogue sound wave at regular time intervals and store each amplitude as an approximate binary value",
-    "wrong": [
-      "To perfectly replicate every nuance of the original analogue sound wave in binary",
-      "To compress the sound file to a smaller size before storage",
-      "To filter out frequencies above the human hearing range before they reach the ADC"
-    ]
-  },
-  {
-    "id": 82,
-    "question": "A student argues that increasing the colour depth of a bit-map image always improves its visual quality. Under what condition would this NOT visibly improve quality?",
-    "true": "When the image already contains fewer unique colours than the current colour depth can represent, additional bits provide no visible benefit",
-    "wrong": [
-      "When the image is smaller than 1 megabyte in file size",
-      "When the image is being displayed on a monochrome monitor",
-      "When the colour depth exceeds 8 bits per pixel, further increases are never visible"
-    ]
-  },
-  {
-    "id": 83,
-    "question": "Why does sound editing software sometimes need to 'merge' multiple sound tracks?",
-    "true": "To combine audio from different sources (e.g. voice, music, sound effects) into a single unified recording",
-    "wrong": [
-      "To reduce the bit depth of the final track for easier storage",
-      "To convert the analogue signal back to digital format after editing",
-      "To synchronise the sampling rate of different tracks to 16 bits"
-    ]
-  },
-  {
-    "id": 84,
-    "question": "What does 'frame rate' refer to in the context of digital video?",
-    "true": "The number of individual still image frames displayed per second to create the illusion of motion",
-    "wrong": [
-      "The resolution of each individual frame in the video",
-      "The number of bytes stored per second of video playback",
-      "The frequency at which the ADC samples audio during video recording"
-    ]
-  },
-  {
-    "id": 85,
-    "question": "In the context of Unicode's five founding goals, 'unambiguous encoding' means:",
-    "true": "Each specific binary code value always represents exactly one unique character, regardless of platform or application",
-    "wrong": [
-      "Characters can have multiple code values to support different languages",
-      "Only ASCII characters are guaranteed to have consistent code values",
-      "The encoding system allows characters to change meaning based on surrounding context"
-    ]
-  },
-  {
-    "id": 86,
-    "question": "A vector graphic file for a robot image contains a list of geometric shapes. Which of the following attributes would MOST likely be stored for an ellipse representing the robot's mouth?",
-    "true": "Position of the two centres, radius from centres, line thickness, line style, line colour, and fill colour",
-    "wrong": [
-      "A pixel-by-pixel colour map of the ellipse region",
-      "The audio waveform of the robot speaking",
-      "The binary ASCII code for the word 'ellipse'"
-    ]
-  },
-  {
-    "id": 87,
-    "question": "What is the critical distinction between 'image resolution' and 'pixel density' when discussing image quality?",
-    "true": "Image resolution is the total pixel count (e.g. 4096×3192), while pixel density is pixels per unit area (ppi/ppcm) — the same image has lower pixel density when enlarged",
-    "wrong": [
-      "Image resolution and pixel density are equivalent terms describing the same measurement",
-      "Pixel density describes total pixels while image resolution describes pixels per unit area",
-      "Image resolution only applies to printed images; pixel density only applies to screen displays"
-    ]
-  },
-  {
-    "id": 88,
-    "question": "Why must sound waves be filtered before being processed by an ADC for music recording?",
-    "true": "To remove frequencies above and below human hearing range, reducing unnecessary data and preventing aliasing artefacts",
-    "wrong": [
-      "To amplify the sound signal so the ADC can detect it accurately",
-      "To convert the sound from stereo to mono format before digitisation",
-      "To synchronise the analogue signal with the computer's clock cycle"
-    ]
-  },
-  {
-    "id": 89,
-    "question": "The denary number 798 converted to BCD format is:",
-    "true": "0111 1001 1000",
-    "wrong": [
-      "0111 1000 1001",
-      "0110 1001 1000",
-      "0111 1001 1001"
-    ]
-  },
-  {
-    "id": 90,
-    "question": "What would happen if you tried to add two 8-bit positive binary numbers whose sum exceeds 127 using two's complement representation?",
-    "true": "Overflow would occur, and the result would appear as a negative number because the result sets the sign bit (bit 7) to 1",
-    "wrong": [
-      "The computer would automatically expand to 16-bit representation to accommodate the result",
-      "The result would be correct because 8-bit registers can always handle positive sums",
-      "The result would be truncated to 7 bits, discarding the most significant bit silently"
-    ]
-  },
-  {
-    "id": 91,
-    "question": "The 8-bit binary number 01001111 in denary (using unsigned binary) represents:",
-    "true": "79 (64 + 8 + 4 + 2 + 1)",
-    "wrong": [
-      "47",
-      "63",
-      "95"
-    ]
-  },
-  {
-    "id": 92,
-    "question": "Why is it important that the Unicode standard reserves space for 'private use' code points?",
-    "true": "It allows organisations to define their own custom characters for specialised needs, such as unique symbols in Chinese or Japanese that are not in the main Unicode tables",
-    "wrong": [
-      "It prevents governments from restricting which characters software companies can use",
-      "It ensures backward compatibility with ASCII by keeping those codes permanently empty",
-      "It provides a fallback encoding for characters that failed quality testing"
-    ]
-  },
-  {
-    "id": 93,
-    "question": "A programmer wants to represent the integer −53 in 8-bit two's complement. What is the process?",
-    "true": "Convert 53 to binary (00110101), invert all bits (11001010), then add 1 to get 11001011",
-    "wrong": [
-      "Convert 53 to binary (00110101) and set the leftmost bit to 1 to get 10110101",
-      "Convert 53 to binary (00110101) and invert all bits to get 11001010 (no addition needed)",
-      "Subtract 53 from 256 in denary (256−53=203) and convert 203 to binary"
-    ]
-  },
-  {
-    "id": 94,
-    "question": "How does the human eye's tolerance for resolution reduction relate to the design decisions around bit-map image compression?",
-    "true": "Because the eye can tolerate a certain amount of quality loss before it becomes noticeable, lossy compression can reduce file size by removing fine detail that humans cannot easily perceive",
-    "wrong": [
-      "The eye is perfectly sensitive to all resolution changes, so compression must always be lossless",
-      "The eye is insensitive to colour changes but very sensitive to resolution, so only colour depth should be compressed",
-      "The eye's tolerance means no compression is ever necessary for images viewed on standard monitors"
+    "id": 4,
+    "question": "Binary overflow occurs in 8-bit two's complement arithmetic when:",
+    "true": "The result of an addition falls outside the range –128 to +127",
+    "wrong": [
+      "The result of any subtraction produces a negative number",
+      "The ninth bit position is ever used in a calculation",
+      "Two negative numbers are added together"
     ]
   },
   {
@@ -950,23 +40,113 @@
     ]
   },
   {
-    "id": 96,
-    "question": "If a computer uses 16-bit two's complement to represent integers, what is the range of values it can store?",
-    "true": "From −32768 to +32767",
+    "id": 36,
+    "question": "To calculate the file size of a bit-map image, which formula is correct?",
+    "true": "File size (bits) = image width (pixels) × image height (pixels) × colour depth (bits per pixel)",
     "wrong": [
-      "From −65535 to +65535",
-      "From 0 to +65535",
-      "From −32767 to +32767"
+      "File size (bits) = image width + image height × colour depth",
+      "File size (bytes) = image width × image height ÷ colour depth",
+      "File size (bits) = image width × image height × sampling rate"
     ]
   },
   {
-    "id": 97,
-    "question": "Why does a memory dump displayed in hexadecimal notation include memory addresses on the left side?",
-    "true": "So that developers can identify the exact memory location where an error occurs, enabling precise fault tracing",
+    "id": 32,
+    "question": "How many colours can be represented with a bit depth of 8 bits per pixel?",
+    "true": "256 colours (2⁸)",
     "wrong": [
-      "To ensure that the memory dump can be converted back to binary automatically",
-      "Memory addresses in hex indicate which user owns that portion of memory",
-      "The left column shows the version number of the software stored in that memory region"
+      "128 colours (2⁷)",
+      "512 colours (2⁹)",
+      "64 colours (2⁶)"
+    ]
+  },
+  {
+    "id": 29,
+    "question": "Why did the Unicode standard reserve part of its code space for private use?",
+    "true": "To allow users to assign codes for their own characters and symbols, which is particularly useful for languages like Chinese and Japanese",
+    "wrong": [
+      "To provide space for future computer programming languages",
+      "To allow software companies to store proprietary encryption keys",
+      "To reserve space for control codes equivalent to those in ASCII"
+    ]
+  },
+  {
+    "id": 18,
+    "question": "Why is BCD used for storing monetary values in computers rather than standard binary?",
+    "true": "It is nearly impossible to represent decimal values exactly in binary, so BCD prevents significant rounding errors from accumulating in financial calculations",
+    "wrong": [
+      "BCD uses less memory than standard binary for large numbers",
+      "BCD processes arithmetic operations faster than standard binary",
+      "BCD can represent negative numbers more accurately than standard binary"
+    ]
+  },
+  {
+    "id": 14,
+    "question": "When converting a long binary number into hexadecimal, you should group the bits starting from:",
+    "true": "The rightmost (least significant) end, moving left in groups of 4",
+    "wrong": [
+      "The leftmost (most significant) end, moving right in groups of 4",
+      "The middle of the binary number, working outward",
+      "Any convenient position, as long as all groups contain 4 bits"
+    ]
+  },
+  {
+    "id": 87,
+    "question": "What is the critical distinction between 'image resolution' and 'pixel density' when discussing image quality?",
+    "true": "Image resolution is the total pixel count (e.g. 4096×3192), while pixel density is pixels per unit area (ppi/ppcm) — the same image has lower pixel density when enlarged",
+    "wrong": [
+      "Image resolution and pixel density are equivalent terms describing the same measurement",
+      "Pixel density describes total pixels while image resolution describes pixels per unit area",
+      "Image resolution only applies to printed images; pixel density only applies to screen displays"
+    ]
+  },
+  {
+    "id": 70,
+    "question": "In which year was the original ASCII code system set up for use in communication and computer systems?",
+    "true": "1963",
+    "wrong": [
+      "1986",
+      "1972",
+      "1991"
+    ]
+  },
+  {
+    "id": 12,
+    "question": "When converting a hexadecimal number to binary, the correct method is:",
+    "true": "Replace each hexadecimal digit with its corresponding 4-bit binary code",
+    "wrong": [
+      "Divide the hexadecimal number by 2 repeatedly and record the remainders",
+      "Convert the hexadecimal number to denary first, then convert to binary",
+      "Split the hexadecimal into pairs of digits and convert each pair to 8 bits"
+    ]
+  },
+  {
+    "id": 76,
+    "question": "What is the key difference between lossy and lossless file compression?",
+    "true": "Lossy compression permanently removes some data to achieve greater reduction, while lossless compression allows the original data to be perfectly reconstructed",
+    "wrong": [
+      "Lossless compression always produces smaller files than lossy compression",
+      "Lossy compression can only be applied to text files, while lossless applies to images",
+      "Lossless compression permanently removes data, while lossy compression only hides it"
+    ]
+  },
+  {
+    "id": 55,
+    "question": "The file header of a saved bit-map image typically contains which of the following items?",
+    "true": "File type, file size, image resolution, bit depth, and any compression type employed",
+    "wrong": [
+      "The user's name, creation date, and access permissions only",
+      "Only the image dimensions and colour palette",
+      "The hardware specifications of the device that created the image"
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Why is two's complement preferred over one's complement for representing negative numbers in modern computers?",
+    "true": "Two's complement makes binary addition and subtraction more straightforward and avoids the problem of two representations for zero",
+    "wrong": [
+      "Two's complement uses fewer bits than one's complement",
+      "One's complement cannot represent negative numbers at all",
+      "Two's complement allows a larger range of positive numbers"
     ]
   },
   {
@@ -980,13 +160,333 @@
     ]
   },
   {
-    "id": 99,
-    "question": "Which of the following BEST explains why two's complement is preferred over sign and magnitude for computer arithmetic units?",
-    "true": "Two's complement allows the same addition circuitry to handle both addition and subtraction without needing separate logic for positive and negative numbers",
+    "id": 89,
+    "question": "The denary number 798 converted to BCD format is:",
+    "true": "0111 1001 1000",
     "wrong": [
-      "Two's complement can represent larger positive numbers than sign and magnitude",
-      "Two's complement is simpler to implement in software but more complex in hardware",
-      "Two's complement avoids the use of a dedicated sign bit, saving one bit of storage"
+      "0111 1000 1001",
+      "0110 1001 1000",
+      "0111 1001 1001"
+    ]
+  },
+  {
+    "id": 28,
+    "question": "When was the Unicode Consortium established, and what was one of its goals regarding code uniqueness?",
+    "true": "Established in 1991; each 16-bit or 32-bit code value always represents the same character (unambiguous encoding)",
+    "wrong": [
+      "Established in 1963; each character is assigned a randomly generated code",
+      "Established in 1986; each code value can represent multiple characters depending on context",
+      "Established in 2000; characters are encoded differently depending on the operating system"
+    ]
+  },
+  {
+    "id": 30,
+    "question": "A bit-map image is best described as:",
+    "true": "An image stored as a two-dimensional matrix of pixels, each representing a colour value",
+    "wrong": [
+      "An image stored as a list of geometric shapes and their mathematical properties",
+      "An image stored as a sequence of audio-visual frames encoded in binary",
+      "An image stored as a compressed sequence of colour codes without positional data"
+    ]
+  },
+  {
+    "id": 65,
+    "question": "Which of the following scenarios would most benefit from using vector graphics rather than bit-map images?",
+    "true": "Designing a company logo that needs to be scaled to many different sizes without quality loss",
+    "wrong": [
+      "Editing a digital photograph taken with a high-resolution camera",
+      "Storing video game textures that require photorealistic detail",
+      "Recording and replaying digital audio with minimal distortion"
+    ]
+  },
+  {
+    "id": 78,
+    "question": "Which statement about the sign and magnitude representation is most accurate?",
+    "true": "In sign and magnitude, the leftmost bit represents the sign (0=positive, 1=negative) and the remaining bits hold the magnitude (absolute value)",
+    "wrong": [
+      "In sign and magnitude, a negative number is obtained by inverting all bits of the positive number",
+      "Sign and magnitude and two's complement produce identical binary patterns for negative numbers",
+      "Sign and magnitude is the standard method used in modern computer arithmetic units"
+    ]
+  },
+  {
+    "id": 85,
+    "question": "In the context of Unicode's five founding goals, 'unambiguous encoding' means:",
+    "true": "Each specific binary code value always represents exactly one unique character, regardless of platform or application",
+    "wrong": [
+      "Characters can have multiple code values to support different languages",
+      "Only ASCII characters are guaranteed to have consistent code values",
+      "The encoding system allows characters to change meaning based on surrounding context"
+    ]
+  },
+  {
+    "id": 72,
+    "question": "Which of the following best explains why computer hard drive manufacturers sometimes use the SI (base-10) system rather than the IEC binary system?",
+    "true": "The SI system produces larger-appearing capacity numbers (e.g. 1 TB = 10¹² bytes rather than the smaller 2⁴⁰ bytes), making drives seem more capacious",
+    "wrong": [
+      "The IEC system is incompatible with the file systems used on hard drives",
+      "Hard drive manufacturers are required by international law to use the SI system",
+      "The IEC system only applies to RAM, not to storage devices"
+    ]
+  },
+  {
+    "id": 26,
+    "question": "How many bytes per character can Unicode support, compared to ASCII?",
+    "true": "Up to 4 bytes per character, compared to ASCII's 1 byte",
+    "wrong": [
+      "Up to 2 bytes per character, compared to ASCII's 1 byte",
+      "Exactly 2 bytes per character, compared to ASCII's 1 byte",
+      "Up to 8 bytes per character, compared to ASCII's 1 byte"
+    ]
+  },
+  {
+    "id": 90,
+    "question": "What would happen if you tried to add two 8-bit positive binary numbers whose sum exceeds 127 using two's complement representation?",
+    "true": "Overflow would occur, and the result would appear as a negative number because the result sets the sign bit (bit 7) to 1",
+    "wrong": [
+      "The computer would automatically expand to 16-bit representation to accommodate the result",
+      "The result would be correct because 8-bit registers can always handle positive sums",
+      "The result would be truncated to 7 bits, discarding the most significant bit silently"
+    ]
+  },
+  {
+    "id": 54,
+    "question": "What is the smallest unit of memory in a computer?",
+    "true": "A byte (8 bits)",
+    "wrong": [
+      "A bit (binary digit)",
+      "A nibble (4 bits)",
+      "A kilobyte (1024 bytes)"
+    ]
+  },
+  {
+    "id": 94,
+    "question": "How does the human eye's tolerance for resolution reduction relate to the design decisions around bit-map image compression?",
+    "true": "Because the eye can tolerate a certain amount of quality loss before it becomes noticeable, lossy compression can reduce file size by removing fine detail that humans cannot easily perceive",
+    "wrong": [
+      "The eye is perfectly sensitive to all resolution changes, so compression must always be lossless",
+      "The eye is insensitive to colour changes but very sensitive to resolution, so only colour depth should be compressed",
+      "The eye's tolerance means no compression is ever necessary for images viewed on standard monitors"
+    ]
+  },
+  {
+    "id": 58,
+    "question": "In the sign and magnitude binary representation method, what does the leftmost bit represent?",
+    "true": "The sign of the number: 0 for positive and 1 for negative",
+    "wrong": [
+      "The largest power of 2 in the number",
+      "Whether the number is odd or even",
+      "The overflow indicator for the number"
+    ]
+  },
+  {
+    "id": 96,
+    "question": "If a computer uses 16-bit two's complement to represent integers, what is the range of values it can store?",
+    "true": "From −32768 to +32767",
+    "wrong": [
+      "From −65535 to +65535",
+      "From 0 to +65535",
+      "From −32767 to +32767"
+    ]
+  },
+  {
+    "id": 1,
+    "question": "What is the fundamental reason why computer systems use the binary number system?",
+    "true": "Computers contain millions of switches that can only be in an ON or OFF state, mapping naturally to 1 and 0",
+    "wrong": [
+      "Binary is easier for humans to read and understand than denary",
+      "Binary requires more storage space, making memory management more efficient",
+      "Binary was chosen arbitrarily by early computer designers"
+    ]
+  },
+  {
+    "id": 21,
+    "question": "The standard ASCII code character set consists of how many bits per character?",
+    "true": "7 bits (codes 0 to 127)",
+    "wrong": [
+      "8 bits (codes 0 to 255)",
+      "6 bits (codes 0 to 63)",
+      "16 bits (codes 0 to 65535)"
+    ]
+  },
+  {
+    "id": 91,
+    "question": "The 8-bit binary number 01001111 in denary (using unsigned binary) represents:",
+    "true": "79 (64 + 8 + 4 + 2 + 1)",
+    "wrong": [
+      "47",
+      "63",
+      "95"
+    ]
+  },
+  {
+    "id": 44,
+    "question": "Why must analogue sound be converted to digital form before being stored in a computer?",
+    "true": "Computers can only store and process binary (digital) data; analogue sound must be discretised into binary values",
+    "wrong": [
+      "Analogue sound signals carry too much noise and must be cleaned before storage",
+      "Digital sound occupies less storage space than the equivalent analogue signal",
+      "Analogue signals cannot travel through computer circuits because they use AC voltage"
+    ]
+  },
+  {
+    "id": 80,
+    "question": "Vector graphics define object dimensions using relative positions rather than absolute measurements. What is the practical consequence of this design?",
+    "true": "Scaling up a vector graphic results in no loss of quality, because the mathematical ratios between objects are preserved",
+    "wrong": [
+      "Vector graphics can only be displayed at one fixed size",
+      "The file size of vector graphics increases proportionally when the image is enlarged",
+      "Vector graphics become pixelated at very large sizes because the relative positions exceed screen limits"
+    ]
+  },
+  {
+    "id": 20,
+    "question": "Which of the following is the most common practical use of the BCD system mentioned in the chapter?",
+    "true": "Representation of digits on calculator and clock displays",
+    "wrong": [
+      "Encoding text characters in operating systems",
+      "Storing floating-point numbers in scientific calculations",
+      "Compressing bitmap images for web use"
+    ]
+  },
+  {
+    "id": 83,
+    "question": "Why does sound editing software sometimes need to 'merge' multiple sound tracks?",
+    "true": "To combine audio from different sources (e.g. voice, music, sound effects) into a single unified recording",
+    "wrong": [
+      "To reduce the bit depth of the final track for easier storage",
+      "To convert the analogue signal back to digital format after editing",
+      "To synchronise the sampling rate of different tracks to 16 bits"
+    ]
+  },
+  {
+    "id": 68,
+    "question": "Why is it nearly impossible to represent all decimal fractions exactly in standard binary?",
+    "true": "Many decimal fractions result in infinitely repeating sequences when converted to binary, similar to how 1/3 cannot be expressed exactly in base 10",
+    "wrong": [
+      "Binary has too few digits to represent decimal fractions",
+      "Decimal fractions require a sign bit that conflicts with the binary weighting system",
+      "BCD and binary use incompatible rounding rules"
+    ]
+  },
+  {
+    "id": 7,
+    "question": "In one's complement, the binary number 01011010 (denary value 90) becomes:",
+    "true": "10100101 representing −90",
+    "wrong": [
+      "10100110 representing −90",
+      "01011011 representing −90",
+      "11011010 representing −90"
+    ]
+  },
+  {
+    "id": 6,
+    "question": "When performing binary subtraction of A − B, the two's complement method requires:",
+    "true": "Converting B to its two's complement (negative) form and then adding it to A",
+    "wrong": [
+      "Converting A to its two's complement form and subtracting B",
+      "Inverting all bits of A and then adding B",
+      "Converting both A and B to two's complement before subtracting"
+    ]
+  },
+  {
+    "id": 25,
+    "question": "What is a fundamental limitation of ASCII that Unicode was designed to overcome?",
+    "true": "ASCII cannot represent characters from non-English writing systems and languages worldwide",
+    "wrong": [
+      "ASCII codes are too long, consuming excessive memory",
+      "ASCII cannot distinguish between uppercase and lowercase letters",
+      "ASCII is incompatible with modern computer hardware"
+    ]
+  },
+  {
+    "id": 63,
+    "question": "In BCD Method 2 (storing two 4-bit digits per byte), what is the storage requirement for the denary number 3165?",
+    "true": "2 bytes (storing '31' in one byte and '65' in another byte)",
+    "wrong": [
+      "4 bytes (one byte per denary digit)",
+      "1 byte (all four digits packed into a single byte)",
+      "3 bytes (two digits in one byte and one digit each in two other bytes)"
+    ]
+  },
+  {
+    "id": 23,
+    "question": "In ASCII, when comparing the binary codes for an uppercase letter and its corresponding lowercase letter, what specific change occurs?",
+    "true": "The sixth bit changes from 0 (uppercase) to 1 (lowercase)",
+    "wrong": [
+      "The eighth bit changes from 0 (uppercase) to 1 (lowercase)",
+      "The first bit changes from 0 (uppercase) to 1 (lowercase)",
+      "All bits are inverted between uppercase and lowercase"
+    ]
+  },
+  {
+    "id": 69,
+    "question": "What does the acronym ASCII stand for?",
+    "true": "American Standard Code for Information Interchange",
+    "wrong": [
+      "Automated System for Computer Information Interface",
+      "American Standard Computer Instruction Index",
+      "Allocated System Code for Integrated Information"
+    ]
+  },
+  {
+    "id": 59,
+    "question": "When carrying out binary subtraction using two's complement, what happens if the result generates a ninth bit (carry out)?",
+    "true": "The ninth bit is discarded (ignored), and the remaining 8 bits represent the correct result",
+    "wrong": [
+      "The ninth bit indicates an overflow error and the result is invalid",
+      "The ninth bit is added back to the result to correct it",
+      "The ninth bit becomes the new sign bit of the result"
+    ]
+  },
+  {
+    "id": 39,
+    "question": "When printing vector graphics, it is typically necessary to first:",
+    "true": "Convert the vector graphic into a bit-map image to match the format most printers use",
+    "wrong": [
+      "Compress the vector graphic using a lossless algorithm",
+      "Convert the vector graphic into a sound file format",
+      "Increase the colour depth of the vector graphic to 32 bits"
+    ]
+  },
+  {
+    "id": 17,
+    "question": "What is the BCD representation of the denary number 3165?",
+    "true": "0011 0001 0110 0101",
+    "wrong": [
+      "0011 0001 0101 0110",
+      "1100 1110 1001 1010",
+      "0011 0001 0111 0101"
+    ]
+  },
+  {
+    "id": 52,
+    "question": "According to the SI (base-10) system, how many bytes is 1 terabyte (1 TB)?",
+    "true": "1,000,000,000,000 bytes (10¹²)",
+    "wrong": [
+      "1,073,741,824 bytes (2³⁰)",
+      "1,099,511,627,776 bytes (2⁴⁰)",
+      "1,000,000,000 bytes (10⁹)"
+    ]
+  },
+  {
+    "id": 3,
+    "question": "What is the correct procedure for converting a positive binary number into its negative equivalent using two's complement?",
+    "true": "Invert all bits and then add 1 to the rightmost bit",
+    "wrong": [
+      "Add 1 to the leftmost bit only",
+      "Invert all bits only, without adding 1",
+      "Replace the leftmost bit with 1 to indicate a negative sign"
+    ]
+  },
+  {
+    "id": 47,
+    "question": "A 16-bit sampling resolution is used when recording CDs because:",
+    "true": "It provides better sound quality by allowing a much larger range of amplitude values to be represented",
+    "wrong": [
+      "16-bit is the maximum that analogue-to-digital converters can handle",
+      "16-bit sampling reduces file size compared to 8-bit sampling",
+      "CD hardware can only process 16-bit data streams"
     ]
   },
   {
