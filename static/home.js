@@ -109,7 +109,7 @@ async function renderStats() {
                 },
                 tooltip: {
                     callbacks: {
-                        label: ctx => ` ${ctx.dataset.label}: ${ctx.parsed.y}/30`,
+                        label: ctx => ` ${ctx.dataset.label}: ${ctx.parsed.y}/15`,
                     },
                     bodyFont: { family: 'Nunito', size: 13 },
                     titleFont: { family: 'Nunito', weight: '800' },
@@ -129,7 +129,7 @@ async function renderStats() {
                 },
                 y: {
                     min: 0,
-                    max: 30,
+                    max: 15,
                     title: {
                         display: true,
                         text: 'Score / 30',

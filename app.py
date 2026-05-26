@@ -77,7 +77,7 @@ def get_questions():
     questions = load_chapter(chapter)
     if not questions:
         return jsonify({'error': 'No questions available for this chapter yet.'}), 404
-    sample = random.sample(questions, min(30, len(questions)))
+    sample = random.sample(questions, min(15, len(questions)))
     processed = []
     for q in sample:
         answers = [q['true']] + q.get('wrong', [])
